@@ -36,7 +36,7 @@
     <form action=""
           name=""
           method="post"
-          tal:attributes="action string:${here_url}/${template_id}">
+          tal:attributes="action string:${context/@@plone_context_state/object_url}/${context/@@plone/getViewTemplateId}">
 
         <fieldset>
             <legend i18n:translate="legend_navigation_details">Navigation details</legend>

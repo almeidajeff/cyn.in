@@ -39,7 +39,7 @@ Mumbai-400064, India
 <tal:block tal:condition="view/results" tal:define="portal_url context/@@plone_portal_state/portal_url" i18n:domain="cynin">
     <table border="0" cellpadding="0" cellspacing="0" width="100%" class="myrecentitems" id="myitems">
         <tr id="headermyrecentitems">
-            <td width="100%" valign="middle" align="left"><div class="documentFirstHeading" i18n:translate="">My Items</div></td>
+            <td width="100%" valign="middle" align="left"><div class="documentFirstHeading" >My Items</div></td>
         </tr>
         <tr>
             <td class="bodymyrecentitems">
@@ -101,10 +101,10 @@ Mumbai-400064, India
                                tal:content="item_title_or_id"
                                tal:attributes="href item_url;
                                                class string:${item_wf_state_class} link-plain">
-                                <tal:comment replace="nothing">External Link</tal:comment>
+                                External Link
                             </a>
                         </span> <span class="myitemdate">&mdash; <span tal:define="mdate python:item.toLocalizedTime(item_modified)" class="" tal:attributes="title string:${mdate}" tal:content="mdate">
-                          <tal:comment replace="nothing">August 16, 2001 at 23:35:59</tal:comment>
+                          August 16, 2001 at 23:35:59
                         </span></span>
                     </dt>
 </td>

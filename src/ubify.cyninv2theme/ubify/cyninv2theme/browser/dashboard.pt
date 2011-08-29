@@ -62,13 +62,13 @@ Mumbai-400064, India
 <metal:right fill-slot="column_two_slot" />
 
 <div metal:fill-slot="author_slot">
-    <h5 class="hiddenStructure" i18n:translate="">Views</h5>
+    <h5 class="hiddenStructure">Views</h5>
 
     <ul class="contentViews">
       <li class="selected">
         <a href=""
            tal:attributes="href string:${portal_url}/dashboard"
-           i18n:translate="label_view_dashboard">Dashboard</a>
+           i18n:translate="label_view">Dashboard</a>
       </li>
       <li>
         <a href=""

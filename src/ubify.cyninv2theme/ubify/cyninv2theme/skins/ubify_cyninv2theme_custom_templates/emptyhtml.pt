@@ -36,14 +36,12 @@ You can also contact Cynapse at:
 Dheeraj Sagar, Malad(W)
 Mumbai-400064, India
 </tal:comment>
-
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xml:lang="en" lang="en" 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
       xmlns:tal="http://xml.zope.org/namespaces/tal"
       xmlns:metal="http://xml.zope.org/namespaces/metal"
       xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
       i18n:domain="cynin">
-
 <body>
     <tal:definemacro metal:define-macro="comment_display">
         <div class="hidden dummycommenttable" id="dummycommenttable" >
@@ -59,10 +57,7 @@ Mumbai-400064, India
                         </a>
                     </span>
                     <div class="commentBody">%cookedtext</div>
-                    <div class="commentactionbuttonsrow" id="commentsactionbar" 
-                         tal:define="viewtype python:options.has_key('view_type') and options['view_type']"
-                         tal:condition="python:viewtype not in ('listview',)">
-
+                    <div class="commentactionbuttonsrow" id="commentsactionbar" tal:define="viewtype python:options.has_key('view_type') and options['view_type']" tal:condition="python:viewtype not in ('listview',)">
                         <form name="reply" action="%replyurl/discussion_reply_form" method="post" style="display:inline"> 
                             <input type="submit" value="Reply" i18n:attributes="value label_reply;" class="simplebutton comcynapsecyninreplycomment allowMultiSubmit" rel="%id" />
                         </form>

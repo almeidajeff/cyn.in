@@ -57,14 +57,11 @@ import Globals
 from Acquisition import aq_base, aq_inner, aq_parent
 from DateTime import DateTime
 from Products.Five import BrowserView as BaseView
-from Products.Five.bridge import fromZ2Interface
 from Products.CMFCore.utils import ToolInit as CMFCoreToolInit
 from Products.CMFCore.utils import getToolByName
 from Products.CMFPlone.interfaces.Translatable import ITranslatable
 import transaction
 
-from Products.PageTemplates.GlobalTranslationService import \
-     getGlobalTranslationService
 from AccessControl import allow_module
 from AccessControl import ModuleSecurityInfo
 

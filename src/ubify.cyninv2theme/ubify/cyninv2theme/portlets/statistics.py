@@ -198,34 +198,34 @@ def getContentItemsCount(context,path=None):
     lstinfo = []
 
     totalwikipages = getTotalCountForQuery(context,path,{'portal_type':'Document'})
-    lstinfo.append({'id':'Wiki Pages','dispid':context.translate(_(u'lbl_stats_wiki_pages',u'Wiki Pages')),'count':totalwikipages})
+    lstinfo.append({'id':'Wiki Pages','count':totalwikipages})
 
     totalblogentries = getTotalCountForQuery(context,path,{'portal_type':'Blog Entry'})
-    lstinfo.append({'id':'Blog Entries','dispid':context.translate(_(u'lbl_stats_blog_entries',u'Blog Entries')),'count':totalblogentries})
+    lstinfo.append({'id':'Blog Entries','count':totalblogentries})
 
     totalfiles = getTotalCountForQuery(context,path,{'portal_type':'File'})
-    lstinfo.append({'id':'Files','dispid':context.translate(_(u'lbl_stats_files',u'Files')),'count':totalfiles})
+    lstinfo.append({'id':'Files','count':totalfiles})
 
     totalimages = getTotalCountForQuery(context,path,{'portal_type':'Image'})
-    lstinfo.append({'id':'Images','dispid':context.translate(_(u'lbl_stats_status_images',u'Images')),'count':totalimages})
+    lstinfo.append({'id':'Images','count':totalimages})
 
     totallinks = getTotalCountForQuery(context,path,{'portal_type':'Link'})
-    lstinfo.append({'id':'WebLinks','dispid':context.translate(_(u'lbl_stats_status_weblinks',u'WebLinks')),'count':totallinks})
+    lstinfo.append({'id':'WebLinks','count':totallinks})
 
     totalstatusmessages = getTotalCountForQuery(context,path,{'portal_type':'StatuslogItem'})
-    lstinfo.append({'id':'Status Messages','dispid':context.translate(_(u'lbl_stats_status_msgs',u'Status Messages')),'count':totalstatusmessages})
+    lstinfo.append({'id':'Status Messages','count':totalstatusmessages})
 
     totalvideos = getTotalCountForQuery(context,path,{'portal_type':'Video'})
-    lstinfo.append({'id':'Videos','dispid':context.translate(_(u'lbl_stats_videos',u'Videos')),'count':totalvideos})
+    lstinfo.append({'id':'Videos','count':totalvideos})
 
     totalevents = getTotalCountForQuery(context,path,{'portal_type':'Event'})
-    lstinfo.append({'id':'Events','dispid':context.translate(_(u'lbl_stats_events',u'Events')),'count':totalevents})
+    lstinfo.append({'id':'Events','count':totalevents})
     
     totaldiscussions = getTotalCountForQuery(context,path,{'portal_type':'Discussion'})
-    lstinfo.append({'id':'Discussions','dispid':context.translate(_(u'lbl_stats_discussions',u'Discussions')),'count':totaldiscussions})
+    lstinfo.append({'id':'Discussions','count':totaldiscussions})
     
     totalaudios = getTotalCountForQuery(context,path,{'portal_type':'Audio'})
-    lstinfo.append({'id':'Audios','dispid':context.translate(_(u'lbl_stats_audios',u'Audios')),'count':totalaudios}) 
+    lstinfo.append({'id':'Audios','count':totalaudios})
 
     return lstinfo
 
@@ -293,12 +293,7 @@ def getjsondata(context,records=10,type=None):
         chart.set_y_axis(offset=True,labels = users,colour="#666666",grid_colour="#f1f1f1")
 
         for val in objvalues:
-            #plot.append_values(hbar_value((0, val), tooltip = '#right# contributions', colour = '#4092D8'))
-            plot.append_values(
-                               hbar_value((0, val), 
-                               tooltip = '#right# %s' % (context.translate(_(u'lbl_stats_tooltip_contributions',u'contributions'))),
-                               colour = '#4092D8')
-            )
+            plot.append_values(hbar_value((0, val), tooltip = '#right# contributions', colour = '#4092D8'))
         chart.add_element(plot)
         chart.set_tooltip(stroke=1,colour="#1f1f1f",bg_colour="#292929",title_style="font-size:12px;color:#ffffff;font-weight:bold",body_style="font-size:12px;color:#ffffff",behaviour="hover")
 
@@ -324,17 +319,7 @@ def getjsondata(context,records=10,type=None):
         chart.set_y_axis(offset=True,labels = users,colour="#666666",grid_colour="#f1f1f1")
         
         for val in objvalues:
-            #plot.append_values(hbar_value((0, val), tooltip = '#right# comments', colour = '#57AC0B'))
-            #if len(val) == 1:
-            #   tooltip_comment = '#right# %s' % (context.translate(_(u'lbl_stats_tooltip_comment',u'comment'))),
-            #if len(val) > 1:
-            #   tooltip_comment = '#right# %s' % (context.translate(_(u'lbl_stats_tooltip_comments',u'comments'))),
-            plot.append_values(
-                               hbar_value((0, val), 
-                                          #tooltip = '#right# %s' % (tooltip_comment),                                             
-                                          tooltip = '#right# %s' % (context.translate(_(u'lbl_stats_tooltip_comments',u'comments'))),
-                                          colour = '#57AC0B')
-            )
+            plot.append_values(hbar_value((0, val), tooltip = '#right# comments', colour = '#57AC0B'))
         chart.add_element(plot)
         chart.set_tooltip(stroke=1,colour="#1f1f1f",bg_colour="#292929",title_style="font-size:12px;color:#ffffff;font-weight:bold",body_style="font-size:12px;color:#ffffff",behaviour="hover")
 
@@ -348,19 +333,7 @@ def getjsondata(context,records=10,type=None):
 
         chart = template('')
         plot = Pie(start_angle = 35, animate = True, values = [pie_value(val = k['count'],label = (k['id'],None, None)) for k in results],colours = ['#4092D8', '#57AC0B', '#CC0000', '#862DFF', '#FF6600',  '#00FFF6','#FF37D2', '#5251ff', '#F0EA80', '#abff00',], label_colour = '#666666')
-#        plot.set_tooltip('#label#: #val# of #total#<br>#percent# of 100%')
-#        plot = Pie(
-#		start_angle = 35, 
-#		animate = True, 
-#		values = [pie_value(val = k['count'],
-#		label = (k['id'],None, None)) for k in results],
-#		colours = ['#4092D8', '#57AC0B', '#CC0000', '#862DFF', '#FF6600', '#00FFF6','#FF37D2', '#5251ff', '#F0EA80', '#abff00',], 
-#		label_colour = '#666666'
-#	)
-        msg = '#label#: #val# %s #total#<br>#percent# %s' % (context.translate(_(u'lbl_stats_val_of_total',u'of')),
-                                                             context.translate(_(u'lbl_stats_val_of_100',u'of 100%'))
-                                                            )
-        plot.set_tooltip(msg)
+        plot.set_tooltip('#label#: #val# of #total#<br>#percent# of 100%')
         plot.set_gradient_fill(True)
         plot.set_no_labels(False)
 

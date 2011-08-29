@@ -42,7 +42,19 @@ Mumbai-400064, India
       xmlns:i18n="http://xml.zope.org/namespaces/i18n"
       lang="en"
       metal:use-macro="here/prefs_main_template/macros/master"
-      i18n:domain="cynin">
+      i18n:domain="cynin"
+      tal:define="portal_state context/@@plone_portal_state;
+                  context_state context/@@plone_context_state;
+                  plone_view context/@@plone;
+                  lang portal_state/language;
+                  view nocall:view | nocall: plone_view;
+                  dummy python: plone_view.mark_view(view);
+                  portal_url portal_state/portal_url;
+                  checkPermission nocall: context/portal_membership/checkPermission;
+                  site_properties context/portal_properties/site_properties;
+                  ajax_load request/ajax_load | nothing;
+                  ajax_include_head request/ajax_include_head | nothing"
+      tal:attributes="lang lang;">
 
 <metal:block fill-slot="top_slot"
              tal:define="dummy python:request.set('disable_border',1)" />
@@ -61,7 +73,7 @@ Mumbai-400064, India
 <div metal:fill-slot="prefs_configlet_main"
     tal:define="controlPanel python:modules['Products.CMFCore.utils'].getToolByName(here, 'portal_controlpanel');
                  groups python:controlPanel.getGroups('site');
-                 getIconFor nocall:putils/getIconFor">
+                 getIconFor nocall:context/plone_utils/getIconFor">
 
     <div tal:define="mt context/portal_migration;
                      sys mt/coreVersions;
@@ -150,13 +162,13 @@ Mumbai-400064, India
                 <legend i18n:translate="header_cynin_version_overview">cyn.in Version Overview</legend>
             </fieldset>
             <ul>
-                <li i18n:translate="">cyn.in <span i18n:name="cynin_version" tal:replace="python:context.portal_url.getPortalObject().portal_quickinstaller.getProductVersion('ubify.policy')"/></li>
-                <li i18n:translate="">Plone <span i18n:name="plon_version" tal:replace="mt/getInstanceVersion" /></li>
-                <li i18n:translate="">CMF <span i18n:name="cmf_version" tal:replace="sys/CMF" /></li>
-                <li i18n:translate="">Zope <span i18n:name="zope_version" tal:replace="sys/Zope" /></li>
-                <li i18n:translate="">Python <span i18n:name="python_version" tal:replace="sys/Python" /></li>
+                <li>cyn.in <span tal:replace="python:context.portal_url.getPortalObject().portal_quickinstaller.getProductVersion('ubify.policy')"/></li>
+                <li>Plone <span tal:replace="mt/getInstanceVersion" /></li>
+                <li>CMF <span tal:replace="sys/CMF" /></li>
+                <li>Zope <span tal:replace="sys/Zope" /></li>
+                <li>Python <span tal:replace="sys/Python" /></li>
             <tal:pil condition="sys/PIL">
-                <li i18n:translate="">PIL <span i18n:name="pil_version" tal:replace="sys/PIL" /></li>
+                <li>PIL <span tal:replace="sys/PIL" /></li>
             </tal:pil>
         </ul>
     </tal:versions>

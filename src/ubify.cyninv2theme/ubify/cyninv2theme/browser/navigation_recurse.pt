@@ -28,8 +28,8 @@
 
         <a tal:attributes="href python:link_remote and remote_url or item_url;
                            class string:$item_class${li_class}${li_extr_class}${li_folder_class}">
-            <img tal:replace="structure item_icon/html_tag" />
-            <span tal:content="node/Title"><tal:comment replace="nothing">Selected Item Title</tal:comment></span>
+            <img tal:replace="structure item_icon" />
+            <span tal:content="node/Title">Selected Item Title</span>
         </a>
 
     </div>

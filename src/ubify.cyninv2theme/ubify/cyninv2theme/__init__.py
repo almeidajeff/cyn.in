@@ -670,7 +670,8 @@ def buildOneLevelUpURL(context):
         up_url = parent_url + "/" + current_perspective
         #check for view_actions
         current_ploneview = context.restrictedTraverse('@@plone')
-        current_viewactions = current_ploneview.prepareObjectTabs()
+        # XXX: fix it!
+        current_viewactions = [] # current_ploneview.prepareObjectTabs()
         selected_view = None
         selected_current_views = [br for br in current_viewactions if br['selected']==True]
         if len(selected_current_views) > 0:
@@ -679,7 +680,8 @@ def buildOneLevelUpURL(context):
             selected_view_id = selected_view['id']
 
             parent_ploneview = parent.restrictedTraverse('@@plone')
-            parent_viewactions = parent_ploneview.prepareObjectTabs()
+            # XXX: fix it!
+            parent_viewactions = [] # parent_ploneview.prepareObjectTabs()
             parent_views = [k for k in parent_viewactions if k['id'] == selected_view_id]
 
             if len(parent_views) > 0:
@@ -710,9 +712,9 @@ def getAppTitleForContext(context):
     elif ptype == 'Video':
         tempid = _(u"videos",u"Videos")
     elif ptype == 'Discussion':
-        tempid = _(u"discussions",u"Discussions")
+        tempid = _(u"Discussions",u"Discussions")
     elif ptype == 'Audio':
-        tempid = _(u"audios",u"Audios")
+        tempid = _(u"Audios",u"Audios")
         
     return tempid
 

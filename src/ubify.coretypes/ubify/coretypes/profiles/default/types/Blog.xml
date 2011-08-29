@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="Blog" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">Blog</property>
- <property name="description" i18n:translate="">A Blog contains Blog Posts.</property>
+ <property name="title" >Blog</property>
+ <property name="description"
+     >A Blog contains Blog Posts.</property>
  <property name="content_icon">blog.png</property>
  <property name="factory">addBlog</property>
  <property name="filter_content_types">True</property>

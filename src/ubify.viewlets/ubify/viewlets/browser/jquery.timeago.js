@@ -29,21 +29,21 @@ $=jq;
       strings: {
         prefixAgo: null,
         prefixFromNow: null,
-        suffixAgo: timeago_suffix_ago_msg,
-        suffixFromNow: timeago_from_now_msg,
+        suffixAgo: "ago",
+        suffixFromNow: "from now",
         ago: null, // DEPRECATED, use suffixAgo
         fromNow: null, // DEPRECATED, use suffixFromNow
-        seconds: timeago_seconds_msg,
-        minute: timeago_minute_msg,
-        minutes: timeago_minutes_msg,
-        hour: timeago_hour_msg,
-        hours: timeago_hours_msg,
-        day: timeago_day_msg,
-        days: timeago_days_msg,
-        month: timeago_month_msg,
-        months: timeago_months_msg,
-        year: timeago_year_msg,
-        years: timeago_years_msg
+        seconds: "less than a minute",
+        minute: "about a minute",
+        minutes: "%d minutes",
+        hour: "about an hour",
+        hours: "about %d hours",
+        day: "a day",
+        days: "%d days",
+        month: "about a month",
+        months: "%d months",
+        year: "about a year",
+        years: "%d years"
       }
     },
     inWords: function(distanceMillis) {

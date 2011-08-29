@@ -39,12 +39,12 @@
             showdescription request/showdescriptionmacro|string: true;
             showdescriptionstyle python:test(showdescription=='false','display:none','display:block');
             togglelinkclass python:test(showdescription=='false','descriptiontoggle','descriptiontoggle opened');
-            item_uid context/UID | nothing;">
-
+            item_uid context/UID | nothing;
+        ">
             <div class="descriptiontoggleholder">
                 <a tal:attributes="class togglelinkclass">
-                    <img tal:attributes="src string:${portal_url}/icon-information.png" alt="Info" i18n:attributes="alt" />
-                    <span i18n:translate="button_info">Info</span>
+                    <img tal:attributes="src string:${portal_url}/icon-information.png" i18n:translate="button_info" />
+                    Info
                 </a>
             </div>
             <div id="singleviewdescriptionarea" tal:attributes="style showdescriptionstyle">
@@ -52,7 +52,7 @@
                     <div class="c62l">
                         <div class="listitemdetailleftblockholder">
                             <div class="documentByLine" tal:condition="item_description">
-                                    <label i18n:translate="label_description">Description</label>:
+                                    <label i18n:translate="label_description">Description:</label>
                                     <span tal:content="item_description" />
                             </div>
                             <div class="avatarlistholder" tal:condition="item_creator">
@@ -73,7 +73,7 @@
                             <div class="avatarlistholder" tal:condition="lastchangeaction">
                                 <label i18n:translate="label_last_activity">Last Activity: </label>
                                 <span>
-                                    <tal:block tal:replace="python: lastchangeaction" /> <span i18n:translate="">by</span>
+                                    <tal:block tal:replace="python: lastchangeaction" /> by
                                     <a class="avatarlink"
                                        tal:attributes="rel string:${portal_url}/userinfo?userid=${lastchangeperformer};
                                                     href string:${portal_url}/Members/${lastchangeperformer}/app_all;">
@@ -93,7 +93,7 @@
                                            tal:content="category"
                                            tal:attributes="href string:${parentURL}/${URLsuffix}?Subject%3Alist=${category};rel category"
                                             i18n:attributes="title tip_add_tag_to_filter">
-                                          <tal:comment replace="nothing">Category</tal:comment>
+                                          Category
                                           </a><tal:separator condition="not: repeat/category/end">,</tal:separator></tal:categories>
                                 </div>
                             </tal:categoriesblock>
@@ -107,7 +107,7 @@
                                 pathtitle python:modules['ubify.cyninv2theme'].getAppTitleForContext(context);"
                                 tal:condition="python: context.portal_type not in ('Topic','SmartviewFolder','RecycleBin')"
                                 >
-                                    <label i18n:translate="label_location">Location</label>:
+                                    <label i18n:translate="label_location">Location:</label>
                                     <a tal:attributes="href pathlink"><tal:block tal:replace="prettypathtitle" /></a>
                             </div>
                             <div>
@@ -122,7 +122,7 @@
                     <div class="c38r">
                         <div class="listitemdetailrightblockholder">
                             <div>
-                                <a id="rateitnamedlink" href="#rateit" i18n:translate="">
+                                <a id="rateitnamedlink" href="#rateit">
                                     Rate it (Replace input macro here)
                                 </a>
                             </div>

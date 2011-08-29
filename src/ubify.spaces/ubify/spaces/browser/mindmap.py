@@ -79,14 +79,14 @@ class SpaceFreeMindMap(BrowserView):
     def getTypeIcon(self,obj):
         object_typename = obj.portal_type
         object_typeobj = self.typetool[object_typename]
-        fulliconpath = object_typeobj.content_icon
+        fulliconpath = object_typeobj.icon_expr
         #self.logger.info('returned typeicon: %s' % (fulliconpath))
         return fulliconpath
     
     def getChildren(self,obj):        
         """Gets the immediate children of the passed object"""
         
-        cat = obj._getCatalogTool()
+        cat = getToolByName(obj, 'portal_catalog')
         currpath = '/'.join(obj.getPhysicalPath())
         display_portal_types = mindmapshowabletypes
         #import pdb; pdb.set_trace()

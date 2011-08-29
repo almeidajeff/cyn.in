@@ -40,7 +40,7 @@ Mumbai-400064, India
      tal:omit-tag=""
      tal:define="ploneview context/@@plone;"
      tal:condition="ploneview/showEditableBorder">
-    <tal:block define="view_actions ploneview/prepareObjectTabs;">
+    <tal:block define="view_actions view/prepareObjectTabs;">
         <ul class="contentViews"
             i18n:domain="cynin">
             <tal:views repeat="action view_actions">

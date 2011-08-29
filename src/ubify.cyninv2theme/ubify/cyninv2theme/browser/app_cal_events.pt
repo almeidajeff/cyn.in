@@ -94,12 +94,12 @@ Mumbai-400064, India
                      <tal:block content="month/month_name" i18n:translate="" />
                      <tal:block content="event/start/day" i18n:translate="" />
                </abbr>
-               <abbr class="dtend" title="2002-12-04" tal:attributes="title event/end/isoformat | default" i18n:translate="">End Date</abbr>
+               <abbr class="dtend" title="2002-12-04" tal:attributes="title event/end/isoformat | default">End Date</abbr>
              </div>
              <div class="event_body">
                <a class="summary event_title" tal:content="event/title"
                   tal:attributes="href event/url" />
-               <div class="location" tal:content="event/location | default"><tal:comment replace="nothing">Location</tal:comment></div>
+               <div class="location" tal:content="event/location | default">Location</div>
                <div class="description" tal:condition="event/description" tal:content="event/description"/>
              </div>
            </div>

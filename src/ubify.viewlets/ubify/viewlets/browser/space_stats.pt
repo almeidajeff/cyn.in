@@ -37,6 +37,6 @@ Dheeraj Sagar, Malad(W)
 Mumbai-400064, India
 </tal:comment>
 <tal:block condition="view/has_space_icon" i18n:domain="cynin">
-<table><tr><td tal:content="view/space_name" class="SpaceTitle"><tal:comment replace="nothing">Space Name</tal:comment>
+<table><tr><td tal:content="view/space_name" class="SpaceTitle">Space Name
 </td></tr></table>
 </tal:block>

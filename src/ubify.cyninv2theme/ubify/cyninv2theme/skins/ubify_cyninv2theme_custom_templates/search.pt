@@ -45,9 +45,9 @@ Mumbai-400064, India
       i18n:domain="cynin">
 <head>
     <metal:block metal:fill-slot="head_slot">
-        <link rel="alternate" title="RSS 1.0" i18n:attributes="title;" type="application/rss+xml"
+        <link rel="alternate" title="RSS 1.0" type="application/rss+xml"
               tal:condition="request/SearchableText|nothing"
-              tal:attributes="href string:$here_url/search_rss?${request/QUERY_STRING}" />
+              tal:attributes="href string:${context/@@plone_context_state/object_url}/search_rss?${request/QUERY_STRING}"/>
     </metal:block>
 
     <metal:block fill-slot="top_slot"
@@ -65,6 +65,8 @@ Mumbai-400064, India
 		</div>
 		<div id="maintitleholder"
 		    tal:define="url_unquote_plus python:modules['Products.PythonScripts.standard'].url_unquote_plus;
+		        member context/@@plone_portal_state/member;
+                mtool context/portal_membership;
 				author python:(len(request.traverse_subpath) > 0 and url_unquote_plus(request.traverse_subpath[0])) or request.get('author', None) or (member and member.getId());
 			    authorinfo python: mtool.getMemberInfo(author);">
 		    <h1 id="maintitle" tal:define="item_title context/Title">
@@ -108,16 +110,16 @@ Mumbai-400064, India
         </span>
         <span>
         &mdash;
-        <span i18n:translate="batch_x_items_matching_your_criteria">
-        <span i18n:name="number"
-        tal:content="python:len(results)">234</span> items matching your search terms</span></span>
+        <span i18n:translate="batch_x_items_matching_your_criteria"
+        ><span i18n:name="number"
+        tal:content="python:len(results)">234</span> items matching your search terms</span>
     </div>
 
     <div
-       tal:condition="syntool/isSiteSyndicationAllowed">
+       tal:condition="context/portal_syndication/isSiteSyndicationAllowed">
         <a href=""
            class="link-feed smallwhitebutton"
-           tal:attributes="href string:$here_url/search_rss?${request/QUERY_STRING}">
+           tal:attributes="href string:${context/@@plone_context_state/object_url}/search_rss?${request/QUERY_STRING}">
             <img tal:attributes="src string:${portal_url}/icon-feed.png" />
              <tal:block
            i18n:translate="title_rss_feed">
@@ -151,8 +153,10 @@ Subscribe to an always-updated feed of these search terms</tal:block></a>
         <tal:results repeat="result batch">
         <tal:entry define="result_url result/getURL;
                            result_type result/portal_type;
+                           normalizeString nocall:context/@@plone/normalizeString;
+                           isAnon context/@@plone_portal_state/anonymous;
+                           toLocalizedTime nocall:context/@@plone/toLocalizedTime;
                            object_typeobj python:context.portal_types[result_type];
-                           typeiconname python:object_typeobj.content_icon;
                            item_icon python:plone_view.getIcon(result);
                            url python:'%s?searchterm=%s'%(test(result_type in use_view_action, result_url+'/view', result_url+'/'), searchterm);
                            url python:test(result_type != 'Discussion Item',url,'%s?searchterm=%s#%s' % (result_url.replace('/talkback/' + result.getId, '/view') , searchterm,result.getId) );">
@@ -161,11 +165,7 @@ Subscribe to an always-updated feed of these search terms</tal:block></a>
                     tal:attributes="class python:'contenttype-' + normalizeString(result.portal_type)">
 
                     <div class="listtypelabel">
-                        <img
-                            tal:attributes="src string:${portal_url}/${typeiconname}"
-                            tal:define="portal_url here/portal_url;"
-                            class="valignmiddle"
-                        />
+                        <img tal:replace="structure item_icon/html_tag" />
                         <tal:type tal:content="python:object_typeobj.title" />
                     </div>
                     <h2>
@@ -179,7 +179,7 @@ Subscribe to an always-updated feed of these search terms</tal:block></a>
 
                 <dd>
                     <span tal:content="structure python:plone_view.cropText(result.Description.decode('ascii','ignore'), desc_length, desc_ellipsis)">
-                        <tal:comment replace="nothing">Cropped description</tal:comment>
+                        Cropped description
                     </span>
 
                 <div class="searchresultsauthorrow"
@@ -191,7 +191,7 @@ Subscribe to an always-updated feed of these search terms</tal:block></a>
                        tal:content="result/Creator"
                        tal:omit-tag="not:result/Creator"
                        class="itemauthor avatarlink">
-                    <tal:comment replace="nothing">Bob Dobalina</tal:comment>
+                    Bob Dobalina
                     </a>
 
                     </span>
@@ -199,10 +199,10 @@ Subscribe to an always-updated feed of these search terms</tal:block></a>
                     <span class="documentModified">
                       &mdash;
                         <span i18n:translate="box_last_modified">
-                        Last modified
+                        last modified
                         </span>
                         <span tal:define="lstmdate python:toLocalizedTime(result.ModificationDate, long_format=1)" class="" tal:attributes="title string:${lstmdate}" tal:content="lstmdate">
-                        <tal:comment replace="nothing">August 16, 2001 at 23:35:59</tal:comment>
+                        August 16, 2001 at 23:35:59
                         </span>
                     </span>
 
@@ -218,7 +218,7 @@ Subscribe to an always-updated feed of these search terms</tal:block></a>
                                    rel="tag"
                                    tal:content="category"
                                    tal:attributes="href string:${portal_url}/search?Subject%3Alist=${category}">
-                                   <tal:comment replace="nothing">Category</tal:comment>
+                                   Category
                                 </a><tal:separator condition="not: repeat/category/end">,</tal:separator>
                             </span>
                     </span>

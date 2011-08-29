@@ -106,10 +106,10 @@ Mumbai-400064, India
                                tal:attributes="href item_url;
                                                title item_title_or_id;
                                                class string:${item_wf_state_class} link-plain">
-                                <tal:comment replace="nothing">External Link</tal:comment>
+                                External Link
                             </a>
                         </span> <span class="myitemdate">&mdash; <span class="" tal:define="lcdate python:item.toLocalizedTime(lastchangedate)" tal:attributes="title string:${lcdate}" tal:content="lcdate">
-                          <tal:comment replace="nothing">August 16, 2001 at 23:35:59</tal:comment>
+                          August 16, 2001 at 23:35:59
                         </span></span>
                     </dt>
 </td>
@@ -122,7 +122,7 @@ Mumbai-400064, India
             <div align="right">
                 <a class="recentportletxmore" tal:define="morecount view/resultscount" tal:condition="python:morecount > 0"
                     tal:attributes="href string:${view/portal_url}/search?Creator=${view/userid}&amp;sort_on=lastchangedate&amp;sort_order=reverse" i18n:translate="link_more">
-                    <span tal:content="morecount" i18n:name="morecount"></span> More &raquo;
+                    <span tal:content="morecount" i18n:name="morecount"></span> More
                 </a>
             </div>
     </tal:foldercontents>

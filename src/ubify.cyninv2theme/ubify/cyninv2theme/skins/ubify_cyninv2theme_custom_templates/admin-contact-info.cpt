@@ -74,7 +74,7 @@ Mumbai-400064, India
                                 action=""
                                 method="post"
                                 tal:define="errors options/state/getErrors"
-                                tal:attributes="action string:$here_url/$template_id">
+                                tal:attributes="action string:${context/@@plone_context_state/object_url}/${context/@@plone/getViewTemplateId}">
 
                             <fieldset>
                             <tal:feedbackForm condition="isAnon">
@@ -84,7 +84,7 @@ Mumbai-400064, India
                               <label for="sender_fullname" i18n:translate="label_sender_fullname">
                                 Name
                               </label>
-                              <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                              <div tal:content="error" class="fielderror">Validation error output</div>
                               <input type="text"
                                      id="sender_fullname"
                                      class="inputboxes"
@@ -104,7 +104,7 @@ Mumbai-400064, India
                                       i18n:attributes="title title_required;"
                                       i18n:translate="label_required">(Required)</span>
 
-                              <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                              <div tal:content="error" class="fielderror">Validation error output</div>
 
                               <input type="text"
                                      id="sender_from_address"
@@ -132,7 +132,7 @@ Mumbai-400064, India
                                       i18n:attributes="title title_required;"
                                       i18n:translate="label_required">(Required)</span>
 
-                              <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                              <div tal:content="error" class="fielderror">Validation error output</div>
 
                               <input type="text"
                                      id="subject"
@@ -152,7 +152,7 @@ Mumbai-400064, India
                               <span class="fieldRequired" title="Required"
                                       i18n:attributes="title title_required;"
                                       i18n:translate="label_required">(Required)</span>
-                              <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                              <div tal:content="error" class="fielderror">Validation error output</div>
 
                               <textarea name="message"
                                          class="message inputboxes"

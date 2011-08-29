@@ -94,13 +94,13 @@ CMFPlacefulWorkflow configuration panel
                                 <a href="prefs_workflow_policy_mapping"
                                    tal:attributes="href python:'prefs_workflow_policy_mapping?wfpid='+wfpid"
                                    tal:content="python:wfp.getTitle() or wfp.getId()">
-                                    <tal:comment replace="nothing">Title of the policy mapping</tal:comment>
+                                    Title of the policy mapping
                                 </a>
                             </label>
 
                             <div class="formHelp"
                                  tal:content="python:wfp.getDescription()">
-                                <tal:comment replace="nothing">Description of the policy mapping</tal:comment>
+                                Description of the policy mapping
                             </div>
 
                             </tal:wfp>
@@ -132,7 +132,7 @@ CMFPlacefulWorkflow configuration panel
                                 Enter an id for the new workflow policy
                             </div>
 
-                            <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                            <div tal:content="error" class="fielderror">Validation error output</div>
 
                             <input name="policy_id" value="" size="30" />
                         </div>
@@ -151,7 +151,7 @@ CMFPlacefulWorkflow configuration panel
                                 You also can choose to start with an empty policy.
                             </div>
 
-                            <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                            <div tal:content="error" class="fielderror">Validation error output</div>
                             <select name="policy_duplicate_id">
                                 <option value="empty"
                                         i18n:translate="label_no_policy_duplicated">
@@ -161,7 +161,7 @@ CMFPlacefulWorkflow configuration panel
                                         i18n:translate="label_duplicate_portal_workflow">Global workflow</option>
                                 <option tal:repeat="wfpid python:wfp.getWorkflowPolicyIds()"
                                         tal:attributes="value wfpid"
-                                        tal:content="python:wfp.getWorkflowPolicyById(wfpid).getTitle()"><tal:comment replace="nothing">WF policy id</tal:comment></option>
+                                        tal:content="python:wfp.getWorkflowPolicyById(wfpid).getTitle()">WF policy id</option>
                             </select>
                         </div>
 

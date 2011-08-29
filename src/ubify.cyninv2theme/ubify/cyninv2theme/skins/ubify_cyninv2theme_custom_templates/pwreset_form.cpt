@@ -67,7 +67,7 @@ Mumbai-400064, India
                                            tal:condition="here/portal_password_reset/checkUser | nothing">
                                     <label for="userid"
                                            i18n:translate="label_my_user_name_is">My user name is</label>
-                                           <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                                           <div tal:content="error" class="fielderror">Validation error output</div>
                                     <div class="formHelp"
                                          i18n:domain="cynin"
                                          i18n:translate="help_userid">
@@ -81,7 +81,7 @@ Mumbai-400064, India
                                      tal:attributes="class python:test(error, 'field error', 'field')">
                                     <label for="password"
                                            i18n:translate="label_new_password">New password</label>
-                                           <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                                           <div tal:content="error" class="fielderror">Validation error output</div>
                                     <div class="formHelp"
                                          i18n:translate="help_new_password">
                                         Enter your new password. Minimum 5 characters.
@@ -95,7 +95,7 @@ Mumbai-400064, India
                                      tal:attributes="class python:test(error, 'field error', 'field')">
                                     <label for="confirm"
                                            i18n:translate="label_confirm_password">Confirm password</label>
-                                    <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                                    <div tal:content="error" class="fielderror">Validation error output</div>
                                     <div class="formHelp"
                                          i18n:translate="help_confirm_password">
                                         Re-enter the password. Make sure the passwords are identical.

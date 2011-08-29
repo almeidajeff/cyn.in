@@ -40,6 +40,7 @@ import traceback
 from StringIO import StringIO
 
 from zope import component
+import zope.interface
 import AccessControl
 import Acquisition
 import Globals
@@ -54,16 +55,15 @@ from Acquisition import aq_parent
 from Acquisition import aq_base
 from Products.CMFPlone.utils import base_hasattr
 from Products.CMFPlone.utils import safe_callable
+from plone.indexer.decorator import indexer
 from ubify.coretypes.interfaces import ITypesRestriction
-from Products.CMFPlone.CatalogTool import registerIndexableAttribute
 
+@indexer(zope.interface.Interface)
 def disallowedtypes(obj,portal, **kw):
     if ITypesRestriction.providedBy(obj):
         return obj.disallowedtypes()
     else:
         return []
-    
-registerIndexableAttribute('disallowedtypes', disallowedtypes)
     
 class CatalogTool(base.CatalogTool):
 
@@ -88,7 +88,7 @@ class CatalogTool(base.CatalogTool):
                         tb = pdtool.getDiscussionFor(obj)
                         for ob in tb.getReplies():
                                 ob.indexObject()
-                except TypeError:
+                except:
                     # Catalogs have 'indexObject' as well, but they
                     # take different args, and will fail
                     pass

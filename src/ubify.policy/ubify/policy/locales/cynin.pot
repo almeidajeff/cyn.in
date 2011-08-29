@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-03-08 15:24+0000\n"
+"POT-Creation-Date: 2010-04-27 07:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,75 +17,6 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cynin\n"
 
-#: ../../../../ubify.xmlrpc/ubify/xmlrpc/badge.pt:66
-msgid "Get Adobe Flash player"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:83
-msgid "About cyn.in"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:70
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/addnew_menu.pt:46
-msgid "Add to Space:"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/mymenu.pt:68
-msgid "Change Password"
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Blog.xml
-msgid "A Blog contains Blog Posts."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/SpacesFolder.xml
-msgid "A SpacesFolder can contain only Spaces."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/StatuslogFolder.xml
-msgid "A Status log can contain only status messages."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Wiki.xml
-msgid "A Wiki contains Wiki Pages and Sub-Wikis."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Calendar.xml
-msgid "A calendar can contain events and sub-calendars."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/FileRepository.xml
-msgid "A file repository can contain files and sub-file repositories."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Folder.xml
-msgid "A folder can contain applications."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Gallery.xml
-msgid "A gallery can contain images and sub-galleries."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/GenericContainer.xml
-msgid "A generic container contain all content types, including folders."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/LinkBase.xml
-msgid "A link base contains WebLinks."
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/LinkDirectory.xml
-msgid "A link directory contains WebLinks."
-msgstr ""
-
-#: Scrawl/skins/scrawl_30/blog_view.pt:14
-msgid "Atom"
-msgstr ""
-
-#: Scrawl/skins/scrawl_30/blog_view.pt:10
-msgid "RSS 2.0"
-msgstr ""
-
 #: ZipFileTransport/skins/ZipFileTransport/checkid.py:98
 msgid ""
 msgstr ""
@@ -96,10 +27,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/tags_listing.pt:243
 msgid "${count} items"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:50
-msgid "${img_gplv3} cyn.in is an open source collaborative knowledge management software distributed under the GNU GPL v3 license terms. You are free to use cyn.in, modify it according to the GNU GPL v3 license. If you wish to redistribute the modified source, you will have to comply with GPL's requirement of retaining Appropriate Legal Notices in the source code and the user interface. You will need to indicate clearly, that the software is a modification of original code. Following are the Additional Terms for the cyn.in according to the GPL v3 license."
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/folder_delete.cpy:76
@@ -125,18 +52,6 @@ msgstr ""
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/userinfo.pt:87
 #: ../../../../ubify.ffxmpp/ubify/ffxmpp/browser/sidepanel_conversation_ff.pt:77
 msgid "${userid} has not set a status message yet."
-msgstr ""
-
-#: ../../../../ubify.ffxmpp/ubify/ffxmpp/browser/activity_stream_ff.pt:51
-msgid "Activity Stream:"
-msgstr ""
-
-#: ../../../../ubify.ffxmpp/ubify/ffxmpp/browser/sidepanel_conversation_ff.pt:89
-msgid "Recent Activity:"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/recentupdatesportlet.pt:194
-msgid "(${location} from ${start} to ${end})"
 msgstr ""
 
 #. Default: "%d days"
@@ -181,22 +96,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/tags_listing.pt:225
 msgid "50"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:59
-msgid "<br />2. <strong>Use of the cyn.in or Cynapse Logo:</strong><br /><br />Cynapse (TM)and cyn.in(TM) are registered trademarks of Cynapse India Pvt. Ltd. This license allows limited use of these trademarks under the following terms:"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:68
-msgid "<br />3. <strong>Dual Licensing:</strong>"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:60
-msgid "<li>All the trade marks of the licensor under consideration for the agreement including 'cyn.in' and 'Cynapse' shall be used exclusively for the purpose of this agreement and shall not be used for any other purpose/s unless a written consent is obtained from the licensors.</li> <li>The limited license to use the cyn.in and Cynapse trade marks, given herein does not include the right to use the 'cyn.in' Logo or any of the other Cynapse Logos as a trade mark to promote any products or services commercially. For example, no logo of cyn.in or Cynapse may be used on any product packaging or documentation, such as (but not limited to) on CD-ROM or diskette labels or packaging, websites, books or other publications. Any such use must be expressly authorized by Cynapse in a signed, written agreement.</li> <li>While using the cyn.in or Cynapse logos the users must never modify the design, vary the spelling of the words, add or delete any words, add or delete any symbol or sign or change any colors or proportions. The logo may be scaled proportionally. When using any cyn.in or Cynapse logo trade marks the users shall use the TM symbol, which provides notice to third parties of Cynapse's rights in its trade marks. cyn.in or Cynapse trade marks must bear the trademark notice/symbol (TM) in the first and most prominent usage of a trade mark and again in the first appearance of a trade mark in the text or body of copy. Notice/symbols must always appear with all cyn.in or Cynapse trade marks. Wherever possible, trademark notice symbols should be superscripted immediately after all cyn.in and/or Cynapse trade marks.</li> <li>The use must not be detrimental, i.e. harmful or damaging, to the value of cyn.in brand or any of the other Cynapse Marks, or to Cynapse, its brand integrity, reputation or goodwill, as determined by Cynapse in its sole discretion.</li> <li>Any act of the users against the above mentioned conditions amounts to the violation of the IPRs of the licensor i.e. Cynapse, related to trade mark and punishable under the Trade Marks Act, 1999 and rules made thereunder, as well as the Copyrights Act, 1957 and rules made thereunder.</li> <li>Please report any possible infringement and/or misuse of any cyn.in and/or Cynapse trade marks and/or a violation of this Trademark Policy at legal@cynapse.com</li>"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:54
-msgid "<li>The interactive user interfaces in modified source and object code versions of this program must display Appropriate Legal Notices, as required under Section 5 of the GNU General Public License version 3. In accordance with Section 7(b) of the GNU General Public License version 3, these Appropriate Legal Notices must retain the display of the "Powered by cyn.in" AND "A Cynapse Invention" logos.</li> <li>If the display of the logos are not reasonably feasible for technical reasons, the Appropriate Legal Notices must display the words "Powered by cyn.in" AND "A Cynapse invention"</li> <li>The Logo/words "Powered by cyn.in" must be a clickable link that leads directly to the Internet URL http://cyn.in. The Logo/word "Cynapse" must be a clickable link that leads directly to the Internet URL http://www.cynapse.com. </li>"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/tags_listing.pt:210
@@ -367,10 +266,6 @@ msgstr ""
 msgid "Add a new"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:51
-msgid "Additional Terms applicable for cyn.in"
-msgstr ""
-
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:69
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/addnew_menu.pt:46
 msgid "Add to Space:"
@@ -408,9 +303,6 @@ msgstr ""
 msgid "All members with contributing privileges can access this content"
 msgstr ""
 
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_review_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_contentroot_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_publish_keep_private/definition.xml
@@ -441,14 +333,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/tags_listing.pt:239
 msgid "Apply"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/tags_listing.pt:213
-msgid "Ascending"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/rss_macro.pt:50
-msgid "Atom"
 msgstr ""
 
 #. Default: "Apr"
@@ -493,7 +377,6 @@ msgstr ""
 msgid "Bio:"
 msgstr ""
 
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Blog.xml
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:296
 msgid "Blog"
 msgstr ""
@@ -518,16 +401,7 @@ msgstr ""
 msgid "Bookmarks"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/navigation.pt:29
-msgid "Browse through members of this cyn.in site."
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_control_panel.pt:155
-msgid "CMF ${cmf_version}"
-msgstr ""
-
 #: ../../../../ubify.policy/ubify/policy/profiles/default/controlpanel.xml
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Calendar.xml
 msgid "Calendar"
 msgstr ""
 
@@ -556,6 +430,10 @@ msgstr ""
 msgid "Click to edit the content of this wiki start page."
 msgstr ""
 
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/browsersupported.pt:89
+msgid "Close"
+msgstr ""
+
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/SmartviewFolder.xml
 msgid "Collection Root"
 msgstr ""
@@ -565,7 +443,6 @@ msgstr ""
 msgid "Collection Settings"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/itemcounts.pt:47
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Discussion_Item.xml
 msgid "Comment"
 msgstr ""
@@ -615,18 +492,9 @@ msgstr ""
 msgid "Contributors"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:96
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:174
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/status_listing.pt:169
 msgid "Contributors:"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:100
-msgid "Control Panel"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:48
-msgid "Created Date:"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/folder_paste.cpy:55
@@ -656,19 +524,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:550
 msgid "Current Status:"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/helpblock_macro.pt:13
-msgid "Cyn.in license"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/helpblock_macro.pt:46
-msgid "Cynapse Community"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:88
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/helpblock_macro.pt:40
-msgid "Cynapse Homepage"
 msgstr ""
 
 #: ../../../../ubify.smartview/ubify/smartview/interfaces.py:54
@@ -749,7 +604,7 @@ msgstr ""
 msgid "Discussions Board"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:75
+#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:74
 msgid "Discussions are not allowed in this Space."
 msgstr ""
 
@@ -765,8 +620,6 @@ msgstr ""
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Audio.xml
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Video.xml
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:200
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/links_listing.pt:136
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/status_listing.pt:148
 msgid "Edit"
 msgstr ""
 
@@ -818,7 +671,7 @@ msgstr ""
 msgid "Edit Recently Active Users Portlet"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:68
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:65
 msgid "Edit Site Logo"
 msgstr ""
 
@@ -854,10 +707,6 @@ msgstr ""
 msgid "Edit start page"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/app_cal_events.pt:97
-msgid "End Date"
-msgstr ""
-
 #: ../../../../ubify.policy/ubify/policy/profiles/default/actions.xml
 msgid "Edit this item with a native application installed on your desktop computer. This requires the Zope External Editor client to be installed on your desktop. Click this link and select Open with Zope External Editor and not the normal Save that you may be used to, in the resulting dialog that is popped by your web browser."
 msgstr ""
@@ -878,13 +727,10 @@ msgstr ""
 msgid "Enter username"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:84
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/helpblock_macro.pt:19
-msgid "Enterprise Support"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:51
-msgid "Expiration Date:"
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:113
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:115
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/logged_out.cpt:86
+msgid "Error"
 msgstr ""
 
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Event.xml
@@ -921,7 +767,6 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/FileRepository.xml
 #. Default: "File Repository"
 msgid "File Repository"
 msgstr ""
@@ -932,18 +777,6 @@ msgstr ""
 
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/File.xml
 msgid "File upload"
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Folder.xml
-msgid "Folder"
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Gallery.xml
-msgid "Gallery"
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/GenericContainer.xml
-msgid "Generic Container"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:300
@@ -963,22 +796,6 @@ msgstr ""
 msgid "For best experience, use one of these browsers (click to download):"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/userinfo.pt:124
-msgid "Full User Profile"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/fullviewmindmap.pt:58
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/site_home.pt:57
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/spaces_recent.pt:57
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/sitemindmapportlet.pt:58
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/spacemindmapportlet.pt:58
-msgid "Get Adobe Flash player"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/browsersupported.pt:57
-msgid "Google Chrome 2.x +"
-msgstr ""
-
 #. Default: "Formatted temporal content"
 #: ../../../../ubify.policy/ubify/policy/setuphandlers.py:79
 msgid "Formatted temporal content"
@@ -992,13 +809,8 @@ msgstr ""
 msgid "Full User Profile"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:120
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_groups_overview.cpt:54
 msgid "Group Management"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:80
-msgid "Help"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_group_members.cpt:58
@@ -1029,8 +841,12 @@ msgstr ""
 msgid "How many tags to list?"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:118
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:115
 msgid "If you have uploaded a new logo and it does not appear immediately, ${away_url} from this page and clear your web browser's cache. This can be done in most browsers by pressing Ctrl + F5 or Ctrl + R."
+msgstr ""
+
+#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Image.xml
+msgid "Image"
 msgstr ""
 
 #. Default: "Image Gallery"
@@ -1045,7 +861,7 @@ msgstr ""
 msgid "Images"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/icalendar_import.pt:64
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/icalendar_import.pt:63
 msgid "Import iCalendar URL"
 msgstr ""
 
@@ -1057,8 +873,10 @@ msgstr ""
 msgid "In Groups:"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/browsersupported.pt:81
-msgid "Internet Explorer 7.x+"
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/dashboard.pt:132
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/sharing.pt:52
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/cynin_edit_macros.pt:18
+msgid "Info"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/folder_delete.cpy:73
@@ -1094,25 +912,12 @@ msgstr ""
 msgid "June"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:56
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:168
 msgid "Language:"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/ksstemplates/listcomment.pt:49
-msgid "Load new comments by other users"
-msgstr ""
-
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Large_Plone_Folder.xml
 msgid "Large Folder"
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/LinkBase.xml
-msgid "Link Base"
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/LinkDirectory.xml
-msgid "Link Directory"
 msgstr ""
 
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Link.xml
@@ -1123,40 +928,17 @@ msgstr ""
 msgid "Links Bookmarklet"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:55
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:164
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/status_listing.pt:186
 msgid "Location:"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:110
-msgid "Mail Setup"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:95
-msgid "Manage menu"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:49
-msgid "Modified Date:"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/mymenu.pt:63
-msgid "My Dashboard"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/userinfo.pt:133
-msgid "Login required!"
+#. Default: "Log out"
+msgid "Log out"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/send_feedback_site_admin.cpy:105
 msgid "Mail sent."
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/managecontent.pt:55
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/managehomeleftblock.pt:55
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/managemindmap.pt:55
-msgid "Manage My Portlets"
 msgstr ""
 
 #: ../../../../ubify.policy/ubify/policy/profiles/default/controlpanel.xml
@@ -1180,9 +962,6 @@ msgstr ""
 msgid "Make this content accessible to anonymous visitors"
 msgstr ""
 
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_review_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_contentroot_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_publish_keep_private/definition.xml
@@ -1238,10 +1017,6 @@ msgstr ""
 msgid "More &raquo;"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/browsersupported.pt:50
-msgid "Mozilla Firefox 3.x +"
-msgstr ""
-
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Topic.xml
 msgid "Multi criteria based saved search"
 msgstr ""
@@ -1250,41 +1025,8 @@ msgstr ""
 msgid "My Cyn.in"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:89
-msgid "Open Source Community"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/owner_info.pt:40
-msgid "Owner:"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/space_my_items.pt:42
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/myitemsportlet.py:73
 msgid "My Items"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/mymenu.pt:77
-msgid "My Preferences"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/mymenu.pt:83
-msgid "My Private Space"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/mymenu.pt:72
-msgid "My Profile"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/mymenu.pt:95
-msgid "My Public Space"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/mymenu.pt:100
-msgid "My Recycle Bin"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/mymenu.pt:89
-msgid "My Status Log"
 msgstr ""
 
 #: Plone4ArtistsCalendar/pythonlib/p4a/calendar/browser/month.py:25
@@ -1313,10 +1055,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogosettings.cpy:72
 msgid "No site logo exists for deletion."
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:52
-msgid "Notices and Attribution:"
 msgstr ""
 
 #. Default: "Nov"
@@ -1349,10 +1087,6 @@ msgstr ""
 msgid "Office Phone"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/browsersupported.pt:67
-msgid "Opera"
-msgstr ""
-
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 msgid "Only published workflow"
 msgstr ""
@@ -1372,10 +1106,6 @@ msgstr ""
 msgid "Other supported web browsers"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_control_panel.pt:159
-msgid "PIL ${pil_version}"
-msgstr ""
-
 #. Default: "Owner"
 msgid "Owner"
 msgstr ""
@@ -1393,17 +1123,8 @@ msgstr ""
 msgid "Pending Review"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:72
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/member_search_results.pt:57
 msgid "People"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:76
-msgid "People Search"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:57
-msgid "Permalink"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:172
@@ -1432,36 +1153,8 @@ msgstr ""
 msgid "Please enter comment text."
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/folder_delete.cpy:60
-msgid "Please select one or more items to delete."
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_control_panel.pt:154
-msgid "Plone ${plon_version}"
-msgstr ""
-
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/myareablock.pt:68
 msgid "Please enter message."
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/ksstemplates/listcomment.pt:82
-msgid "Post a comment..."
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:50
-msgid "Publishing Date:"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/ksstemplates/listcomment.pt:57
-msgid "Recent Comments:"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:129
-msgid "Recycle Bin"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:78
-msgid "Related Items:"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/folder_delete.cpy:60
@@ -1494,28 +1187,10 @@ msgstr ""
 msgid "Profile"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_control_panel.pt:157
-msgid "Python ${python_version}"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/search.pt:48
-msgid "RSS 1.0"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/rss_macro.pt:48
-msgid "RSS 2.0"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/description_macro.pt:125
-msgid "Rate it (Replace input macro here)"
-msgstr ""
-
 #: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
 msgid "Public Draft"
 msgstr ""
 
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_contentroot_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_statuslog_item_workflow/definition.xml
@@ -1536,17 +1211,12 @@ msgstr ""
 msgid "Publish to Reader with Approval"
 msgstr ""
 
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_review_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_contentroot_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_publish_keep_private/definition.xml
 msgid "Publish to Viewers"
 msgstr ""
 
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_contentroot_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_statuslog_item_workflow/definition.xml
@@ -1559,9 +1229,6 @@ msgstr ""
 msgid "Published to Contributors"
 msgstr ""
 
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_review_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_contentroot_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_publish_keep_private/definition.xml
@@ -1679,10 +1346,6 @@ msgstr ""
 msgid "Replies"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:52
-msgid "Rights:"
-msgstr ""
-
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/tags_listing.pt:238
 msgid "Reset"
 msgstr ""
@@ -1691,18 +1354,12 @@ msgstr ""
 msgid "Reset Password"
 msgstr ""
 
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_review_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_publish_keep_private/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_views_workflow/definition.xml
 msgid "Retract this content to a private draft state"
 msgstr ""
 
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_review_workflow/definition.xml
-#: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_content_workflow/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_publish_keep_private/definition.xml
 #: ../../../../ubify.policy/ubify/policy/profiles/default/workflows/ubify_views_workflow/definition.xml
@@ -1719,10 +1376,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/userinfo.pt:103
 msgid "Roles in this Space:"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/browsersupported.pt:74
-msgid "Safari 4.x +"
 msgstr ""
 
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/ContentRoot.xml
@@ -1745,14 +1398,6 @@ msgstr ""
 msgid "Saved Search"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:105
-msgid "Site Logo"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:125
-msgid "Site Settings"
-msgstr ""
-
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/search.pt:64
 msgid "Search"
 msgstr ""
@@ -1767,10 +1412,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/userinfo.pt:82
 msgid "See Full Profile"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/selectdefaultwikipage.pt:138
-msgid "Select"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/spacemembersportlet.py:63
@@ -1866,14 +1507,9 @@ msgstr ""
 msgid "Site logo have been saved."
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:46
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:184
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/status_listing.pt:216
 msgid "Size:"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:43
-msgid "Spaces"
 msgstr ""
 
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Topic.xml
@@ -1886,10 +1522,6 @@ msgstr ""
 
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/ContentSpace.xml
 msgid "Space"
-msgstr ""
-
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/SpacesFolder.xml
-msgid "SpacesFolder"
 msgstr ""
 
 #: ../../../../ubify.spaces/ubify/spaces/profiles/default/workflows/ubify_spaces_content_workflow/definition.xml
@@ -1912,7 +1544,6 @@ msgstr ""
 msgid "Space settings"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:47
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:194
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/status_listing.pt:219
 msgid "State:"
@@ -1963,10 +1594,6 @@ msgstr ""
 msgid "Subscribe to the Comments feed of the current item in Atom format. You will need to use an Atom feed reader that supports 'HTTP BASIC Authentication'."
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/helpblock_macro.pt:25
-msgid "Supported Browsers"
-msgstr ""
-
 #: Plone4ArtistsCalendar/pythonlib/p4a/calendar/browser/month.py:21
 msgid "Sunday"
 msgstr ""
@@ -1984,7 +1611,6 @@ msgstr ""
 msgid "Tags Portlet"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/item_metadata.pt:64
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:158
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/status_listing.pt:191
 msgid "Tags:"
@@ -1992,10 +1618,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/macro_spacehome_no_content.pt:12
 msgid "The ${nocontent_spacename} Space has no content, yet"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:69
-msgid "The licensors hereby reserve the right to diverge and/or modify and/or expand their product to have a closed source / proprietary version of the product along with the open source version in future."
 msgstr ""
 
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/SmartviewFolder.xml
@@ -2070,10 +1692,6 @@ msgstr ""
 msgid "Top Rated"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:452
-msgid "Top User Tags"
-msgstr ""
-
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:196
 msgid "Total Comments:"
 msgstr ""
@@ -2123,11 +1741,6 @@ msgstr ""
 msgid "Unlock"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/space_name.pt:41
-msgid "Updated:"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:115
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_users_overview.cpt:53
 msgid "User Management"
 msgstr ""
@@ -2165,18 +1778,7 @@ msgstr ""
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Audio.xml
 #: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Video.xml
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:199
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/links_listing.pt:135
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/status_listing.pt:147
 msgid "View"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/column.pt:47
-msgid "View portlet management screen"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:57
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/dashboard.pt:65
-msgid "Views"
 msgstr ""
 
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/ubifycolophon.pt:53
@@ -2193,11 +1795,6 @@ msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/browsersupported.pt:42
 msgid "Web Browsers"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:85
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/helpblock_macro.pt:30
-msgid "Web Links"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/belowcontent_macro.pt:347
@@ -2232,10 +1829,6 @@ msgstr ""
 msgid "Working Copy"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/userinfo.pt:135
-msgid "You need to login or register to view user profile details."
-msgstr ""
-
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/addnew_menu.pt:52
 msgid "You are not allowed to add content to this Space."
 msgstr ""
@@ -2244,26 +1837,12 @@ msgstr ""
 msgid "Your personal settings have been saved."
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_control_panel.pt:156
-msgid "Zope ${zope_version}"
-msgstr ""
-
 #: ZipFileTransport/browser/zipfiletransportprefs.py:111
 msgid "ZipFile Transport Settings"
 msgstr ""
 
 #: ZipFileTransport/browser/zipfiletransportprefs.py:108
 msgid "ZipFile Transport Settings Form"
-msgstr ""
-
-#. Default: "%s is not a legal name. The following characters are invalid: %s."
-#: ZipFileTransport/skins/ZipFileTransport/checkid.py:60
-msgid "characters"
-msgstr ""
-
-#. Default: "There is already an item named %s in this folder."
-#: ZipFileTransport/skins/ZipFileTransport/checkid.py:103
-msgid "existing"
 msgstr ""
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/atom.xml.pt:23
@@ -2298,7 +1877,6 @@ msgstr ""
 #: ../../../../ubify.coretypes/ubify/coretypes/config.py:113
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/__init__.py:694
 #: ../../../../ubify.policy/ubify/policy/profiles/default/actions.xml
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/ApplicationsMenuViewlet.pt:60
 msgid "activity_stream"
 msgstr ""
 
@@ -2364,11 +1942,6 @@ msgstr ""
 msgid "atom_more_info"
 msgstr ""
 
-#. Default: "Audios"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/__init__.py:715
-msgid "audios"
-msgstr ""
-
 #. Default: "Average"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/__init__.py:725
 msgid "average"
@@ -2392,11 +1965,6 @@ msgstr ""
 msgid "batch_x_items_matching_your_criteria"
 msgstr ""
 
-#. Default: "${number} members matching your criteria."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/member_search_results.pt:179
-msgid "batch_x_items_members_matching_your_criteria"
-msgstr ""
-
 #. Default: "Blog"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/syndicationinfo.pt:70
 msgid "blog"
@@ -2412,7 +1980,7 @@ msgstr ""
 msgid "box_full_review_list"
 msgstr ""
 
-#. Default: "Last modified"
+#. Default: "last modified"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/search.pt:201
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/versions_history_form.pt:52
 msgid "box_last_modified"
@@ -2435,9 +2003,8 @@ msgstr ""
 
 #. Default: "Cancel"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:108
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:69
+#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:68
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/comments.pt:128
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/myareablock.pt:62
 msgid "button_cancel"
 msgstr ""
 
@@ -2456,14 +2023,13 @@ msgstr ""
 msgid "button_edit"
 msgstr ""
 
-#. Default: "Info"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/description_macro.pt:47
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/description_macro.pt:46
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/files_listing.pt:133
 msgid "button_info"
 msgstr ""
 
 #. Default: "Post"
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:67
+#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:66
 msgid "button_post"
 msgstr ""
 
@@ -2494,10 +2060,8 @@ msgstr ""
 msgid "button_view"
 msgstr ""
 
-#: ../../../../ubify.ffxmpp/ubify/ffxmpp/browser/activity_stream_ff.pt:71
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/recentupdatesportlet.pt:207
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/belowcontent_macro.pt:70
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/description_macro.pt:76
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/search.pt:188
 msgid "by"
 msgstr ""
 
@@ -2702,26 +2266,9 @@ msgstr ""
 msgid "copy_info"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/space_items.pt:193
-msgid "created by"
-msgstr ""
-
 #. Default: "Created by:"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:152
 msgid "created_by"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_control_panel.pt:153
-msgid "cyn.in ${cynin_version}"
-msgstr ""
-
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/helpblock_macro.pt:7
-msgid "cyn.in Help"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/allspacesviewlet.pt:87
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/helpblock_macro.pt:35
-msgid "cyn.in Homepage"
 msgstr ""
 
 #. Default: "free open source edition"
@@ -2912,7 +2459,6 @@ msgid "description_no_criteria_in_topic"
 msgstr ""
 
 #. Default: "There are currently no items in this folder."
-#: Scrawl/skins/scrawl_30/blog_view.pt:148
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/selectdefaultwikipage.pt:200
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/all_listing.pt:174
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/files_listing.pt:260
@@ -3037,13 +2583,12 @@ msgstr ""
 msgid "didnt_like_it"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/space_items.pt:174
-msgid "from"
+#. Default: "Unable to add discussion. Please try again later."
+msgid "discussion_add_error"
 msgstr ""
 
-#. Default: "Discussions"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/__init__.py:713
-msgid "discussions"
+#. Default: "New discussion added. Click %link to view it."
+msgid "discussion_add_success"
 msgstr ""
 
 #. Default: "Cookies are not enabled. You must enable cookies before you can log in."
@@ -3107,14 +2652,9 @@ msgid "generic_views"
 msgstr ""
 
 #. Default: "Hate it (-2)"
-#: ATRatings/skins/at_ratings/rating_macros.pt:251
-msgid "hate_it"
-msgstr ""
-
-#. Default: "Hated it (-2)"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/__init__.py:721
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/custommethods.py:267
-#: ATRatings/skins/at_ratings/rating_macros.pt:289
+#: ATRatings/skins/at_ratings/rating_macros.pt:251
 msgid "hated_it"
 msgstr ""
 
@@ -3135,7 +2675,7 @@ msgstr ""
 
 #. Default: "Administration"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_main_template.pt:48
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:60
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:59
 msgid "header_administration"
 msgstr ""
 
@@ -3335,11 +2875,6 @@ msgstr ""
 msgid "heading_dashboard"
 msgstr ""
 
-#. Default: "Edit workflow policy"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_workflow_policy_mapping.pt:10
-msgid "heading_edit_workflow_policy"
-msgstr ""
-
 #. Default: "File Preview"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/file_view.pt:78
 msgid "heading_file_contents"
@@ -3436,7 +2971,7 @@ msgstr ""
 msgid "heading_un_block_portlets"
 msgstr ""
 
-#. Default: "Global content type to workflow mapping"
+#. Default: "Edit workflow policy"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_workflow_advanced.pt:9
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_workflow_policy_mapping.pt:10
 msgid "heading_workflow_global_type_mapping"
@@ -3667,7 +3202,7 @@ msgid "help_short_name_url"
 msgstr ""
 
 #. Default: "To add or change the site logo: click the \"Browse\" button; select an image for your logo. The uploaded image should be less than or equal to 200 pixels wide and 60 pixels height. Larger images will be auto-scaled to fit this size."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:112
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:110
 msgid "help_site_logo_description"
 msgstr ""
 
@@ -3680,11 +3215,6 @@ msgstr ""
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/join_form.cpt:96
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/signup_form.cpt:91
 msgid "help_user_name_creation_casesensitive"
-msgstr ""
-
-#. Default: "Enter a user name, usually something like 'jsmith'. No spaces or special characters. Usernames and passwords are case sensitive, make sure the caps lock key is not enabled. This is the name used to log in."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/join_form.cpt:96
-msgid "help_user_name_creation_casesensitive_full_help"
 msgstr ""
 
 #. Default: "Enter your user name for verification."
@@ -3753,7 +3283,7 @@ msgid "label_add_new_user"
 msgstr ""
 
 #. Default: "Add Tags"
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:61
+#: ../../../../ubify.viewlets/ubify/viewlets/browser/adddiscussion.pt:60
 msgid "label_add_tags"
 msgstr ""
 
@@ -3826,16 +3356,6 @@ msgstr ""
 #. Default: "Biography"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/personalize_form.cpt:252
 msgid "label_biography"
-msgstr ""
-
-#. Default: "Click on the button label below to install the cyn.in desktop client to your desktop. If you've already installed the cyn.in desktop, clicking on the button below will launch it."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/desktopbadge.pt:65
-msgid "label_caldav_url_client_desktop"
-msgstr ""
-
-#. Default: "Use the iCalendar URL below to synchronize your desktop calendar with cyn.in."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/calendarsubscription.pt:50
-msgid "label_caldav_url_icalendar_desktop"
 msgstr ""
 
 #. Default: "What are you doing?"
@@ -3964,17 +3484,11 @@ msgstr ""
 msgid "label_created"
 msgstr ""
 
-#. Default: "Creator:"
+#. Default: "Created by:"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/belowcontent_macro.pt:60
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/description_macro.pt:59
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/files_listing.pt:183
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/links_listing.pt:182
 msgid "label_creator"
-msgstr ""
-
-#. Default: "Created by:"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/belowcontent_macro.pt:60
-msgid "label_creatorby"
 msgstr ""
 
 #. Default: "Current password"
@@ -4014,11 +3528,11 @@ msgid "label_delete_portrait"
 msgstr ""
 
 #. Default: "Reset to default"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:138
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:136
 msgid "label_delete_site_logo"
 msgstr ""
 
-#. Default: "Description"
+#. Default: "Description:"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/description_macro.pt:55
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/files_listing.pt:178
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/links_listing.pt:177
@@ -4150,11 +3664,6 @@ msgstr ""
 msgid "label_group_memberships"
 msgstr ""
 
-#. Default: "Name: ${group_name}"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_group_details.pt:164
-msgid "label_group_name"
-msgstr ""
-
 #. Default: "Group Portlets"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/manage-group.pt:69
 msgid "label_group_portlets"
@@ -4203,11 +3712,6 @@ msgstr ""
 msgid "label_import"
 msgstr ""
 
-#. Default: "%s is reserved."
-#: ZipFileTransport/skins/ZipFileTransport/checkid.py:67
-msgid "reserved"
-msgstr ""
-
 #. Default: "For this Folder"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/placeful_workflow_configuration.pt:102
 msgid "label_in_this_folder"
@@ -4224,7 +3728,7 @@ msgid "label_inherit_local_roles"
 msgstr ""
 
 #. Default: "Loading"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:231
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:230
 msgid "label_kss_loading"
 msgstr ""
 
@@ -4254,11 +3758,10 @@ msgstr ""
 msgid "label_locally_allowed_types"
 msgstr ""
 
-#. Default: "Location"
+#. Default: "Location:"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:170
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/belowcontent_macro.pt:105
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/description_macro.pt:110
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/path_bar.pt:47
 msgid "label_location"
 msgstr ""
 
@@ -4286,10 +3789,6 @@ msgstr ""
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/comments.pt:74
 msgid "label_login_to_add_comments"
 msgstr ""
-
-#. Default: "My Current Status:"
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/myareablock.pt:80
-msgid "label_my_current_status"
 
 #. Default: "Log in to send feedback"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:568
@@ -4351,7 +3850,8 @@ msgstr ""
 msgid "label_my_user_name_is"
 msgstr ""
 
-#. Default: "Name"
+#. Default: "User/Group"
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/sharing.pt:104
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/member_search_results.pt:90
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_group_details.pt:125
 msgid "label_name"
@@ -4535,7 +4035,7 @@ msgstr ""
 
 #. Default: "Remove"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/commentrow_macro.pt:117
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/emptyhtml.pt:71
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/emptyhtml.pt:66
 msgid "label_remove"
 msgstr ""
 
@@ -4561,7 +4061,7 @@ msgstr ""
 
 #. Default: "Reply"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/commentrow_macro.pt:103
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/emptyhtml.pt:67
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/emptyhtml.pt:62
 msgid "label_reply"
 msgstr ""
 
@@ -4609,7 +4109,6 @@ msgstr ""
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/member_search_results.pt:164
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_group_members.cpt:250
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_groups_overview.cpt:153
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/searchbox.pt:50
 msgid "label_search"
 msgstr ""
 
@@ -4676,7 +4175,7 @@ msgid "label_site_admin"
 msgstr ""
 
 #. Default: "Site Logo"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:108
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:107
 msgid "label_site_logo"
 msgstr ""
 
@@ -4767,11 +4266,6 @@ msgstr ""
 msgid "label_use_selected"
 msgstr ""
 
-#. Default: "User/Group"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/sharing.pt:104
-msgid "label_user_group"
-msgstr ""
-
 #. Default: "User Name"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/join_form.cpt:89
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/prefs_error_log_form.pt:68
@@ -4807,11 +4301,6 @@ msgstr ""
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:68
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/personalize_form.cpt:57
 msgid "label_view"
-msgstr ""
-
-#. Default: "Dashboard"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/dashboard.pt:69
-msgid "label_view_dashboard"
 msgstr ""
 
 #. Default: "Where"
@@ -4885,14 +4374,8 @@ msgstr ""
 msgid "lbl_commentbox_title"
 msgstr ""
 
-#. Default: "Audios"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:228
-msgid "lbl_stats_audios"
-msgstr ""
-
-#. Default: "Blog Entries"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:204
-msgid "lbl_stats_blog_entries"
+#. Default: "Click to select date range"
+msgid "lbl_daterange"
 msgstr ""
 
 #. Default: "Flat View"
@@ -4905,9 +4388,25 @@ msgstr ""
 msgid "lbl_here"
 msgstr ""
 
+#. Default: "Hide Filters"
+msgid "lbl_hide_filters"
+msgstr ""
+
 #. Default: "Click to go up one level in this View"
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/path_bar.pt:41
 msgid "lbl_onelevelup"
+msgstr ""
+
+#. Default: "Show Filters"
+msgid "lbl_show_filters"
+msgstr ""
+
+#. Default: "Unable to set your status.Please try again later."
+msgid "lbl_smessage_error"
+msgstr ""
+
+#. Default: "Your status has been set successfully."
+msgid "lbl_smessage_success"
 msgstr ""
 
 #. Default: "Collections"
@@ -4920,21 +4419,6 @@ msgstr ""
 msgid "lbl_stats_comments"
 msgstr ""
 
-#. Default: "Discussions"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:225
-msgid "lbl_stats_discussions"
-msgstr ""
-
-#. Default: "Events"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:222
-msgid "lbl_stats_events"
-msgstr ""
-
-#. Default: "Files"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:207
-msgid "lbl_stats_files"
-msgstr ""
-
 #. Default: "Items"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:252
 msgid "lbl_stats_items"
@@ -4945,59 +4429,14 @@ msgstr ""
 msgid "lbl_stats_spaces"
 msgstr ""
 
-#. Default: "Images"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:210
-msgid "lbl_stats_status_images"
-msgstr ""
-
-#. Default: "Status Messages"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:216
-msgid "lbl_stats_status_msgs"
-msgstr ""
-
-#. Default: "WebLinks"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:213
-msgid "lbl_stats_status_weblinks"
-msgstr ""
-
 #. Default: "Tags"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:249
 msgid "lbl_stats_tags"
 msgstr ""
 
-#. Default: "comments"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:335
-msgid "lbl_stats_tooltip_comments"
-msgstr ""
-
-#. Default: "contributions"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:299
-msgid "lbl_stats_tooltip_contributions"
-msgstr ""
-
 #. Default: "Users"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:194
 msgid "lbl_stats_users"
-msgstr ""
-
-#. Default: "of 100%"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:361
-msgid "lbl_stats_val_of_100"
-msgstr ""
-
-#. Default: "of"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:360
-msgid "lbl_stats_val_of_total"
-msgstr ""
-
-#. Default: "Videos"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:219
-msgid "lbl_stats_videos"
-msgstr ""
-
-#. Default: "Wiki Pages"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/statistics.py:201
-msgid "lbl_stats_wiki_pages"
 msgstr ""
 
 #. Default: "Threaded View"
@@ -5062,6 +4501,10 @@ msgstr ""
 
 #. Default: "less than a minute"
 msgid "less than a minute"
+msgstr ""
+
+#. Default: "... less"
+msgid "less_msg"
 msgstr ""
 
 #. Default: "Distributed under the ${license_url} license. &copy; 2010 ${cynapse_url}&trade;<br />"
@@ -5169,12 +4612,12 @@ msgid "link_group_properties"
 msgstr ""
 
 #. Default: "View"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/atct_album_view.pt:100
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/atct_album_view.pt:101
 msgid "link_image_view"
 msgstr ""
 
 #. Default: "Full-size"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/atct_album_view.pt:104
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/atct_album_view.pt:105
 msgid "link_image_view_full_size"
 msgstr ""
 
@@ -5188,7 +4631,7 @@ msgstr ""
 msgid "link_logout"
 msgstr ""
 
-#. Default: "${morecount} More &raquo;"
+#. Default: "${morecount} More"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/blogportlet.pt:88
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/commentsportlet.pt:90
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/portlets/eventsportlet.pt:89
@@ -5377,7 +4820,7 @@ msgstr ""
 msgid "listingheader_user_name"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:130
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:129
 msgid "login"
 msgstr ""
 
@@ -5398,11 +4841,6 @@ msgstr ""
 msgid "loved_it"
 msgstr ""
 
-#. Default: "My rating:"
-#: ATRatings/skins/at_ratings/rating_macros.pt:249
-msgid "my_rating"
-msgstr ""
-
 #. Default: "Manage portlets"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/homecontentdashboard.pt:54
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/homeleftblockdashboard.pt:54
@@ -5418,14 +4856,6 @@ msgstr ""
 #. Default: "Manage Space"
 #: ../../../../ubify.viewlets/ubify/viewlets/browser/ApplicationsMenuViewlet.pt:98
 msgid "manage_space"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/space_items.pt:208
-msgid "modified by"
-msgstr ""
-
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/ksstemplates/listcomment.pt:58
-msgid "more"
 msgstr ""
 
 #. Default: "Audio Library"
@@ -5498,6 +4928,10 @@ msgstr ""
 msgid "message_send_feedback_confirm"
 msgstr ""
 
+#. Default: "more ..."
+msgid "more_msg"
+msgstr ""
+
 #. Default: "More…"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/overriddencollection.pt:63
 msgid "more_url"
@@ -5533,7 +4967,7 @@ msgstr ""
 msgid "navheader_spaces"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:118
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/sitelogo_settings.cpt:115
 msgid "navigate away"
 msgstr ""
 
@@ -5623,6 +5057,14 @@ msgstr ""
 msgid "no_body_text"
 msgstr ""
 
+#. Default: "Please enter discussion text."
+msgid "no_discussion_message"
+msgstr ""
+
+#. Default: "Please enter discussion title."
+msgid "no_discussion_title_message"
+msgstr ""
+
 #. Default: "(No image has been uploaded yet)"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/image_view.pt:70
 msgid "no_image_uploaded"
@@ -5655,7 +5097,7 @@ msgstr ""
 msgid "nyrotitle_install_cynin_desktop"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:132
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:131
 msgid "or"
 msgstr ""
 
@@ -5681,7 +5123,7 @@ msgid "past_event_list"
 msgstr ""
 
 #. Default: "Please"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:130
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:129
 msgid "please"
 msgstr ""
 
@@ -5754,6 +5196,10 @@ msgstr ""
 msgid "rating_5"
 msgstr ""
 
+#. Default: "Unable to set your rating. Please try again later."
+msgid "rating_error"
+msgstr ""
+
 #. Default: "Recent Comments:"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:71
 msgid "recentcomments"
@@ -5815,7 +5261,7 @@ msgstr ""
 msgid "refreshcommentstitle"
 msgstr ""
 
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:132
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:131
 msgid "register"
 msgstr ""
 
@@ -6039,11 +5485,6 @@ msgstr ""
 msgid "tab_wiki"
 msgstr ""
 
-#. Default: "All ${count} items in this folder are selected."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/cynintable.pt:154
-msgid "tableheading_all_items_folder_selected"
-msgstr ""
-
 #. Default: "All ${count} items on this page are selected."
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/cynintable.pt:144
 msgid "tableheading_all_items_selected"
@@ -6085,20 +5526,23 @@ msgstr ""
 msgid "text_filter_showing"
 msgstr ""
 
+#. Default: "Your form has not been saved. All changes you have made will be lost."
+msgid "text_form_modified_message"
+msgstr ""
+
+#. Default: "You already clicked the submit button. Do you really want to submit this form again?"
+msgid "text_form_resubmit_message"
+msgstr ""
+
 #. Default: "Hello,"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/topbar_my_macro.pt:59
 msgid "text_hello"
 msgstr ""
 
-#. Default: "Last ${lastchangeaction} by ${userlink}"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/links_listing.pt:162
-msgid "text_last_action"
-msgstr ""
-
 #. Default: "Last ${lastchangeaction} by ${userlink} ${created}"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/links_listing.pt:162
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/recentupdate_macro.pt:65
-msgid "text_last_action_created"
+msgid "text_last_action"
 msgstr ""
 
 #. Default: "Last ${lastchangeaction} by ${user}"
@@ -6122,7 +5566,7 @@ msgid "text_new_version_available"
 msgstr ""
 
 #. Default: "No albums or photos uploaded yet."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/atct_album_view.pt:110
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/atct_album_view.pt:111
 msgid "text_no_albums_uploaded"
 msgstr ""
 
@@ -6236,11 +5680,6 @@ msgstr ""
 msgid "title_edit_dashboard"
 msgstr ""
 
-#. Default: "gplv3.png"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/aboutcynin.pt:50
-msgid "title_gplv3"
-msgstr ""
-
 #. Default: "Manage Group Portlets for ${group_name}"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/manage-group.pt:93
 msgid "title_manage_group_portlets"
@@ -6278,10 +5717,6 @@ msgstr ""
 msgid "title_search_site"
 msgstr ""
 
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/space_items.pt:178
-msgid "to"
-msgstr ""
-
 #. Default: "Search Site"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/search.pt:91
 msgid "title_search_title"
@@ -6290,11 +5725,6 @@ msgstr ""
 #. Default: "Secure Feeds from Space"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/integrationblock_macro.pt:10
 msgid "title_secure_feeds_from_space"
-msgstr ""
-
-#. Default: "Wiki start pages are the first page that are shown to all visitors above all recent activity on the wiki. These pages are to be treated as <b><i>Home</i></b> pages for the wiki. Put central navigation links to the most important areas of the wiki on this page. You can click this link to set a new start page for <i>this</i> wiki."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/app_wiki.pt:91
-msgid "title_select_wiki_start_page"
 msgstr ""
 
 #. Default: "Send a mail to this user"
@@ -6314,7 +5744,7 @@ msgid "title_workflow_policy_setup"
 msgstr ""
 
 #. Default: "to participate."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:135
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:134
 msgid "to_participate"
 msgstr ""
 
@@ -6324,7 +5754,7 @@ msgid "to_refine_your_search"
 msgstr ""
 
 #. Default: "URL:"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/icalendar_import.pt:70
+#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/icalendar_import.pt:69
 msgid "url_label"
 msgstr ""
 
@@ -6363,328 +5793,5 @@ msgstr ""
 #. Default: "${mourecount} More"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/topbarmybutton.pt:132
 msgid "x_more_link"
-msgstr ""
-
-#. Default: "Show Filters"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:5
-msgid "lbl_show_filters"
-msgstr ""
-
-#. Default: "Hide Filters"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:6
-msgid "lbl_hide_filters"
-msgstr ""
-
-#. Default: "Your status has been set successfully."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:7
-msgid "lbl_smessage_success"
-msgstr ""
-
-#. Default: "Unable to set your status.Please try again later."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:8
-msgid "lbl_smessage_error"
-msgstr ""
-
-#. Default: "New discussion added. Click %link to view it."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:9
-msgid "discussion_add_success"
-msgstr ""
-
-#. Default: "Please enter discussion text."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:10
-msgid "no_discussion_message"
-msgstr ""
-
-#. Default: "Please enter discussion title."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:11
-msgid "no_discussion_title_message"
-msgstr ""
-
-#. Default: "Unable to add discussion. Please try again later."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:12
-msgid "discussion_add_error"
-msgstr ""
-
-#. Default: "Unable to set your rating. Please try again later."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:13
-msgid "rating_error"
-msgstr ""
-
-#. Default: "more ..."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:14
-msgid "more_msg"
-msgstr ""
-
-#. Default: "... less"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:15
-msgid "less_msg"
-msgstr ""
-
-#. Default: "Your form has not been saved. All changes you have made will be lost."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:16
-msgid "text_form_modified_message"
-msgstr ""
-
-#. Default: "You already clicked the submit button. Do you really want to submit this form again?"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:17
-msgid "text_form_resubmit_message"
-msgstr ""
-
-#. Default: "Click to select date range"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:18
-msgid "lbl_daterange"
-msgstr ""
-
-#. Default: "Info"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/dashboard.pt:132
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/sharing.pt:52
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/cynin_edit_macros.pt:18
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:19
-msgid "Info"
-msgstr ""
-
-#. Default: "Error"
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/comments.pt:132
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/ksstemplates/listcomment.pt:101
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/myareablock.pt:67
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/itemdetails.pt:113
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/author.cpt:115
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/logged_out.cpt:86
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:20
-msgid "Error"
-msgstr ""
-
-#. Default: "Log out"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:21
-msgid "Log out"
-msgstr ""
-
-#. Default: "Prev"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:22
-msgid "Prev"
-msgstr ""
-
-#. Default: "Next"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:23
-msgid "Next"
-msgstr ""
-
-#. Default: "Close"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/browser/browsersupported.pt:89
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:24
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:29
-msgid "Close"
-msgstr ""
-
-#. Default: "Cancel"
-#: ../../../../ubify.viewlets/ubify/viewlets/browser/ksstemplates/listcomment.pt:96
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:25
-msgid "Cancel"
-msgstr ""
-
-#. Default: "The requested content cannot be loaded.<br />Please try again later.<br />"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:26
-msgid "content_error_msg"
-msgstr ""
-
-#. Default: "Cancel Rating"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:27
-msgid "lbl_title_cancel_rating"
-msgstr ""
-
-#. Default: "<strong>Egads!</strong> There was a problem getting this content. Here is what we know:"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:28
-msgid "help_msg_ajax_error"
-msgstr ""
-
-#. Default: "Image"
-#: ../../../../ubify.coretypes/ubify/coretypes/profiles/default/types/Image.xml
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:30
-msgid "Image"
-msgstr ""
-
-#. Default: "of"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:31
-msgid "of"
-msgstr ""
-
-#. Default: "Close X"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:32
-msgid "CloseX"
-msgstr ""
-
-#. Default: "You can also click anywhere outside the image to close."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:33
-msgid "lightbox_close_info_msg"
-msgstr ""
-
-#. Default: "Direct link to download the image."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:34
-msgid "lightbox_download_image_msg"
-msgstr ""
-
-#. Default: "Click to close"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:35
-msgid "lightbox_help_close_msg"
-msgstr ""
-
-#. Default: "Hover to interact"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:36
-msgid "lightbox_help_hover_msg"
-msgstr ""
-
-#. Default: "<blink>Loading...</blink>"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:37
-msgid "help_msg_ajax_loading"
-msgstr ""
-
-#. Default: "Clear"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:38
-msgid "ui_datepicker_clear_text_msg"
-msgstr ""
-
-#. Default: "Erase the current date"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:39
-msgid "ui_datepicker_clear_status_msg"
-msgstr ""
-
-#. Default: "Close"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:40
-msgid "ui_datepicker_close_text_msg"
-msgstr ""
-
-#. Default: "Close without change"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:41
-msgid "ui_datepicker_close_status_msg"
-msgstr ""
-
-#. Default: "Prev"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:42
-msgid "ui_datepicker_prev_text_msg"
-msgstr ""
-
-#. Default: "Show the previous month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:43
-msgid "ui_datepicker_prev_status_msg"
-msgstr ""
-
-#. Default: "Next"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:44
-msgid "ui_datepicker_next_text_msg"
-msgstr ""
-
-#. Default: "Show the next month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:45
-msgid "ui_datepicker_next_status_msg"
-msgstr ""
-
-#. Default: "Today"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:46
-msgid "ui_datepicker_current_text_msg"
-msgstr ""
-
-#. Default: "Show the current month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:47
-msgid "ui_datepicker_current_status_msg"
-msgstr ""
-
-#. Default: "Show a different month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:48
-msgid "ui_datepicker_month_status_msg"
-msgstr ""
-
-#. Default: "Show a different year"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:49
-msgid "ui_datepicker_year_status_msg"
-msgstr ""
-
-#. Default: "Wk"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:50
-msgid "ui_datepicker_week_header_msg"
-msgstr ""
-
-#. Default: "Week of the year"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:51
-msgid "ui_datepicker_week_status_msg"
-msgstr ""
-
-#. Default: "Set DD as first week day"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:52
-msgid "ui_datepicker_day_status_msg"
-msgstr ""
-
-#. Default: "Select DD, M d"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:53
-msgid "ui_datepicker_date_status_msg"
-msgstr ""
-
-#. Default: "Select a date"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:54
-msgid "ui_datepicker_init_status_msg"
-msgstr ""
-
-#. Default: "ago"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:55
-msgid "timeago_suffix_ago_msg"
-msgstr ""
-
-#. Default: "from now"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:56
-msgid "timeago_suffix_from_now_msg"
-msgstr ""
-
-#. Default: "less than a minute"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:57
-msgid "timeago_seconds_msg"
-msgstr ""
-
-#. Default: "about a minute"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:58
-msgid "timeago_minute_msg"
-msgstr ""
-
-#. Default: "\%d minutes"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:59
-msgid "timeago_minutes_msg"
-msgstr ""
-
-#. Default: "about an hour"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:60
-msgid "timeago_hour_msg"
-msgstr ""
-
-#. Default: "about \%d hours"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:61
-msgid "timeago_hours_msg"
-msgstr ""
-
-#. Default: "a day"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:62
-msgid "timeago_day_msg"
-msgstr ""
-
-#. Default: "\%d days"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:63
-msgid "timeago_days_msg"
-msgstr ""
-
-#. Default: "about a month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:64
-msgid "timeago_month_msg"
-msgstr ""
-
-#. Default: "\%d months"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:65
-msgid "timeago_months_msg"
-msgstr ""
-
-#. Default: "about a year"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:66
-msgid "timeago_year_msg"
-msgstr ""
-
-#. Default: "\%d years"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:67
-msgid "timeago_years_msg"
 msgstr ""
 

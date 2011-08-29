@@ -45,7 +45,7 @@ Mumbai-400064, India
 <metal:portlet define-macro="portlet"
    tal:define="controlPanel python:modules['Products.CMFCore.utils'].getToolByName(here, 'portal_controlpanel');
                groups python:controlPanel.getGroups('site');
-               getIconFor nocall:putils/getIconFor;
+               getIconFor nocall:context/plone_utils/getIconFor;
                issiteAdmin python:context.portal_membership.checkPermission('Manage portal',context)">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>

@@ -60,6 +60,7 @@ Mumbai-400064, India
     <ul class="contentViews">
         <li class="selected forcelink">
           <a href=""
+             tal:define="template_id template/getId"
              tal:attributes="href template_id"
              i18n:translate="label_users">Users</a>
         </li>
@@ -115,6 +116,7 @@ Mumbai-400064, India
         <form action=""
               name="users_add"
               method="post"
+              tal:define="template_id template/getId"
               tal:attributes="action template_id">
 
           <input class="standalone add"

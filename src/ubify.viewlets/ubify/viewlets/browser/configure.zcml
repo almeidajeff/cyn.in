@@ -512,7 +512,7 @@ Mumbai-400064, India
      <browser:viewlet
         name="ubify.contentviews"
         manager=".interfaces.IUContentViews"
-        template="contentviews.pt"
+        class=".common.ContentViewsViewlet"
         permission="zope2.View"
     />
     <browser:viewlet
@@ -562,7 +562,7 @@ Mumbai-400064, India
         manager=".interfaces.IItemMetaData"
         class=".itemmetadata.ItemMetaDataViewlet"
         permission="zope2.View"
-        for="plone.app.kss.interfaces.IContentish"
+        for="Products.CMFCore.interfaces.IContentish"
         />
     <browser:viewlet
         name="ubify.documentactions"

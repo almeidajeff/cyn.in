@@ -64,8 +64,14 @@ class ApplicationsMenuViewlet(ViewletBase):
         fti = getattr(typetool,'Plone Site')
         self.showsitehomemenu = False
 
-        view = self.context.restrictedTraverse('@@plone')
-        tabs = view.prepareObjectTabs()
+#        view = self.context.restrictedTraverse('@@plone')
+#        tabs = view.prepareObjectTabs()
+        plone_view = getMultiAdapter((self.context,self.request), name="plone") 
+        provider = getMultiAdapter( 
+                        (self.context, self.request, plone_view),  
+                        name="plone.contentviews") 
+        viewlet = provider.__getitem__("plone.contentviews") 
+        tabs = viewlet.prepareObjectTabs() 
         for eachtab in tabs:
             if eachtab['id'].lower() == 'edit' and eachtab['selected']:
                 self.addnewitems = []
@@ -148,7 +154,13 @@ class ApplicationsMenuViewlet(ViewletBase):
         
         
         self.ploneview = self.context.restrictedTraverse('@@plone');
-        self.view_actions = self.ploneview.prepareObjectTabs();
+#        self.view_actions = self.ploneview.prepareObjectTabs();
+        plone_view = getMultiAdapter((self.context,self.request), name="plone")
+        provider = getMultiAdapter(
+                       (self.context, self.request, plone_view),
+                       name="plone.contentviews")
+        viewlet = provider.__getitem__("plone.contentviews")
+        self.view_actions = viewlet.prepareObjectTabs()
         selected_views = [br for br in self.view_actions if br['selected']==True]
         if len(selected_views) > 0:
             self.manage_selectedItem = selected_views[0]

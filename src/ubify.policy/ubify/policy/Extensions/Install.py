@@ -136,7 +136,7 @@ def install(self,
         assignStackerRelatedPortlet(portal)
         disableGlobalAdds(portal,logger)
         setup_sitehome_portlets(portal,logger)
-        disable_inlineEditing(portal,logger)
+#        disable_inlineEditing(portal,logger)
         remove_navigationportlet(portal,logger)
         remove_calendarportlet(portal,logger)
         configureRatings(portal,logger)

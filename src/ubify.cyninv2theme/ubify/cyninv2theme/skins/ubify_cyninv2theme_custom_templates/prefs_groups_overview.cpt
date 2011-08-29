@@ -60,11 +60,14 @@ Mumbai-400064, India
     <ul class="contentViews">
         <li class="forcelink">
             <a href=""
+               tal:define="here_url context/@@plone_context_state/object_url"
                tal:attributes="href string:$here_url/prefs_users_overview"
                i18n:translate="label_users">Users</a>
         </li>
         <li class="selected forcelink">
             <a href=""
+               tal:define="here_url context/@@plone_context_state/object_url;
+                           template_id template/getId"
                tal:attributes="href string:$here_url/$template_id"
                i18n:translate="label_groups">Groups</a>
         </li>
@@ -195,6 +198,8 @@ Mumbai-400064, India
 
                         <tal:block repeat="group_info batch">
                         <tr tal:define="oddrow repeat/group_info/odd;
+                                        acl_users nocall:context/acl_users;
+                                        here_url context/@@plone_context_state/object_url;
                                         roles python:['this'];
                                         group python:acl_users.getGroupById(group_info['groupid']);"
                             tal:attributes="class python:test(oddrow,'odd','even')">
@@ -206,11 +211,16 @@ Mumbai-400064, India
                                        value=""
                                        />
 
-                                <a href="#"
+                                <!--<a href="#"
                                    tal:attributes="href python:here_url+'/prefs_group_members?'+ztu.make_query(groupname=group_info['groupid']);
                                                    title group_info/title|group_info/groupid">
 
                                    <tal:block replace="structure portal/group.gif" />&nbsp;
+                                   <tal:group tal:replace="group_info/title|group_info/groupid" />
+                               </a>-->
+                                <a href="#"
+                                   tal:attributes="title group_info/title|group_info/groupid">
+
                                    <tal:group tal:replace="group_info/title|group_info/groupid" />
                                </a>
                             </td>

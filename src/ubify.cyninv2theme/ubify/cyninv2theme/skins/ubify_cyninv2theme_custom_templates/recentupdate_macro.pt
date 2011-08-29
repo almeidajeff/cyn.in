@@ -56,13 +56,13 @@ Mumbai-400064, India
                         class string:${item_wf_state_class} url" tal:content="item_title_or_id" />
             </div>
             <tal:translate>
-                <div class="recentupdateitemauthorrow" tal:condition="not: showonlydate|nothing" i18n:translate="text_last_action_created">
+                <div class="recentupdateitemauthorrow" tal:condition="not: showonlydate|nothing" i18n:translate="text_last_action">
                     Last <tal:block tal:replace="python: lastchangeaction" i18n:name="lastchangeaction" /> by
                     <a tal:attributes="rel string:${portal_url}/userinfo?userid=${lastchangeperformer}"
                        tal:omit-tag="not:author" class="itemauthor avatarlink">
                        <tal:block tal:content="python:lastchangeperformer" i18n:name="userlink"/>
                     </a>
-                    <span class="" tal:attributes="title string:${nicedlastchangedate}" tal:content="nicedlastchangedate" i18n:name="created"/>
+                    <span class="" tal:attributes="title string:${nicedlastchangedate}" tal:content="nicedlastchangedate"  i18n:name="created"/>
                 </div>
                 <div class="recentupdateitemauthorrow" tal:condition="showonlydate|python:False">
                     <span class="" tal:attributes="title string:${nicedcreateddate}" tal:content="nicedcreateddate" />

@@ -51,8 +51,6 @@ from ubify.coretypes.interfaces import IAudio
 from zope.event import notify
 from Products.Archetypes.event import ObjectInitializedEvent, ObjectEditedEvent
 
-from ubify.policy import CyninMessageFactory as _
-
 schema = DefaultSchema.copy()
 
 
@@ -64,10 +62,10 @@ class Audio(BaseClass):
     portal_type = "Audio"
     archetype_name = BaseClass.archetype_name
     
-    assocFileExt   = ('ogg', 'wav', 'mp3')
+    assocFileExt   = ('mp3', 'wav', )
     if schema['file'] <> None:
-        schema['file'].widget.label = _(u'Audio')
-        schema['file'].widget.description = _(u'Select a .mp3 or .wav audio file.')
+        schema['file'].widget.label = 'Audio'
+        schema['file'].widget.description = 'Select a .mp3 or .wav audio file.'
         
     schema = schema
     

@@ -39,8 +39,8 @@ Mumbai-400064, India
 -->
 <object name="Folder" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">File Repository</property>
- <property name="description" i18n:translate="">A file repository can contain files and sub-file repositories.</property>
+ <property name="title" >File Repository</property>
+ <property name="description">A file repository can contain files and sub-file repositories.</property>
  <property name="content_icon">file_repository.png</property>
  <property name="factory">addFileRepository</property>
  <property name="filter_content_types">True</property>

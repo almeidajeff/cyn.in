@@ -22,7 +22,7 @@
 
 	// default settings
 	$.rating = {
-		cancel: title_cancel_rating,   // advisory title for the 'cancel' link
+		cancel: 'Cancel Rating',   // advisory title for the 'cancel' link
 		cancelValue: '',           // value to submit when user click the 'cancel' link
 		split: 0,                  // split the star into how many parts?
 

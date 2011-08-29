@@ -1,4 +1,0 @@
-ATRatings was created by Geoff Davis (geoff at geoffdavis dot net)
-
-panjunyong(panjy at zopechina.com) 
-   bug fix, configuration throught the web, skins

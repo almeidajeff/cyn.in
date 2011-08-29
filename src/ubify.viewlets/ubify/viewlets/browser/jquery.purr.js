@@ -59,7 +59,7 @@
 				{
 					className: 'close',
 					href: '#close',
-					innerHTML: label_purr_innerHTML_close
+					innerHTML: 'Close'
 				}
 			)
 				.appendTo( notice )

@@ -78,12 +78,14 @@ Mumbai-400064, India
       <role name="Contributor"/>
       <role name="Editor" />
     </permission>
+<!--
     <permission name="ATContentTypes: Add Favorite" acquire="True">
       <role name="Manager"/>
       <role name="Owner"/>
       <role name="Contributor"/>
       <role name="Editor" />
     </permission>
+-->
     <permission name="ATContentTypes: Add File" acquire="True">
       <role name="Manager"/>
       <role name="Owner"/>

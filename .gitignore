@@ -1,0 +1,15 @@
+*.py[co]
+*.egg-info
+products_DEPRECATED
+parts
+local.cfg
+.mr.developer.cfg
+.installed.cfg
+allsrc
+bin
+develop-eggs
+var
+src/Products.ATRatings
+src/collective.zipfiletransport
+tmp
+.hg*

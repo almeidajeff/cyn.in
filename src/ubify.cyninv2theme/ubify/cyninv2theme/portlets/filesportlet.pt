@@ -58,13 +58,13 @@ Mumbai-400064, India
                         item_modifiedby python:modules['ubify.viewlets.utils'].getObjectModifiedBy(obj);
                         mtool python:context.portal_membership"
             tal:attributes="class python:oddrow and    'recenteven' or 'recentodd'">
-            <span  class="recentportletdate" tal:define="mdate python:toLocalizedTime(obj.ModificationDate)" tal:attributes="title string:${mdate}" tal:content="mdate"><tal:comment replace="nothing">May 5</tal:comment></span>
+            <span  class="recentportletdate" tal:define="mdate python:toLocalizedTime(obj.ModificationDate)" tal:attributes="title string:${mdate}" tal:content="mdate">May 5</span>
             <a href=""
                tal:attributes="href string:${obj/getURL}/view;
                                title obj/Description;
                                class string:$item_wf_state_class">
                 <tal:title content="obj/pretty_title_or_id">
-                    <tal:comment replace="nothing">Title</tal:comment>
+                    Title
                 </tal:title>
             </a>
             &nbsp;&mdash;
@@ -75,7 +75,7 @@ Mumbai-400064, India
                  tal:content="python:author and author['fullname'] or item_modifiedby"
                  tal:omit-tag="not:author"
                  >
-                <tal:comment replace="nothing">Bob Dobalina</tal:comment>
+                Bob Dobalina
               </a>
             </tal:name>
         </dd>
@@ -84,6 +84,6 @@ Mumbai-400064, India
         <a class="recentportletxmore" href="#" tal:define="morecount view/resultscount" tal:condition="python:morecount > 0"
             tal:attributes="href string:${view/portal_url}/search?portal_type=File&amp;sort_on=Date&amp;sort_order=reverse&amp;${view/location}"
              i18n:translate="link_more">
-            <span tal:content="morecount" i18n:name="morecount" /> More &raquo;
+            <span tal:content="morecount" i18n:name="morecount" /> More
         </a>
 </dl>

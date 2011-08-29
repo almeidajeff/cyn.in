@@ -75,10 +75,10 @@ Mumbai-400064, India
           <metal:override metal:fill-slot="content">
             <div id="configmaincontent">
                 <metal:slot metal:define-slot="prefs_configlet_main" tal:content="nothing">
-                  <tal:comment replace="nothing">Page body text</tal:comment>
+                  Page body text
                 </metal:slot>
                 <metal:slot metal:define-slot="prefs_configlet_content" tal:content="nothing">
-                  <tal:comment replace="nothing">Page body text</tal:comment>
+                  Page body text
                 </metal:slot>
             </div>
           </metal:override>

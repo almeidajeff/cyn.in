@@ -1015,7 +1015,7 @@ jQuery.bt.defaults = {
                                            
   ajaxError:        '<strong>ERROR:</strong> <em>%error</em>',
                                            // error text, use "%error" to insert error from server
-  ajaxLoading:     msg_ajax_loading,  // yes folks, it's the blink tag!
+  ajaxLoading:     '<blink>Loading...</blink>',  // yes folks, it's the blink tag!
   ajaxData:         {},                    // key/value pairs
   ajaxType:         'GET',                 // 'GET' or 'POST'
   ajaxCache:        true,                  // cache ajax results and do not send request to same url multiple times

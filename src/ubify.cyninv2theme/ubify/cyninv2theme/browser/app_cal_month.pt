@@ -52,13 +52,13 @@ Mumbai-400064, India
                     hasqparams python:qsparams != '';
                     urlpart python:'';
                     urlpart python:hasqparams and '&' + qsparams or urlpart;"
-        tal:attributes="href string:$here_url/rss.xml?portal_type=Event${urlpart}"/>
+        tal:attributes="href string:${context/@@plone_context_state/object_url}/rss.xml?portal_type=Event${urlpart}"/>
   <link rel="alternate" title="Atom" type="application/atom+xml"
         tal:define="qsparams request/QUERY_STRING|nothing;
                     hasqparams python:qsparams != '';
                     urlpart python:'';
                     urlpart python:hasqparams and '&' + qsparams or urlpart;"
-        tal:attributes="href string:$here_url/atom.xml?portal_type=Event${urlpart}"/>  
+        tal:attributes="href string:${context/@@plone_context_state/object_url}/atom.xml?portal_type=Event${urlpart}"/>  
   </metal:block>
   
 </head>

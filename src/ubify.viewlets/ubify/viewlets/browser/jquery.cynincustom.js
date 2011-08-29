@@ -419,7 +419,7 @@ jq(document).ready(function() {
                         ,centerPointY:.1
                         ,cornerRadius:10
                         ,ajaxPath:["jq(this).attr('rel')"]
-                        ,ajaxError: "<div class='bterror'>"+msg_ajax_error+" <em>%error</em>.</div>"
+                        ,ajaxError: "<div class='bterror'><strong>Egads!</strong> There was a problem getting this content. Here's what we know: <em>%error</em>.</div>"
                         ,ajaxLoading: '<div class="btspinner"><center><img src="/spinner-w-48.gif" /></center></div>'
                         ,ajaxCache:false
                         ,width:300
@@ -439,7 +439,7 @@ jq(document).ready(function() {
                         ,spikeGirth:15
                         ,cornerRadius:10
                         ,ajaxPath:["jq(this).attr('rel')"]
-                        ,ajaxError: "<div class='bterror'>"+msg_ajax_error+" <em>%error</em>.</div>"
+                        ,ajaxError: "<div class='bterror'><strong>Egads!</strong> There was a problem getting this content. Here's what we know: <em>%error</em>.</div>"
                         ,ajaxLoading: '<div class="btspinner"><center><img src="/spinner-w-48.gif" /></center></div>'
                         ,ajaxCache:false
                         ,width:320

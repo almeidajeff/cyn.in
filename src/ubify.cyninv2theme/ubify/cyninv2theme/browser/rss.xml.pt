@@ -9,7 +9,7 @@
 
     <channel>
 
-        <title tal:content="feed/getTitle"><tal:comment replace="nothing">Title of page</tal:comment></title>
+        <title tal:content="feed/getTitle">Title of page</title>
         <link tal:content="feed/getWebURL"></link>
         <description tal:content="feed/getDescription">
         </description>
@@ -17,7 +17,7 @@
         <generator i18n:translate="generator">basesyndication</generator>
 
         <image>
-            <title tal:content="feed/getTitle"><tal:comment replace="nothing">Title of page</tal:comment></title>
+            <title tal:content="feed/getTitle">Title of page</title>
             <url tal:content="feed/getImageURL"></url>
             <link tal:content="feed/getWebURL"></link>
         </image>
@@ -27,12 +27,12 @@
                 <title tal:content="feedentry/getTitle"></title>
                 <guid tal:content="feedentry/getWebURL"></guid>
                 <link tal:content="feedentry/getWebURL"></link>
-                <description tal:content="feedentry/getBody"><tal:comment replace="nothing">body</tal:comment></description>
+                <description tal:content="feedentry/getBody">body</description>
                 <author tal:condition="feedentry/getAuthor"
                         tal:content="feedentry/getAuthor"></author>
 
                 <tal:repeat repeat="tag feedentry/getTags">
-                    <category tal:content="tag"><tal:comment replace="nothing">tag</tal:comment></category>
+                    <category tal:content="tag">tag</category>
                 </tal:repeat>
 
                 <pubDate tal:content="python:feedentry.getEffectiveDate().rfc822()"></pubDate>

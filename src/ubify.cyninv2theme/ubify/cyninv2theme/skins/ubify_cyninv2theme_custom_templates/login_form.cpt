@@ -85,7 +85,7 @@ Mumbai-400064, India
             <div class="loginbox">
                 <tal:macroslot  metal:define-macro="loginmainarea">
                 <fieldset id="login-form" tal:define="came_from request/came_from|request/HTTP_REFERER|nothing;
-                 came_from python:test(utool.isURLInPortal(came_from), came_from, None);
+                 came_from python:test(context.portal_url.isURLInPortal(came_from), came_from, None);
                  errors options/state/getErrors | nothing;
                  ac_name auth/name_cookie|string:__ac_name;
                  ac_password auth/pw_cookie|string:__ac_password;
@@ -126,7 +126,7 @@ Mumbai-400064, India
                                     <div class="field"
                                          tal:define="error python:errors.get(ac_name, None);"
                                          tal:attributes="class python:test(error, 'field error', 'field')">
-                                        <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+                                        <div tal:content="error" class="fielderror">Validation error output</div>
                                         <div class="loginlabelholder">
                                         <label i18n:translate="label_login_name"
                                                tal:attributes="for ac_name"
@@ -190,14 +190,14 @@ Mumbai-400064, India
                                 <div class="loginbottomlinks">
                                     <tal:forgotpassword tal:condition="python:checkPermission('Mail forgotten password', here)">
                                         <a class="loginbottomlink"
-                                           tal:attributes="href python:'mail_password_form?'+ztu.make_query(userid=login_name)"
+                                           tal:attributes="href python:'mail_password_form?'+modules['ZTUtils'].make_query(userid=login_name)"
                                            i18n:translate="forgot_password">Forgot password?</a> |
                                     </tal:forgotpassword>
                                     <tal:signuplink
                                        tal:define="join string:${portal_url}/signup_form"
                                        tal:condition="python: join and checkPermission('Add portal member', here)">
                                         <a class="loginbottomlink"
-                                           tal:define="join python:join+test(join.find('?')==-1, '?', '&amp;')+ztu.make_query(came_from=came_from);"
+                                           tal:define="join python:join+test(join.find('?')==-1, '?', '&amp;')+modules['ZTUtils'].make_query(came_from=came_from);"
                                            tal:attributes="href join"
                                            i18n:translate="sign_up">
                                             Sign up</a> |

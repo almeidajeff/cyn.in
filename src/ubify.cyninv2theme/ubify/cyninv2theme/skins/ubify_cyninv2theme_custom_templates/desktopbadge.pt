@@ -62,7 +62,7 @@ Mumbai-400064, India
 			var attributes = {};
 			swfobject.embedSWF(portal_url + "/AIRInstallBadge.swf", "badgediv", "220", "180", "9.0.115", portal_url + "/expressInstall.swf", flashvars, params, attributes);
     </script>
-        <div class="paragraph" i18n:translate="label_caldav_url_client_desktop">
+        <div class="paragraph" i18n:translate="label_caldav_url">
             Click on the button label below to install the cyn.in desktop client to your desktop. If you've already installed the cyn.in desktop, clicking on the button below will launch it.
         </div>
 	<div tal:define="desktoploginurl python:hasattr(site_properties,'desktop_login_url') and site_properties.desktop_login_url != '' and site_properties.desktop_login_url or portal_url"

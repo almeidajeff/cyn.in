@@ -38,7 +38,7 @@ Mumbai-400064, India
 </tal:comment>
 <html i18n:domain="cynin" tal:condition="request/username|nothing">
     <head>
-        <link rel="StyleSheet" tal:attributes="href string:${context/portal_url}/ffxmpp.css" type="text/css" />
+        <LINK REL="StyleSheet" tal:attributes="HREF string:${context/portal_url}/ffxmpp.css" TYPE="text/css">
         <script type="text/javascript" tal:attributes="src string:${context/portal_url}/jquery.js"></script>
         <script type="text/javascript" tal:attributes="src string:${context/portal_url}/conversationsidepanel.js"></script>
     </head>
@@ -86,7 +86,7 @@ Mumbai-400064, India
             </div>
             <div id="recentitemslabelholder">
                 <div class="recentactivitylabelpaddingholder">
-                    <label i18n:translate="">Recent Activity:</label>
+                    <label>Recent Activity:</label>
                 </div>
             </div>
             <div id="conversationsidepanelitems">

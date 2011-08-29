@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="SpacesFolder" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">SpacesFolder</property>
- <property name="description" i18n:translate="">A SpacesFolder can contain only Spaces.</property>
+ <property name="title" >SpacesFolder</property>
+ <property name="description"
+     >A SpacesFolder can contain only Spaces.</property>
  <property name="content_icon">space.png</property>
  <property name="factory">addSpacesFolder</property>
  <property name="filter_content_types">True</property>

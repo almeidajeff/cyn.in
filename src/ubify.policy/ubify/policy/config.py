@@ -53,8 +53,6 @@ testuserpass = "secret"
 createtestusers = False
 createtestspaces = False
 user_my_folder_name = 'My Space'
-
-# spaces default addable types
 spacesdefaultaddabletypes = ('Blog',
                              'Calendar',
                              'FileRepository',
@@ -68,7 +66,6 @@ spacesdefaultaddabletypes = ('Blog',
                              'SmartView',
                              )
 
-# spaces default addable non folderish types
 spacesdefaultaddablenonfolderishtypes = ('Document',
                                          'Event',
                                          'File',
@@ -425,10 +422,10 @@ cynin_desktop_left_column_text = """
 <td>Get your cyn.in notifications, search and instant discussions, direct to your desktop.</td>
 </tr>
 <tr>
-<td align="center"><a class="nourlicon" href="http://cyn.in/cynin-desktop"><img class="image-inline image-inline" src="/get-cyniin-desktop.png" alt="Get Cyni.in Desktop" /></a></td>
+<td align="center"><a class="nourlicon" href="http://cyn.in/cynin-desktop"><img class="image-inline image-inline" src="/get-cyniin-desktop.png"/></a></td>
 </tr>
 <tr>
-<td>Supports: <img src="/windows_icon.png" alt="Windows XP / Vista" /> Windows XP / Vista, <img src="/apple_icon.png" alt="Mac OS X" />Mac OS X, <img class="image-inline image-inline" src="/linux_icon.png" alt="" /> Linux.</td>
+<td>Supports: <img src="/windows_icon.png" /> Windows XP / Vista, <img src="/apple_icon.png" />Mac OS X, <img class="image-inline image-inline" src="/linux_icon.png" /> Linux.</td>
 </tr>
 </tbody>
 </table>        """

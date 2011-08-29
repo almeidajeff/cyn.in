@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="StatuslogFolder" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">Status Log</property>
- <property name="description" i18n:translate="">A Status log can contain only status messages.</property>
+ <property name="title" >Status Log</property>
+ <property name="description"
+     >A Status log can contain only status messages.</property>
  <property name="content_icon">status_online.png</property>
  <property name="factory">addStatuslogFolder</property>
  <property name="filter_content_types">True</property>

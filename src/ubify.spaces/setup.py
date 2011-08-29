@@ -65,6 +65,7 @@ Provides the Ubify Spaces content type for adding Spaces which can contain team 
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'zope.app.schema',
       ],
       entry_points="""
       # -*- Entry points: -*-

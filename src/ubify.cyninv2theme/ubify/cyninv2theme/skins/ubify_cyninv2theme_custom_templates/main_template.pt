@@ -43,7 +43,23 @@
   <html xmlns="http://www.w3.org/1999/xhtml"
         xml:lang="en"
         lang="en"
-        tal:define="lang language"
+        tal:define="lang context/@@plone_portal_state/default_language;
+                    putils context/plone_utils;
+                    portal context/@@plone_portal_state/portal;
+                    portal_url portal/absolute_url;
+                    site_properties context/portal_properties/site_properties;
+                    isRTL python:False;
+                    portal_properties context/portal_properties;
+                    portal_state context/@@plone_portal_state;
+                    context_state context/@@plone_context_state;
+                    plone_view context/@@plone;
+                    lang portal_state/language;
+                    view nocall:view | nocall: plone_view;
+                    dummy python: plone_view.mark_view(view);
+                    checkPermission nocall: context/portal_membership/checkPermission;
+                    site_properties context/portal_properties/site_properties;
+                    ajax_load request/ajax_load | nothing;
+                    ajax_include_head request/ajax_include_head | nothing"
         tal:attributes="lang lang;
                       xml:lang lang" i18n:domain="cynin">
     <tal:cache tal:define="charset site_properties/default_charset|string:utf-8">
@@ -60,7 +76,9 @@
       <base tal:attributes="href here/renderBase" /><!--[if lt IE 7]></base><![endif]-->
       </metal:baseslot>
       <meta name="generator" content="cyn.in - http://cyn.in" />
+
       <div tal:replace="structure provider:plone.htmlhead" />
+
       <meta tal:define="metatags python:putils.listMetaTags(here).items()"
             tal:condition="metatags"
             tal:repeat="keyval metatags"
@@ -114,8 +132,7 @@
                       </div>
                     <div class="adderbar">
                       <tal:conditional  tal:condition="isauthenticated"><tal:integration metal:use-macro="here/topbar_my_macro/macros/myblock"/></tal:conditional>
-                      <tal:conditional  tal:condition="python: not isauthenticated">
-                      <div class="myareanotloggedin" 
+                      <tal:conditional  tal:condition="python: not isauthenticated"><div class="myareanotloggedin" 
                       tal:define="
                       logout_url python:portal_url + '/logout';
                       login_url python:portal_url + '/login_form';

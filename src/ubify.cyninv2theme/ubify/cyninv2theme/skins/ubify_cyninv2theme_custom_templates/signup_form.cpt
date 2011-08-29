@@ -20,7 +20,7 @@
                  mailhost context/MailHost/smtp_host|nothing;
                  mailfrom context/email_from_address|nothing;
                  site_properties context/portal_properties/site_properties;
-                 allowEnterPassword not:utool/getPortalObject/validate_email|nothing;
+                 allowEnterPassword not:context/portal_url/getPortalObject/validate_email|nothing;
                  mailpw site_properties/validate_email;
                  mailconfigured python:allowEnterPassword or (mailhost and mailfrom)">
     <tal:macro metal:use-macro="here/login_form/macros/loginboxcontainer">
@@ -42,7 +42,7 @@
         method="post"
         tal:condition="mailconfigured"
         tal:define="allowEnterPassword site_properties/validate_email|nothing;"
-        tal:attributes="action template_id" >
+        tal:attributes="action context/@@plone/getViewTemplateId" >
 
     <fieldset>
 
@@ -64,7 +64,7 @@
         <label for="fullname"
                i18n:translate="label_full_name">Full Name</label>
 
-        <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+        <div tal:content="error" class="fielderror">Validation error output</div>
 
         <input type="text"
                name="fullname"
@@ -94,7 +94,7 @@
                 'jsmith'. No spaces or special characters.
               </div>
 
-              <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+              <div tal:content="error" class="fielderror">Validation error output</div>
 
               <input type="text"
                      name="username"
@@ -117,7 +117,7 @@
               i18n:attributes="title title_required;"
               i18n:translate="label_required">(Required)</span>
 
-              <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+              <div tal:content="error" class="fielderror">Validation error output</div>
 
               <input type="text"
                      name="email"
@@ -145,7 +145,7 @@
                 Minimum 5 characters.
               </div>
 
-              <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+              <div tal:content="error" class="fielderror">Validation error output</div>
 
               <input type="password"
                      name="password"
@@ -173,7 +173,7 @@
                 Re-enter the password. Make sure the passwords are identical.
               </div>
 
-              <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+              <div tal:content="error" class="fielderror">Validation error output</div>
 
               <input type="password"
                      name="password_confirm"

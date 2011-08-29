@@ -38,7 +38,6 @@
 ###############################################################################
 from Products.CMFCore.utils import getToolByName
 from StringIO import StringIO
-from Products.CMFEditions.setuphandlers import DEFAULT_POLICIES
 from zope.component import getUtility
 from zope.component import getMultiAdapter
 from plone.portlets.interfaces import IPortletAssignmentMapping
@@ -66,6 +65,8 @@ from Products.Archetypes.event import ObjectInitializedEvent, ObjectEditedEvent
 from zope.component import createObject
 from zope.schema.interfaces import IVocabularyFactory
 from zope.component import getUtility,getMultiAdapter,getSiteManager
+
+DEFAULT_POLICIES = ('at_edit_autoversion', 'version_on_revert') 
 
 def getOrCreateType(portal, atobj, newid, newtypeid):
     """

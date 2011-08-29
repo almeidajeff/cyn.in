@@ -175,7 +175,7 @@ Mumbai-400064, India
                                                         <div class="listitemdetailleftblockholder">
                                                             <div class="documentByLine" tal:condition="item_description">
                                                                 <tal:byline condition="show_about">
-                                                                    <label i18n:translate="label_description">Description</label>:
+                                                                    <label i18n:translate="label_description">Description:</label>
                                                                     <span tal:content="item_description" />
                                                                 </tal:byline>
                                                             </div>
@@ -203,7 +203,7 @@ Mumbai-400064, India
                                                                 pathlink python: portal_url + prettypath + '/' + URLsuffix;
                                                                 pathtitle python:modules['ubify.cyninv2theme'].getAppTitleForContext(item);
                                                                 ">
-                                                                    <label i18n:translate="label_location">Location</label>:
+                                                                    <label i18n:translate="label_location">Location:</label>
                                                                     <a tal:attributes="href pathlink"><tal:block tal:replace="prettypathtitle" /></a>
                                                             </div>
                                                             <tal:categoriesblock tal:define="categories item/Subject|nothing">

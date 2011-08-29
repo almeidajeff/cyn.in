@@ -63,12 +63,12 @@ Mumbai-400064, India
                                title o/title">
                 <img tal:replace="structure o/icon" />
                 <span tal:content="o/title">
-                    <tal:comment replace="nothing">Title</tal:comment>
+                    Title
                 </span>
                 <span class="portletItemDetails"
                       tal:define="moddate o/mod_date;">
                     <span tal:replace="o/creator">Jim Smith</span> &mdash;
-                    <span tal:define="mdate python:toLocalizedTime(moddate)" class="" tal:attributes="title string:${mdate}" tal:content="mdate"> <tal:comment replace="nothing">May 5</tal:comment></span>
+                    <span tal:define="mdate python:toLocalizedTime(moddate)" class="" tal:attributes="title string:${mdate}" tal:content="mdate"> May 5</span>
                 </span>
             </a>
 

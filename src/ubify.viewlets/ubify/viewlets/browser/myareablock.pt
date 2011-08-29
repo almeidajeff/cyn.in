@@ -77,7 +77,7 @@ Mumbai-400064, India
         </div>
     </div>
     <div tal:condition="has_memberfolder" id="currentstatusholder">
-        <label tal:define="lblheaderclass python:view.recent_message == '' and 'statusheaderlabel hidden' or 'statusheaderlabel';" tal:attributes="class lblheaderclass"><tal:block i18n:translate="label_my_current_status">My Current Status:</tal:block>
+        <label tal:define="lblheaderclass python:view.recent_message == '' and 'statusheaderlabel hidden' or 'statusheaderlabel';" tal:attributes="class lblheaderclass"><tal:block i18n:translate="label_current_status">My Current Status:</tal:block>
           <tal:hascomments tal:condition="python:view.has_status_message and (view.status_comment_count > 0)">
               <a tal:attributes="href view/discuss_url;class string:normallink;id string:comcynapsestatusmessagecommentscount">                
                 <img tal:attributes="src string:${portal_url}/discussionitem_icon.png" />

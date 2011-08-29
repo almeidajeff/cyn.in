@@ -19,54 +19,7 @@
     var_info python:cyninmf(u'Info',u'Info');
     var_error python:cyninmf(u'Error',u'Error');
     var_logout_title python:cyninmf(u'Log out',u'Log out');
-    var_label_nyro_modal_prev python:cyninmf(u'Prev',u'Prev');
-    var_label_nyro_modal_next python:cyninmf(u'Next',u'Next');
-    var_label_nyro_modal_close python:cyninmf(u'Close',u'Close');
-    var_label_nyro_modal_cancel python:cyninmf(u'Cancel',u'Cancel');
-    var_content_error_msg python:cyninmf(u'content_error_msg',u'The requested content cannot be loaded.<br />Please try again later.<br />');
-    var_title_cancel_rating python:cyninmf(u'lbl_title_cancel_rating',u'Cancel Rating');
-    var_msg_ajax_error python:cyninmf(u'help_msg_ajax_error',u'<strong>Egads!</strong> There was a problem getting this content. Here is what we know:');
-    var_label_purr_innerHTML_close python:cyninmf(u'Close',u'Close');
-    var_lightbox_image_msg python:cyninmf(u'Image',u'Image');
-    var_lightbox_of_msg python:cyninmf(u'of',u'of');
-    var_lightbox_closeX_msg python:cyninmf(u'CloseX',u'Close X');
-    var_lightbox_close_info_msg python:cyninmf(u'lightbox_close_info_msg',u'You can also click anywhere outside the image to close.');
-    var_lightbox_download_image_msg python:cyninmf(u'lightbox_download_image_msg',u'Direct link to download the image.');
-    var_lightbox_help_close_msg python:cyninmf(u'lightbox_help_close_msg',u'Click to close');
-    var_lightbox_help_hover_msg python:cyninmf(u'lightbox_help_hover_msg',u'Hover to interact');
-    var_msg_ajax_loading python:cyninmf(u'help_msg_ajax_loading',u'<blink>Loading...</blink>');
-    var_ui_datepicker_clear_text_msg python:cyninmf(u'ui_datepicker_clear_text_msg',u'Clear');
-    var_ui_datepicker_clear_status_msg python:cyninmf(u'ui_datepicker_clear_status_msg',u'Erase the current date');
-    var_ui_datepicker_close_text_msg python:cyninmf(u'ui_datepicker_close_text_msg',u'Close');
-    var_ui_datepicker_close_status_msg python:cyninmf(u'ui_datepicker_close_status_msg',u'Close without change');
-    var_ui_datepicker_prev_text_msg python:cyninmf(u'ui_datepicker_prev_text_msg',u'Prev');
-    var_ui_datepicker_prev_status_msg python:cyninmf(u'ui_datepicker_prev_status_msg',u'Show the previous month');
-    var_ui_datepicker_next_text_msg python:cyninmf(u'ui_datepicker_next_text_msg',u'Next');
-    var_ui_datepicker_next_status_msg python:cyninmf(u'',u'Show the next month');
-    var_ui_datepicker_current_text_msg python:cyninmf(u'ui_datepicker_current_text_msg',u'Today');
-    var_ui_datepicker_current_status_msg python:cyninmf(u'ui_datepicker_current_status_msg',u'Show the current month');
-    var_ui_datepicker_month_status_msg python:cyninmf(u'ui_datepicker_month_status_msg',u'Show a different month');
-    var_ui_datepicker_year_status_msg python:cyninmf(u'ui_datepicker_year_status_msg',u'Show a different year');
-    var_ui_datepicker_week_header_msg python:cyninmf(u'ui_datepicker_week_header_msg',u'Wk');
-    var_ui_datepicker_week_status_msg python:cyninmf(u'ui_datepicker_week_status_msg',u'Week of the year');
-    var_ui_datepicker_day_status_msg python:cyninmf(u'ui_datepicker_day_status_msg',u'Set DD as first week day');
-    var_ui_datepicker_date_status_msg python:cyninmf(u'ui_datepicker_date_status_msg',u'Select DD, M d');
-    var_ui_datepicker_init_status_msg python:cyninmf(u'ui_datepicker_init_status_msg',u'Select a date');
-    var_timeago_suffix_ago_msg python:cyninmf(u'timeago_suffix_ago_msg',u'ago');
-    var_timeago_from_now_msg python:cyninmf(u'timeago_suffix_from_now_msg',u'from now');
-    var_timeago_seconds_msg python:cyninmf(u'timeago_seconds_msg',u'less than a minute');
-    var_timeago_minute_msg python:cyninmf(u'timeago_minute_msg',u'about a minute');
-    var_timeago_minutes_msg python:cyninmf(u'timeago_minutes_msg',u'\%d minutes');
-    var_timeago_hour_msg python:cyninmf(u'timeago_hour_msg',u'about an hour');
-    var_timeago_hours_msg python:cyninmf(u'timeago_hours_msg',u'about \%d hours');
-    var_timeago_day_msg python:cyninmf(u'timeago_day_msg',u'a day');
-    var_timeago_days_msg python:cyninmf(u'timeago_days_msg',u'\%d days');
-    var_timeago_month_msg python:cyninmf(u'timeago_month_msg',u'about a month');
-    var_timeago_months_msg python:cyninmf(u'timeago_months_msg',u'\%d months');
-    var_timeago_year_msg python:cyninmf(u'timeago_year_msg',u'about a year');
-    var_timeago_years_msg python:cyninmf(u'timeago_years_msg',u'\%d years');
     ">
-
 // Global Plone variables that need to be accessible to the Javascripts
 var portal_url = '<tal:block replace="context/portal_url" />';
 var isauthenticated = <tal:block tal:define="isauthenticated python: modules['ubify.cyninv2theme'].checkHasPermission('Set own password', here)" tal:replace="python: str(isauthenticated).lower()" />;
@@ -94,68 +47,5 @@ var fpdaterangetitle = '<tal:block tal:replace="python: context.translate(var_dt
 var portalmessage_info = '<tal:block tal:replace="python: context.translate(var_info)" />';
 var portalmessage_error = '<tal:block tal:replace="python: context.translate(var_error)" />';
 var logoutpopup_title = '<tal:block tal:replace="python: context.translate(var_logout_title)" />';
-
-// jQuery nyroModal Plugin
-var label_nyromodal_prev = '<tal:block tal:replace="python: context.translate(var_label_nyro_modal_prev)" />';
-var label_nyromodal_next = '<tal:block tal:replace="python: context.translate(var_label_nyro_modal_next)" />';
-var label_nyromodal_close = '<tal:block tal:replace="python: context.translate(var_label_nyro_modal_close)" />';
-var label_nyromodal_cancel = '<tal:block tal:replace="python: context.translate(var_label_nyro_modal_cancel)" />';
-var contentloaded_error_msg = '<tal:block tal:replace="python: context.translate(var_content_error_msg)" />';
-
-// jQuery Rating Plugin
-var title_cancel_rating = '<tal:block tal:replace="python: context.translate(var_title_cancel_rating)" />';
-
-// jQuery Cyn.in Custom Plugin
-var msg_ajax_error = '<tal:block tal:replace="python: context.translate(var_msg_ajax_error)" />';
-
-// jQuery Purr
-var label_purr_innerHTML_close = '<tal:block tal:replace="python: context.translate(var_label_purr_innerHTML_close)" />';
-
-// jQuery Lightbox Plugin
-var lightbox_image_msg  = '<tal:block tal:replace="python: context.translate(var_lightbox_image_msg)" />';
-var lightbox_of_msg  = '<tal:block tal:replace="python: context.translate(var_lightbox_of_msg)" />';
-var lightbox_closeX_msg  = '<tal:block tal:replace="python: context.translate(var_lightbox_closeX_msg)" />';
-var lightbox_close_info_msg  = '<tal:block tal:replace="python: context.translate(var_lightbox_close_info_msg)" />';
-var lightbox_download_image_msg  = '<tal:block tal:replace="python: context.translate(var_lightbox_download_image_msg)" />';
-var lightbox_help_close_msg  = '<tal:block tal:replace="python: context.translate(var_lightbox_help_close_msg)" />';
-var lightbox_help_hover_msg  = '<tal:block tal:replace="python: context.translate(var_lightbox_help_hover_msg)" />';
-
-// jQuery BeautyTips Plugin
-var msg_ajax_loading = '<tal:block tal:replace="python: context.translate(var_msg_ajax_loading)" />';
-
-
-// jQuery UI Datepicker
-var ui_datepicker_clear_text_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_clear_text_msg)" />';
-var ui_datepicker_clear_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_clear_status_msg)" />';
-var ui_datepicker_close_text_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_close_text_msg)" />';
-var ui_datepicker_close_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_close_status_msg)" />';
-var ui_datepicker_prev_text_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_prev_text_msg)" />';
-var ui_datepicker_prev_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_prev_status_msg)" />';
-var ui_datepicker_next_text_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_next_text_msg)" />';
-var ui_datepicker_next_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_next_status_msg)" />';
-var ui_datepicker_current_text_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_current_text_msg)" />';
-var ui_datepicker_current_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_current_status_msg)" />';
-var ui_datepicker_month_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_month_status_msg)" />';
-var ui_datepicker_year_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_year_status_msg)" />';
-var ui_datepicker_week_header_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_week_header_msg)" />';
-var ui_datepicker_week_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_week_status_msg)" />';
-var ui_datepicker_day_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_day_status_msg)" />';
-var ui_datepicker_date_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_date_status_msg)" />';
-var ui_datepicker_init_status_msg = '<tal:block tal:replace="python: context.translate(var_ui_datepicker_init_status_msg)" />';
-
-// jQuery TimeAgo Plugin
-var timeago_suffix_ago_msg = '<tal:block tal:replace="python: context.translate(var_timeago_suffix_ago_msg)" />';
-var timeago_from_now_msg = '<tal:block tal:replace="python: context.translate(var_timeago_from_now_msg)" />';
-var timeago_seconds_msg = '<tal:block tal:replace="python: context.translate(var_timeago_seconds_msg)" />';
-var timeago_minute_msg = '<tal:block tal:replace="python: context.translate(var_timeago_minute_msg)" />';
-var timeago_minutes_msg = '<tal:block tal:replace="python: context.translate(var_timeago_minutes_msg)" />';
-var timeago_hour_msg = '<tal:block tal:replace="python: context.translate(var_timeago_hour_msg)" />';
-var timeago_hours_msg = '<tal:block tal:replace="python: context.translate(var_timeago_hours_msg)" />';
-var timeago_day_msg = '<tal:block tal:replace="python: context.translate(var_timeago_day_msg)" />';
-var timeago_days_msg = '<tal:block tal:replace="python: context.translate(var_timeago_days_msg)" />';
-var timeago_month_msg = '<tal:block tal:replace="python: context.translate(var_timeago_month_msg)" />';
-var timeago_months_msg = '<tal:block tal:replace="python: context.translate(var_timeago_months_msg)" />';
-var timeago_year_msg = '<tal:block tal:replace="python: context.translate(var_timeago_year_msg)" />';
-var timeago_years_msg = '<tal:block tal:replace="python: context.translate(var_timeago_years_msg)" />';
 
 </metal:block>

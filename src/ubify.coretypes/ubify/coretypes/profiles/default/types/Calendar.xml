@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="Calendar" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">Calendar</property>
- <property name="description" i18n:translate="">A calendar can contain events and sub-calendars.</property>
+ <property name="title" >Calendar</property>
+ <property name="description"
+     >A calendar can contain events and sub-calendars.</property>
  <property name="content_icon">calendar.png</property>
  <property name="factory">addCalendar</property>
  <property name="filter_content_types">True</property>

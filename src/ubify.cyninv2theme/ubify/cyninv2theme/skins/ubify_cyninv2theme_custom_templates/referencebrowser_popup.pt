@@ -5,7 +5,7 @@
       i18n:domain="cynin">
 
 <head tal:define="ztu modules/ZTUtils;">
-    <title tal:content="here/title_or_id"><tal:comment replace="nothing">Title or Id</tal:comment></title>
+    <title tal:content="here/title_or_id">Title or Id</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"
           tal:define="charset here/portal_properties/site_properties/default_charset;
                       dummy python:request.RESPONSE.setHeader('Content-Type', 'text/html;;charset=%s' % charset)"
@@ -207,7 +207,7 @@
 
                     <a tal:attributes="href string:${crumb/absolute_url}/${template/getId}?fieldName=${fieldName}&amp;fieldRealName=${fieldRealName}&amp;at_url=${at_url}">
                         <span tal:content="string:${crumb/Title}">
-                            <tal:comment replace="nothing">Breadcrumb Title</tal:comment>
+                            Breadcrumb Title
                         </span>
                     </a>
 

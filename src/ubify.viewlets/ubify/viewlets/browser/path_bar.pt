@@ -44,7 +44,7 @@ Mumbai-400064, India
             i18n:attributes="title lbl_onelevelup"
             title="Click to go up one level in this View"
             class="breadcrumbgoup smallwhitebutton cluetipnoie"><img tal:attributes="src python:context.portal_url() + '/icon-folder_up.png'" /></a>
-        <span id="breadcrumbs-you-are-here" tal:condition="view/breadcrumbs" i18n:translate="label_location">Location</span>:
+        <span id="breadcrumbs-you-are-here" tal:condition="view/breadcrumbs" i18n:translate="label_location">Location:</span>
         <ul class="breadCrumbMenu">
         <tal:breadcrumb tal:repeat="crumb view/breadcrumbs">            
             <tal:last tal:define="is_last repeat/crumb/end;item_url crumb/absolute_url;
@@ -65,12 +65,12 @@ Mumbai-400064, India
                                         tal:condition="python: item['url'] != '-'"
                                         >
                                             <a tal:attributes="href python:crumb['absolute_url'] + '/' + item['url']">
-                                                <img tal:attributes="src python:context.portal_url() + '/' + item['icon']" class="apptabicon" />
+                                                <img tal:attributes="src python:context.portal_url() + '/' + item['icon']" class="apptabicon">
                                                 <tal:text replace="item/title" />
                                             </a>
                                         </li>
                                         <li tal:condition="python:item['url'] == '-'" class="topmenuseparator"
-                                        tal:content="item/title"><tal:comment replace="nothing">Collections</tal:comment></li>
+                                        tal:content="item/title">Collections</li>
                                 </tal:block>
                             </ul>
                         </tal:menuexists>

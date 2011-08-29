@@ -45,7 +45,8 @@ Mumbai-400064, India
   <div metal:fill-slot="contentwithnopadding"
        tal:define="pr nocall:here/portal_repository;
                    version_id python:request.get('version_id', None);
-                   history python:pr.getHistory(here, countPurged=False);"
+                   history python:pr.getHistory(here, countPurged=False);
+                   here_url context/@@plone_context_state/object_url;"
                    tal:condition="python: pr.isVersionable(context)">
 
     <div class="documentFirstDescription">
@@ -151,12 +152,12 @@ Mumbai-400064, India
                        i18n:translate="label_preview_version_below">(jump down)</a>
                   </td>
                   <td class="VersionUser">
-                    <span tal:content="vdata/sys_metadata/principal"><tal:comment replace="nothing">francesco</tal:comment></span>
+                    <span tal:content="vdata/sys_metadata/principal">francesco</span>
                   </td>
                   <td class="VersionDate">
-                    <span tal:content="python:here.toLocalizedTime(vdata.sys_metadata['timestamp'],long_format=1)"><tal:comment replace="nothing">2004/10/21 03:15 PM</tal:comment></span>
+                    <span tal:content="python:here.toLocalizedTime(vdata.sys_metadata['timestamp'],long_format=1)">2004/10/21 03:15 PM</span>
                   </td>
-                  <td><span tal:content="vdata/comment"><tal:comment replace="nothing">Draft version ready for comments from the group.</tal:comment></span>
+                  <td><span tal:content="vdata/comment">Draft version ready for comments from the group.</span>
                   </td>
                   <td class="VersionActions">
                     <ul>

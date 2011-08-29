@@ -47,15 +47,15 @@ Mumbai-400064, India
 <div class="listitemdetailrowholder" i18n:domain="cynin">
     <div class="xmorecommentsholder">
         <a id="comcynapserefreshlistcomments" class="link_refreshtrigger navtipVertical"
-           title="Load new comments by other users" i18n:attributes="title">
+           title="Load new comments by other users">
             <img tal:attributes="src string:${here/portal_url}/icon-arrow_refresh.png" />
         </a>        
         <span class="xmorecommentstatement nocommentsyet" i18n:translate="nocommentsyet" tal:attributes="style python: comment_count == 0 and  'display:inline' or 'display:none'">
             There are no comments yet. Be the first to comment!
         </span>
         <span class="xmorecommentstatement recentcomments" tal:attributes="id string:commentcountspan${itemindex};style python: showxmorelink and comment_count > 0 and  'display:inline' or 'display:none'">
-            <label i18n:translate="">Recent Comments:</label>
-            <a tal:attributes="href string:${contobj/absolute_url}/view"><span tal:attributes="id string:listdiscussioncount${itemindex}" tal:content="xmorecomments" /> <span i18n:translate="">more</span> &raquo;</a>
+            <label>Recent Comments:</label>
+            <a tal:attributes="href string:${contobj/absolute_url}/view"><span tal:attributes="id string:listdiscussioncount${itemindex}" tal:content="xmorecomments" /> more &raquo;</a>
         </span>
     </div>
     <div class="listitemcommentscontainer" tal:attributes="id string:comcynapsecyninitemcommentscontainer${itemindex}">
@@ -82,7 +82,7 @@ Mumbai-400064, India
                     <textarea class="inlinecommentformitem commentbodyta inputLabel"
                           tal:attributes="id string:taAddNewComment${itemindex};rel itemindex"
                           name="comcynapsecyninNewCommentBody"
-                          title="Post a comment..." i18n:attributes="title"
+                          title="Post a comment..."
                           rows="1" ></textarea>
                 </div>
                 <div class="commentactionbuttonsrow">
@@ -93,7 +93,7 @@ Mumbai-400064, India
                     <input type="hidden" name="comcynapselasttimestamp" tal:attributes="id string:comcynapselasttimestamp${itemindex};value options/lasttimestamp;" />
                     <input type="hidden" name="comcynapsecommentcount" tal:attributes="id string:comcynapsecommentcount${itemindex};value comment_count" />
                     <input type="hidden" name="comcynapselastcommentid" tal:attributes="id string:comcynapselastcommentid${itemindex};value options/lastcommentid" />
-                    <input type="button" value="Cancel" class="comcynapsecyninlistcommentcancel cancelbutton" style="display:none" i18n:attributes="value" />
+                    <input type="button" value="Cancel" class="comcynapsecyninlistcommentcancel cancelbutton" style="display:none"/>
                     <input type="submit" class="smallwhitebutton allowMultiSubmit comcynapsecyninlistcommentsubmit" style="display:none"
                            tal:attributes="id string:comcynapsecyninnewcommentsubmit${itemindex}" name="comcynapsecyninnewcommentsubmit" value="Post" i18n:attributes="value button_post_comment"/>
                 </div>

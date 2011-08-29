@@ -25,6 +25,62 @@ msgstr ""
 msgid "Blog Post"
 msgstr ""
 
+#. Default: "Show Filters"
+msgid "lbl_show_filters"
+msgstr ""
+
+#. Default: "Hide Filters"
+msgid "lbl_hide_filters"
+msgstr ""
+
+#. Default: "more ..."
+msgid "more_msg"
+msgstr ""
+
+#. Default: "... less"
+msgid "less_msg"
+msgstr ""
+
+#. Default: "Your status has been set successfully."
+msgid "lbl_smessage_success"
+msgstr ""
+
+#. Default: "Unable to set your status.Please try again later."
+msgid "lbl_smessage_error"
+msgstr ""
+
+#. Default: "New discussion added. Click %link to view it."
+msgid "discussion_add_success"
+msgstr ""
+
+#. Default: "Please enter discussion text."
+msgid "no_discussion_message"
+msgstr ""
+
+#. Default: "Please enter discussion title."
+msgid "no_discussion_title_message"
+msgstr ""
+
+#. Default: "Unable to add discussion. Please try again later."
+msgid "discussion_add_error"
+msgstr ""
+
+#. Default: "Unable to set your rating. Please try again later."
+msgid "rating_error"
+msgstr ""
+
+#. Default: "Your form has not been saved. All changes you have made will be lost."
+msgid "text_form_modified_message"
+msgstr ""
+
+#. Default: "You already clicked the submit button. Do you really want to submit this form again?"
+msgid "text_form_resubmit_message"
+msgstr ""
+
+#. Default: "Click to select date range"
+msgid "lbl_daterange"
+msgstr ""
+
 #. Default: "Users"
 msgid "Users"
 msgstr ""
@@ -51,6 +107,10 @@ msgstr ""
 
 #. Default: "Subscribe to %title Events Calendar"
 msgid "Subscribe to %title Events Calendar"
+msgstr ""
+
+#. Default: "Log out"
+msgid "Log out"
 msgstr ""
 
 #. Default: "A blog post that will appear in blog views"
@@ -227,316 +287,5 @@ msgstr ""
 
 #. Default: "Contributor"
 msgid "Contributor"
-msgstr ""
-
-#. Default: "Show Filters"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:5
-msgid "lbl_show_filters"
-msgstr ""
-
-#. Default: "Hide Filters"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:6
-msgid "lbl_hide_filters"
-msgstr ""
-
-#. Default: "Your status has been set successfully."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:7
-msgid "lbl_smessage_success"
-msgstr ""
-
-#. Default: "Unable to set your status.Please try again later."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:8
-msgid "lbl_smessage_error"
-msgstr ""
-
-#. Default: "New discussion added. Click %link to view it."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:9
-msgid "discussion_add_success"
-msgstr ""
-
-#. Default: "Please enter discussion text."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:10
-msgid "no_discussion_message"
-msgstr ""
-
-#. Default: "Please enter discussion title."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:11
-msgid "no_discussion_title_message"
-msgstr ""
-
-#. Default: "Unable to add discussion. Please try again later."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:12
-msgid "discussion_add_error"
-msgstr ""
-
-#. Default: "Unable to set your rating. Please try again later."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:13
-msgid "rating_error"
-msgstr ""
-
-#. Default: "more ..."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:14
-msgid "more_msg"
-msgstr ""
-
-#. Default: "... less"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:15
-msgid "less_msg"
-msgstr ""
-
-#. Default: "Your form has not been saved. All changes you have made will be lost."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:16
-msgid "text_form_modified_message"
-msgstr ""
-
-#. Default: "You already clicked the submit button. Do you really want to submit this form again?"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:17
-msgid "text_form_resubmit_message"
-msgstr ""
-
-#. Default: "Click to select date range"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:18
-msgid "lbl_daterange"
-msgstr ""
-
-#. Default: "Info"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:19
-msgid "Info"
-msgstr ""
-
-#. Default: "Error"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:20
-msgid "Error"
-msgstr ""
-
-#. Default: "Log out"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:21
-msgid "Log out"
-msgstr ""
-
-#. Default: "Prev"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:22
-msgid "Prev"
-msgstr ""
-
-#. Default: "Next"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:23
-msgid "Next"
-msgstr ""
-
-#. Default: "Close"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:24
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:29
-msgid "Close"
-msgstr ""
-
-#. Default: "Cancel"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:25
-msgid "Cancel"
-msgstr ""
-
-#. Default: "The requested content cannot be loaded.<br />Please try again later.<br />"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:26
-msgid "content_error_msg"
-msgstr ""
-
-#. Default: "Cancel Rating"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:27
-msgid "lbl_title_cancel_rating"
-msgstr ""
-
-#. Default: "<strong>Egads!</strong> There was a problem getting this content. Here is what we know:"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:28
-msgid "help_msg_ajax_error"
-msgstr ""
-
-#. Default: "Image"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:30
-msgid "Image"
-msgstr ""
-
-#. Default: "of"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:31
-msgid "of"
-msgstr ""
-
-#. Default: "Close X"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:32
-msgid "CloseX"
-msgstr ""
-
-#. Default: "You can also click anywhere outside the image to close."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:33
-msgid "lightbox_close_info_msg"
-msgstr ""
-
-#. Default: "Direct link to download the image."
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:34
-msgid "lightbox_download_image_msg"
-msgstr ""
-
-#. Default: "Click to close"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:35
-msgid "lightbox_help_close_msg"
-msgstr ""
-
-#. Default: "Hover to interact"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:36
-msgid "lightbox_help_hover_msg"
-msgstr ""
-
-#. Default: "<blink>Loading...</blink>"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:37
-msgid "help_msg_ajax_loading"
-msgstr ""
-
-#. Default: "Clear"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:38
-msgid "ui_datepicker_clear_text_msg"
-msgstr ""
-
-#. Default: "Erase the current date"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:39
-msgid "ui_datepicker_clear_status_msg"
-msgstr ""
-
-#. Default: "Close"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:40
-msgid "ui_datepicker_close_text_msg"
-msgstr ""
-
-#. Default: "Close without change"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:41
-msgid "ui_datepicker_close_status_msg"
-msgstr ""
-
-#. Default: "Prev"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:42
-msgid "ui_datepicker_prev_text_msg"
-msgstr ""
-
-#. Default: "Show the previous month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:43
-msgid "ui_datepicker_prev_status_msg"
-msgstr ""
-
-#. Default: "Next"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:44
-msgid "ui_datepicker_next_text_msg"
-msgstr ""
-
-#. Default: "Show the next month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:45
-msgid "ui_datepicker_next_status_msg"
-msgstr ""
-
-#. Default: "Today"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:46
-msgid "ui_datepicker_current_text_msg"
-msgstr ""
-
-#. Default: "Show the current month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:47
-msgid "ui_datepicker_current_status_msg"
-msgstr ""
-
-#. Default: "Show a different month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:48
-msgid "ui_datepicker_month_status_msg"
-msgstr ""
-
-#. Default: "Show a different year"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:49
-msgid "ui_datepicker_year_status_msg"
-msgstr ""
-
-#. Default: "Wk"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:50
-msgid "ui_datepicker_week_header_msg"
-msgstr ""
-
-#. Default: "Week of the year"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:51
-msgid "ui_datepicker_week_status_msg"
-msgstr ""
-
-#. Default: "Set DD as first week day"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:52
-msgid "ui_datepicker_day_status_msg"
-msgstr ""
-
-#. Default: "Select DD, M d"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:53
-msgid "ui_datepicker_date_status_msg"
-msgstr ""
-
-#. Default: "Select a date"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:54
-msgid "ui_datepicker_init_status_msg"
-msgstr ""
-
-#. Default: "ago"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:55
-msgid "timeago_suffix_ago_msg"
-msgstr ""
-
-#. Default: "from now"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:56
-msgid "timeago_suffix_from_now_msg"
-msgstr ""
-
-#. Default: "less than a minute"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:57
-msgid "timeago_seconds_msg"
-msgstr ""
-
-#. Default: "about a minute"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:58
-msgid "timeago_minute_msg"
-msgstr ""
-
-#. Default: "\%d minutes"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:59
-msgid "timeago_minutes_msg"
-msgstr ""
-
-#. Default: "about an hour"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:60
-msgid "timeago_hour_msg"
-msgstr ""
-
-#. Default: "about \%d hours"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:61
-msgid "timeago_hours_msg"
-msgstr ""
-
-#. Default: "a day"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:62
-msgid "timeago_day_msg"
-msgstr ""
-
-#. Default: "\%d days"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:63
-msgid "timeago_days_msg"
-msgstr ""
-
-#. Default: "about a month"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:64
-msgid "timeago_month_msg"
-msgstr ""
-
-#. Default: "\%d months"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:65
-msgid "timeago_months_msg"
-msgstr ""
-
-#. Default: "about a year"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:66
-msgid "timeago_year_msg"
-msgstr ""
-
-#. Default: "\%d years"
-#: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/plone_javascript_variables.js.pt:67
-msgid "timeago_years_msg"
 msgstr ""
 

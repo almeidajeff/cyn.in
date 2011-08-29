@@ -38,7 +38,6 @@
 ###############################################################################
 from Products.CMFCore.utils import getToolByName
 from StringIO import StringIO
-from Products.CMFEditions.setuphandlers import DEFAULT_POLICIES
 from zope.component import getUtility
 from zope.component import getMultiAdapter
 from plone.portlets.interfaces import IPortletAssignmentMapping
@@ -70,14 +69,14 @@ from zope.component import getUtility
 
 from ubify.recyclebin.config import GLOBAL_RECYCLEBIN_POLICY
 
-
+DEFAULT_POLICIES = ('at_edit_autoversion', 'version_on_revert') 
 
     
 def renameScrawl(portal_types):
     blog_fti = getattr(portal_types, 'Blog Entry')
-    blog_fti.title = _(u'Blog Post')
+    blog_fti.title = 'Blog Post'
     blog_fti.description = _(u"Formatted temporal content",u"Formatted temporal content")
-    blog_fti.content_icon = 'blog.png'
+    blog_fti.icon_expr = 'string:$portal_url/blog.png'
     blog_fti.global_allow = True
 
 def removeNewsItemViewFromBlogEntry(portal_types):
@@ -759,10 +758,10 @@ def importVarious(context):
     
     configureCMFNotification(portal,logger)
     addRolesToListOfAllowedRolesToAddKeywords(portal,logger)
-    modifyKupuResourceTypes(portal,logger)
-    configureKupuToolbar(portal,logger)
-    allowembedtag(portal,logger)
-    configureKupuStyles(portal,logger)
+#    modifyKupuResourceTypes(portal,logger)
+#    configureKupuToolbar(portal,logger)
+#    allowembedtag(portal,logger)
+#    configureKupuStyles(portal,logger)
     
     add_placeful_workflow_policy(portal,logger)    
     removeAnonymousAccessOnMembers(portal,logger)

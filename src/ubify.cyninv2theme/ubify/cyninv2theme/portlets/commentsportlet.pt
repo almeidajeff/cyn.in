@@ -68,7 +68,7 @@ Mumbai-400064, India
             </a>
             </div>            
             <div class="recentupdateitemauthorrow">
-                <span tal:define="mdate python:toLocalizedTime(obj.ModificationDate)" class="" tal:attributes="title string:${mdate}" tal:content="mdate"><tal:comment replace="nothing">May 5</tal:comment></span>
+                <span tal:define="mdate python:toLocalizedTime(obj.ModificationDate)" class="" tal:attributes="title string:${mdate}" tal:content="mdate">May 5</span>
                 <tal:name tal:condition="item_creator"
                     tal:define="author python:mtool.getMemberInfo(item_creator)">
                   <a href="#"
@@ -76,7 +76,7 @@ Mumbai-400064, India
                      tal:content="python:author and author['fullname'] or item_creator"
                      tal:omit-tag="not:author"
                      >
-                    <tal:comment replace="nothing">Bob Dobalina</tal:comment>
+                    Bob Dobalina
                   </a>
                 </tal:name>
             </div>

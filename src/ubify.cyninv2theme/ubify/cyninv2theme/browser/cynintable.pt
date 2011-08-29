@@ -80,7 +80,7 @@
                 <label tal:content="item/title_or_id"
                        tal:attributes="for string:cb_${item/id}"
                        class="hiddenStructure">
-                  <tal:comment replace="nothing">Item Title</tal:comment>
+                  Item Title
                 </label>
               </td>
               <td>
@@ -106,7 +106,7 @@
               </td>
               <td tal:content="item/modified"
                   tal:attributes="class item/state_class">
-                <tal:comment replace="nothing">08/19/2001 03:01 AM</tal:comment>
+                08/19/2001 03:01 AM
               </td>
               <td>
                 <span i18n:translate=""
@@ -150,7 +150,7 @@
                         <tal:block replace="view/batch/size" i18n:name="count"/> items in this folder.</a>
                     </tal:extraselectionlink>
                     <tal:allselectedlabel tal:condition="view/selectall">
-                        <span tal:omit-tag="" i18n:translate="tableheading_all_items_folder_selected">
+                        <span tal:omit-tag="" i18n:translate="tableheading_all_items_selected">
                         All <tal:block replace="view/batch/size" i18n:name="count"/> items in this folder
                         are selected.
                         </span>

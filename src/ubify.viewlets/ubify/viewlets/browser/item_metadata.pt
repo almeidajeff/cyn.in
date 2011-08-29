@@ -43,39 +43,39 @@ Mumbai-400064, India
         <td valign="top" class="tdmetadatafirst">
             <div class="tablemetadataheader" tal:condition="view/has_type" tal:content="python: typename + ' Info' + ':'" tal:define= "typename view/type_name" />
             <div class="divpaddingleft">
-                <div class="divHighlight" tal:condition="view/has_size"><label i18n:translate="">Size:</label> <span class="labelvalues" tal:content="view/size"></span> bytes</div>
-                <div class="divHighlight" tal:condition="view/has_state" tal:define="rawitemstate view/raw_item_state;ploneview context/@@plone;state_class python:'state-' + ploneview.normalizeString(rawitemstate)"><label i18n:translate="">State:</label> <b><span tal:attributes="class string:${state_class} labelvalues" class="labelvalues" tal:content="view/item_state" i18n:translate="">Published</span></b></div>
-                <div><label i18n:translate="">Created Date:</label> <span class="labelvalues" tal:content="view/creationDate"></span></div>
-                <div><label i18n:translate="">Modified Date:</label> <span class="labelvalues" tal:content="view/modifiedDate"></span></div>
-                <div tal:condition="view/has_effectiveDate"><label i18n:translate="">Publishing Date:</label> <span class="labelvalues" tal:content="view/publishingDate"></span></div>
-                <div tal:condition="view/has_expiryDate"><label i18n:translate="">Expiration Date:</label> <span class="labelvalues" tal:content="view/expirationDate"></span></div>
-                <div tal:define="rights here/Rights|nothing" tal:condition="python:rights <> ''"><label i18n:translate="">Rights:</label>
+                <div class="divHighlight" tal:condition="view/has_size"><label>Size: </label><span class="labelvalues" tal:content="view/size"></span> bytes</div>
+                <div class="divHighlight" tal:condition="view/has_state" tal:define="rawitemstate view/raw_item_state;ploneview context/@@plone;state_class python:'state-' + ploneview.normalizeString(rawitemstate)"><label>State: </label><b><span tal:attributes="class string:${state_class} labelvalues" class="labelvalues" tal:content="view/item_state">Published</span></b></div>
+                <div><label>Created Date: </label><span class="labelvalues" tal:content="view/creationDate"></span></div>
+                <div><label>Modified Date: </label><span class="labelvalues" tal:content="view/modifiedDate"></span></div>
+                <div tal:condition="view/has_effectiveDate"><label>Publishing Date: </label><span class="labelvalues" tal:content="view/publishingDate"></span></div>
+                <div tal:condition="view/has_expiryDate"><label>Expiration Date: </label><span class="labelvalues" tal:content="view/expirationDate"></span></div>
+                <div tal:define="rights here/Rights|nothing" tal:condition="python:rights <> ''"><label>Rights:</label>
                     <span tal:condition="rights" tal:content="rights" class="labelvalues"/>
                 </div>
-                <div tal:condition="view/has_location"><label i18n:translate="">Location:</label> <span class="labelvalues" tal:content="view/location"/></div>
-                <div tal:condition="view/has_lang"><label i18n:translate="">Language:</label> <span class="labelvalues" tal:content="view/lang"/></div>
-                <div tal:define="url here/getURL | here/absolute_url | nothing" tal:condition="url"><a href="" tal:attributes="href url" i18n:translate="">Permalink</a></div>
+                <div tal:condition="view/has_location"><label>Location: </label><span class="labelvalues" tal:content="view/location"/></div>
+                <div tal:condition="view/has_lang"><label>Language: </label><span class="labelvalues" tal:content="view/lang"/></div>
+                <div tal:define="url here/getURL | here/absolute_url | nothing" tal:condition="url"><a href="" tal:attributes="href url">Permalink</a></div>
             </div>
         </td>
         <td class="tdmetadatasecond" valign="top" align="left">
             <div tal:define="categories context/Subject|nothing;
                             parentURL python:context.getParentNode().absolute_url();
                             URLsuffix python:modules['ubify.cyninv2theme'].getListingTemplateForContextParent(context);"
-                tal:condition="categories"><label class="metadatarightlabel" i18n:translate="">Tags:</label><br/>
+                tal:condition="categories"><label class="metadatarightlabel">Tags:</label><br/>
                 <div class="divpaddingleft">
                 <span tal:repeat="category categories">
                 <a href=""
                    rel="tag"
                    tal:content="category"
                    tal:attributes="href string:${parentURL}/${URLsuffix}?Subject%3Alist=${category}">
-                  <tal:comment replace="nothing">Category</tal:comment>
+                  Category
                   </a><tal:separator condition="not: repeat/category/end">,</tal:separator>
                 </span>
 
                 </div>
             </div>
             <div tal:define="items context/getRelatedItems|nothing"
-                tal:condition="items"><label class="metadatarightlabel" i18n:translate="">Related Items:</label><br/>
+                tal:condition="items"><label class="metadatarightlabel">Related Items:</label><br/>
                 <div class="divpaddingleft">
                     <ul tal:repeat="item items" class="relateditemsmetadata">
                         <li><a href=""
@@ -93,7 +93,7 @@ Mumbai-400064, India
                     </ul>
                 </div>
             </div>
-            <div tal:define="modifiers python:context.getProperty('modifiers');" tal:condition="modifiers"><label class="metadatarightlabel" i18n:translate="">Contributors:</label><br/>
+            <div tal:define="modifiers python:context.getProperty('modifiers');" tal:condition="modifiers"><label class="metadatarightlabel">Contributors:</label><br/>
                 <div class="divpaddingleft">
                     <span tal:repeat="modifier modifiers">
                         <a

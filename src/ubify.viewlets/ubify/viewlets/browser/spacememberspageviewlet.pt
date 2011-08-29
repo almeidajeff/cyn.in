@@ -70,7 +70,7 @@ Mumbai-400064, India
                                  border="0"
                                  tal:attributes="src portrait/absolute_url" />
                                  </div>
-                            <div class="userinfousernamecont"><span class="userinfousername" tal:content="userid"><tal:comment replace="nothing">user id</tal:comment></span></div>
+                            <div class="userinfousernamecont"><span class="userinfousername" tal:content="userid">user id</span></div>
                     </div>
             </tal:items>
         </div>

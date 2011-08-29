@@ -54,7 +54,7 @@ class ItemtitleViewlet(ViewletBase):
         object_title = context_state.object_title()
         object_typename = self.context.portal_type
         object_typeobj = typetool[object_typename]
-        self.typeiconname = object_typeobj.content_icon
+        self.typeiconname = object_typeobj.icon_expr
         if object_typeobj.title == '' and self.context.portal_type.lower() == 'plone site':
             self.typetitle = plone_site_type_title
         else:

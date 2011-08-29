@@ -51,8 +51,6 @@ from ubify.coretypes.interfaces import IVideo
 from zope.event import notify
 from Products.Archetypes.event import ObjectInitializedEvent, ObjectEditedEvent
 
-from ubify.policy import CyninMessageFactory as _
-
 schema = DefaultSchema.copy()
 
 
@@ -64,10 +62,10 @@ class Video(BaseClass):
     portal_type = "Video"
     archetype_name = BaseClass.archetype_name
     
-    assocFileExt   = ('ogv', 'flv', 'avi', 'mp4')
+    assocFileExt   = ('flv', 'mp4', )
     if schema['file'] <> None:
-        schema['file'].widget.label = _(u'Video')
-        schema['file'].widget.description = _(u'Select a .flv or .mp4 video file.')
+        schema['file'].widget.label = 'Video'
+        schema['file'].widget.description = 'Select a .flv or .mp4 video file.'
         
     schema = schema
     

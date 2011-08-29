@@ -41,7 +41,7 @@ Mumbai-400064, India
     <ul tal:attributes="id python:view.options[0].getParentNode().UID()" tal:condition="view/options">
         <li tal:repeat="space children">
             <a tal:attributes = "href space/absolute_url">
-                <img border="0" tal:attributes="src string:${portal_url}/space.png" />&nbsp;<tal:replace tal:content="space/Title" /></a>
+                <img border="0" tal:attributes="src string:${portal_url}/space.png">&nbsp;<tal:replace tal:content="space/Title" /></a>
             <ul tal:replace="structure python:view.getChildren(space)"></ul>
         </li>
     </ul>

@@ -38,6 +38,6 @@ Mumbai-400064, India
 </tal:comment>
 <html i18n:domain="cynin">
     <body>        
-        <tal:comment replace="nothing">This is a placeholder template for add new until we can see it inside firefox.</tal:comment>
+        This is a placeholder template for add new until we can see it inside firefox.
     </body>
 </html>

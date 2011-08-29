@@ -91,7 +91,7 @@ Mumbai-400064, India
                 </span>
                 <div class="commentBody"
                      tal:content="structure reply/cooked_text">
-                     <tal:comment replace="nothing">This is the body text of the comment.</tal:comment>
+                     This is the body text of the comment.
                 </div>
                 <div class="commentactionbuttonsrow" tal:condition="python:viewtype not in ('listview')">
                     <form name="reply"

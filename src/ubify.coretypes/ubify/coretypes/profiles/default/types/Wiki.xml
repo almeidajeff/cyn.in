@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="Wiki" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">Wiki</property>
- <property name="description" i18n:translate="">A Wiki contains Wiki Pages and Sub-Wikis.</property>
+ <property name="title" >Wiki</property>
+ <property name="description"
+     >A Wiki contains Wiki Pages and Sub-Wikis.</property>
  <property name="content_icon">wiki.png</property>
  <property name="factory">addWiki</property>
  <property name="filter_content_types">True</property>

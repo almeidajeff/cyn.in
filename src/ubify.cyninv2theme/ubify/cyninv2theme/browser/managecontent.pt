@@ -52,7 +52,7 @@ Mumbai-400064, India
 </head>
 <body>
 <div metal:fill-slot="contentwithnopadding">
-  <h1 class="documentFirstHeading" i18n:translate="">Manage My Portlets</h1>
+  <h1 class="documentFirstHeading">Manage My Portlets</h1>
   <span tal:replace="structure provider:ubify.homecontentportletsmanager" />
 </div>
 </body>

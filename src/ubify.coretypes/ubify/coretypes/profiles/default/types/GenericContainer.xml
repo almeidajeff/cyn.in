@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="GenericContainer" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">Generic Container</property>
- <property name="description" i18n:translate="">A generic container contain all content types, including folders.</property>
+ <property name="title" >Generic Container</property>
+ <property name="description"
+     >A generic container contain all content types, including folders.</property>
  <property name="content_icon">generic_container.png</property>
  <property name="factory">addGenericContainer</property>
  <property name="filter_content_types">True</property>

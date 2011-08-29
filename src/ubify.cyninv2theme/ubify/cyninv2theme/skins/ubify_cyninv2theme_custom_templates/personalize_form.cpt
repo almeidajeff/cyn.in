@@ -97,14 +97,14 @@ Mumbai-400064, India
 
                 <div metal:use-macro="here/global_statusmessage/macros/portal_message">
                     Portal status message
-            </div>
+                </div>
 
                 <form action="personalize"
                       class="enableAutoFocus enableUnloadProtection editprofileform"
                       method="post"
                       enctype="multipart/form-data"
                       tal:condition="member"
-                      tal:attributes="action template_id">
+                      tal:attributes="action context/@@plone/getViewTemplateId">
 
                     <metal:userdetails define-macro="user_form">
                     <fieldset tal:define="macros here/additional_memberdata/macros | nothing;
@@ -129,7 +129,7 @@ Mumbai-400064, India
 
 				<label class="formQuestion" for="fullname" i18n:translate="label_full_name">Full Name</label>
 
-				<div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+				<div tal:content="error" class="fielderror">Validation error output</div>
 
 				<input type="text"
 				       id="fullname"
@@ -153,7 +153,7 @@ Mumbai-400064, India
 				      i18n:attributes="title title_required;"
 				      i18n:translate="label_required">(Required)</span>
 
-				<div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+				<div tal:content="error" class="fielderror">Validation error output</div>
 
 				<input type="text"
 				       id="email"
@@ -195,7 +195,7 @@ Mumbai-400064, India
 				where your office is located.
 				</div>
 
-				<div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+				<div tal:content="error" class="fielderror">Validation error output</div>
 
 				<input type="text"
 				       id="location"
@@ -256,7 +256,7 @@ Mumbai-400064, India
 				on the your author page, linked from the items you create.
 				</div>
 
-				<div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+				<div tal:content="error" class="fielderror">Validation error output</div>
 
 				<textarea type="text"
 				       id="description"
@@ -309,7 +309,7 @@ Mumbai-400064, India
 				The URL for your external home page, if you have one.
 				</div>
 
-				<div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+				<div tal:content="error" class="fielderror">Validation error output</div>
 
 				<input type="text"
 				       id="home_page"
@@ -481,7 +481,7 @@ Mumbai-400064, India
 				Your preferred language.
 				</div>
 
-				<div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+				<div tal:content="error" class="fielderror">Validation error output</div>
 
 
 				<select name="language"
@@ -531,7 +531,6 @@ Mumbai-400064, India
                     </metal:userdetails>
                 </form>
             </div>
-        </div>
     </tal:main-macro>
 
 </metal:main>

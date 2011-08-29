@@ -56,7 +56,6 @@ from widgets import TagSuggestWidget
 
 from config import content_location_label_name,content_categories_label_name
 
-from ubify.policy import CyninMessageFactory as _
 
 class SchemaExtender(object):
     implements(ISchemaModifier)
@@ -81,7 +80,7 @@ class SchemaExtender(object):
         for field in fields:
             oldlabel = content_categories_label_name
             olddesc  = field.widget.description
-            field.widget = TagSuggestWidget(label=oldlabel,description = _(u'Enter comma (,) separated tags. Example: \"important, related to productx, basic, advanced\". If an autohint selection tip appears, press tab to select the first one, or type further to shorten the hint list.'),role_based_add = True)
+            field.widget = TagSuggestWidget(label=oldlabel,description = 'Enter comma (,) separated tags. Example: "important, related to productx, basic, advanced". If an autohint selection tip appears, press tab to select the first one, or type further to shorten the hint list.',role_based_add = True)
 
         if schema.has_key('contributors'):
             schema['contributors'].widget.visible = {'edit': 'invisible', 'view': 'visible'}

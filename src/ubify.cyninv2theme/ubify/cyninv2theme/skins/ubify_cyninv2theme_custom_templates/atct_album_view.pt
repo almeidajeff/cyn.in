@@ -84,16 +84,17 @@ Mumbai-400064, India
                             <img tal:replace="structure python:image.tag(scale='thumb', title=image.Description())" />
                         </a>
                         <div class="photoAlbumEntryTitle" tal:content="image/pretty_title_or_id">
-                          <tal:comment replace="nothing">Title</tal:comment>
+                          Title
                         </div>
                         <div class="imagesizelinkscontainer">
                             <span>
                                 <a class="lightbox"
                                     tal:attributes="href string:${image/absolute_url}/image_preview;
-                                                    title python:image.pretty_title_or_id();"
+                                                    title python:image.pretty_title_or_id();
+                                                    "
                                      rel="gal2"
-                                     i18n:translate="link_image_zoom">
-                                Zoom</a>
+                                     i18n:translate="link_image_zoom"
+                                >Zoom</a>
                             </span>
                             <span class="imagesizelinkseparator">|</span>
                             <span>

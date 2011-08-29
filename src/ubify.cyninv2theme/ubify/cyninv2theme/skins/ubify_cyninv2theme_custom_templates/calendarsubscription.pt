@@ -47,13 +47,13 @@ Mumbai-400064, India
 
 
 <div metal:fill-slot="auth_slot">
-        <div class="paragraph" i18n:translate="label_caldav_url_icalendar_desktop">
+        <div class="paragraph" i18n:translate="label_caldav_url">
             Use the iCalendar URL below to synchronize your desktop calendar with cyn.in.
         </div>
         <div  class="bookmarkletlinkcontainer">
             <label i18n:translate="">iCalendar URL:</label>
-            <a tal:attributes="href string:$here_url/icalendar.ics"
-                tal:content="string:$here_url/icalendar.ics"
+            <a tal:attributes="href string:${context/@@plone_context_state/object_url}/icalendar.ics"
+                tal:content="string:${context/@@plone_context_state/object_url}/icalendar.ics"
                  class="simplebutton">
             </a>
         </div>

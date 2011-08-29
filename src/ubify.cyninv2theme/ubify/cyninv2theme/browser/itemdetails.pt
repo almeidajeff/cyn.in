@@ -167,7 +167,7 @@ Mumbai-400064, India
                         </div>
                     </tal:categoriesblock>
                     <div class="listitemcommondetailrow">
-                            <label i18n:translate="label_location">Location</label>:
+                            <label i18n:translate="label_location">Location:</label>
                             <a tal:attributes="href pathlink"><tal:block tal:replace="prettypathtitle" /></a>
                     </div>
                     <div tal:define="modifiers full_item/modifiers" tal:condition="modifiers" class="listitemcommondetailrow">

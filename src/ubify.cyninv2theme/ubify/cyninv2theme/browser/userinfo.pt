@@ -130,9 +130,9 @@ Mumbai-400064, India
     <div class="infotipholder" tal:condition="python: not isauthenticated">
         <div class="infotiptitle">
             <a class="btclose" href="javascript:void(jq('.avatarlink').btOff());"><img tal:attributes="src string:${portal_url}/icon-close.png" /></a>
-            <span i18n:translate="">Login required!</span>
+            Login required!
         </div>
-        <div class="cluetipbottompart" i18n:translate="">
+        <div class="cluetipbottompart">
          You need to login or register to view user profile details.
         </div>
     </div>

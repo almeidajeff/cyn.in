@@ -135,7 +135,7 @@ class HomeFolderLocator(BaseHomeFolderLocator):
         return None
     
     
-from Products.ZipFileTransport.browser.zipexport import ExportForm as BaseExportForm
+from collective.zipfiletransport.browser.zipexport import ExportForm as BaseExportForm
 from zope.formlib.form import action
 import string
 

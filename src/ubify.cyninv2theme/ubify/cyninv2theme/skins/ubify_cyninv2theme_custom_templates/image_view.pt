@@ -54,7 +54,8 @@ Mumbai-400064, India
     <tal:main-macro metal:define-macro="main"
                     tal:define="kssClassesView context/@@kss_field_decorator_view;
                                 getKssClasses nocall:kssClassesView/getKssClassesInlineEditable;
-                                size here/size">
+                                size here/size;
+                                here_url context/@@plone_context_state/object_url;">
         <div tal:replace="structure provider:plone.abovecontenttitle" />
         <div tal:replace="structure provider:plone.abovecontentbody" />
         <div id="imagepreviewcontainer" class="maincontentholder" align="center" >

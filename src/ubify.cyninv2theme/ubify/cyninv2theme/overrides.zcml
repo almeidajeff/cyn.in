@@ -151,6 +151,7 @@ Mumbai-400064, India
       /> -->
     <!-- Folder contents -->
 
+<!--
     <browser:page
         for="*"
         class=".browser.foldercontents.CyninFolderContentsView"
@@ -164,5 +165,6 @@ Mumbai-400064, India
          attribute="update_table"
          name="foldercontents_update_table"
          permission="cmf.ListFolderContents" />
+-->
 
 </configure>

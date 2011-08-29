@@ -237,7 +237,7 @@ class StackerView(BrowserView):
         """Returns the type title and icon url for given typename"""
         typetool= getToolByName(self.context, 'portal_types')
         object_typeobj = typetool[typename]
-        typeiconname = object_typeobj.content_icon
+        typeiconname = object_typeobj.icon_expr
         if object_typeobj is not None:
             #import pdb; pdb.set_trace()
             if object_typeobj.title == '' and typename.lower() == 'plone site':

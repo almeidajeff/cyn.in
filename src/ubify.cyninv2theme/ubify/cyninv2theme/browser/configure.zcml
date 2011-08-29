@@ -152,7 +152,7 @@ Mumbai-400064, India
         for="*"
         permission="zope2.View"
         class="p4a.plonecalendar.browser.icalendar.iCalendarView"
-        template="../../../../../products/Plone4ArtistsCalendar/pythonlib/p4a/plonecalendar/browser/icalendar.pt"
+        template="../../../../../allsrc/p4a/plonecalendar/browser/icalendar.pt"
         allowed_interface="p4a.plonecalendar.browser.icalendar.IiCalendarView"
         />
     <browser:page

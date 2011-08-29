@@ -80,14 +80,14 @@
                             tal:condition="python: test(entry['time'] > updatetime,1,0)">
 
                             <td tal:content="python:toLocalizedTime(DateTime(entry['time']), long_format=True)">13:04:41</td>
-                            <td tal:content="string:${entry/username} (${entry/userid})"><tal:comment replace="nothing">joe</tal:comment></td>
+                            <td tal:content="string:${entry/username} (${entry/userid})">joe</td>
                             <td>
                                 <a href="showEntry"
                                    tal:attributes="href string:prefs_error_log_showEntry?id=${entry/id}">
                                     <span tal:replace="entry/type">AttributeError</span>:
                                     <span tal:define="value entry/value"
                                           tal:content="python: len(value) &lt; 70 and value or value[:70] + '...'">
-                                    <tal:comment replace="nothing">Application object has no attribute "gak"</tal:comment>
+                                    Application object has no attribute "gak"
                                     </span>
                                 </a>
                             </td>

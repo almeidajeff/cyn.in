@@ -59,7 +59,7 @@ Mumbai-400064, India
 
         <div id="linkcontentholder" class="maincontentholder">
             <a href="#" tal:attributes="href here/remote_url;target string:_blank;"
-                        tal:content="here/remote_url"><tal:comment replace="nothing">remote url</tal:comment></a>
+                        tal:content="here/remote_url">remote url</a>
         </div>
         <tal:belowcontentmacro metal:use-macro="here/belowcontent_macro/macros/below_content" />
     </tal:main-macro>

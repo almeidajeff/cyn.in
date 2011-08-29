@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="Folder" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">Folder</property>
- <property name="description" i18n:translate="">A folder can contain applications.</property>
+ <property name="title" >Folder</property>
+ <property name="description"
+     >A folder can contain applications.</property>
  <property name="content_icon">folder_icon.png</property>
  <property name="filter_content_types">False</property>
 </object>

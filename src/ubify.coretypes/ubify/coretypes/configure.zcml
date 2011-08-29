@@ -128,10 +128,10 @@ Mumbai-400064, India
             z3c.widget.flashupload.interfaces.FlashUploadedEvent"
         handler="ubify.coretypes.onFlashUploadedEvent"
         /> -->
-    <zope:adapter factory="Products.ZipFileTransport.browser.zipexport.ExportFormAdapter"
+    <zope:adapter factory="collective.zipfiletransport.browser.zipexport.ExportFormAdapter"
 	for="ubify.coretypes.interfaces.IImportExportCoretype"/>
 
-    <zope:adapter factory="Products.ZipFileTransport.browser.zipimport.ImportFormAdapter"
+    <zope:adapter factory="collective.zipfiletransport.browser.zipimport.ImportFormAdapter"
 	for="ubify.coretypes.interfaces.IImportExportCoretype"/>
 
     <!-- Syndication entry -->

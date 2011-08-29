@@ -73,7 +73,7 @@ class ItemMetaDataViewlet(ViewletBase):
                 self.has_type = True
                 object_typename = current_object.portal_type
                 object_typeobj = typetool[object_typename]
-                self.item_icon = object_typeobj.content_icon
+                self.item_icon = object_typeobj.icon_expr
             else:
                 self.has_type = False
         except AttributeError:

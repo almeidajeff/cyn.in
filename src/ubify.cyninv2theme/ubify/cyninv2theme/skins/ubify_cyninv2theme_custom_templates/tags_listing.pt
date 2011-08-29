@@ -126,7 +126,7 @@ Mumbai-400064, India
                                                         default_portal_types python:['Document','File','Blog Entry','Image','Event','Link','StatuslogItem','Video','Discussion','Audio'];
                                                         selectedportaltypes request/portal_type|default_portal_types|nothing;" tal:condition="isvisible">
                                             <div id="typeselectionblock">
-                                                <tal:block tal:define="allTypes python:putils.getUserFriendlyTypes(default_portal_types);
+                                                <tal:block tal:define="allTypes python:context.plone_utils.getUserFriendlyTypes(default_portal_types);
                                                                         typeLists python:here.createMultiColumnList(allTypes, numCols=8,sort_on='self');"
                                                          tal:repeat="sublist typeLists">
                                                         <tal:separator condition="repeat/sublist/start">

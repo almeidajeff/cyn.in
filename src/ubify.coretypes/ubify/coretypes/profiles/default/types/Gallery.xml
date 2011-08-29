@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="Gallery" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">Gallery</property>
- <property name="description" i18n:translate="">A gallery can contain images and sub-galleries.</property>
+ <property name="title" >Gallery</property>
+ <property name="description"
+     >A gallery can contain images and sub-galleries.</property>
  <property name="content_icon">gallery.png</property>
  <property name="factory">addGallery</property>
  <property name="filter_content_types">True</property>

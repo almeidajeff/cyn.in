@@ -7,7 +7,7 @@
 
 <tal:titlebarslot metal:fill-slot="titlebar-row1">
     <div id="maintitleholder">
-        <h1 id="maintitle" i18n:translate="heading_edit_workflow_policy">
+        <h1 id="maintitle" i18n:translate="heading_workflow_global_type_mapping">
             Edit workflow policy
         </h1>
     </div>
@@ -109,7 +109,7 @@
                                       id="description"
                                       name="description"
                                       tal:content="python:request.get('description',wf_policy.getDescription())">
-                                <tal:comment replace="nothing">Workflow Policy Description.</tal:comment>
+                                Workflow Policy Description.
                             </textarea>
 
                         </div>

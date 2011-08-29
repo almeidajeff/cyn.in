@@ -38,7 +38,7 @@
 
       <li class="selected forcelink">
             <a href=""
-           tal:attributes="href string:$portal_url/${template_id}?${userquery}"
+           tal:attributes="href string:$portal_url/${context/@@plone/getViewTemplateId}?${userquery}"
            i18n:translate="label_group_memberships">Group Memberships</a>
       </li>
     </ul>

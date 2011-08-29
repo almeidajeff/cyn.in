@@ -58,7 +58,7 @@ Mumbai-400064, India
        tal:define="isinselectedtags python:selectedtags and len(selectedtags) > 0 and category in selectedtags or False;
                     item_class python:isinselectedtags and 'filterpaneltag filterpaneltagselected' or 'filterpaneltag';"
        tal:attributes="href string:${parentURL}/${URLsuffix}?Subject%3Alist=${category};class item_class">
-      <tal:comment replace="nothing">Category</tal:comment>
+      Category
       </a><tal:separator condition="not: repeat/category/end">,</tal:separator>
     </span>
     </div>

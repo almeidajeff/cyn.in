@@ -215,7 +215,7 @@ Mumbai-400064, India
 					    <form name="feedback_form"
 						  action=""
 						  method="post"
-						  tal:attributes="action string:$here_url/$template_id" style="display:none"
+						  tal:attributes="action string:${context/@@plone_context_state/object_url}/${context/@@plone/getViewTemplateId}" style="display:none"
 						  id="emailfeedbackform"
 						  >
 
@@ -400,7 +400,6 @@ Mumbai-400064, India
                                             </div>
                                         </tal:block>
                                     </div>
-<!--
                                     <div id="siteupdatesportlet-fragment-8" class="vertical-tabs-panel" style="display:none;">
                                         <tal:block tal:define="results python:modules['ubify.cyninv2theme.portlets.statistics'].getRecentContributionForUser(context,author,'Video');
                                                                folderContents python:test(len(results) > 0,results[0],[]);
@@ -415,7 +414,6 @@ Mumbai-400064, India
                                             </div>
                                         </tal:block>
                                     </div>
--->
                                     <div id="siteupdatesportlet-fragment-9" class="vertical-tabs-panel" style="display:none;">
                                         <tal:block tal:define="results python:modules['ubify.cyninv2theme.portlets.statistics'].getRecentContributionForUser(context,author,'Discussion');
                                                                folderContents python:test(len(results) > 0,results[0],[]);
@@ -451,7 +449,7 @@ Mumbai-400064, India
                                                          dummy python:mostusedtagsforuser.sort(lambda x,y: cmp(x['tagname'].lower(),y['tagname'].lower()),reverse=False);"
                                              tal:condition="mostusedtagsforuser">
                                 <div id="tagsportlet-tagcloud">
-                                    <fieldset class="contentheaderlabel"><legend i18n:translate="">Top User Tags</legend></fieldset>
+                                    <fieldset class="contentheaderlabel"><legend>Top User Tags</legend></fieldset>
                                     <div class="filterpaneltagsholder">
                                         <span tal:repeat="tag mostusedtagsforuser">
                                         <a class="portlettag"
@@ -471,7 +469,7 @@ Mumbai-400064, India
                                 <tal:block tal:replace="structure string:]" />
                                 <tal:block tal:replace="structure string:</script>" />
                             </tal:tagsforuser>
-                            <tal:topratedforuser tal:define="utool portal_url;
+                            <tal:topratedforuser tal:define="utool context/portal_url;
                                                             mtool context/portal_membership;
                                                             rtool here/portal_ratings;
                                                             records python:10;

@@ -36,7 +36,7 @@
             <span class="recentportletdate">
             <span
                   tal:define="mdate python:toLocalizedTime(obj.modified)" class="" tal:attributes="title string:${mdate}" tal:content="mdate">
-                <tal:comment replace="nothing">Date</tal:comment>
+                Date
             </span>
             &mdash;
             </span>

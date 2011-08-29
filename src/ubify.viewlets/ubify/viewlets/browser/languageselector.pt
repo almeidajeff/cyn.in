@@ -43,7 +43,7 @@
                             <option tal:repeat="lang languages"
                                     tal:content="string: ${lang/name} - ${lang/native}"
                                     tal:attributes="selected lang/selected;
-                                                    value lang/code"><tal:comment replace="nothing">Language</tal:comment></option>
+                                                    value lang/code">Language</option>
                         </select>
                     </li>
             

@@ -37,5 +37,5 @@ Dheeraj Sagar, Malad(W)
 Mumbai-400064, India
 </tal:comment>
 <tal:block tal:condition="python:context.portal_membership.checkPermission('View',context.portal_url.getPortalObject().Members)" i18n:domain="cynin">
-    <a class="avatarlink" style="display:block" tal:attributes="rel string:${here/portal_url}/userinfo?userid=${view/username}"><img id="owneravatar" tal:attributes="src view/owneravatarurl" /></a>
+    <a class="avatarlink" style="display:block" tal:attributes="rel string:${here/portal_url}/userinfo?userid=${view/username}"><img id="owneravatar" tal:attributes="src view/owneravatarurl"></a>
 </tal:block>

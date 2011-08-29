@@ -40,11 +40,11 @@ Mumbai-400064, India
                     portal_url here/portal_url" i18n:domain="cynin">
     <ul tal:condition="view/options">
         <li tal:repeat="objview children">
-            <a tal:attributes="href objview/absolute_url" 
-               tal:define="ttool objview/portal_types;
-                           tobj python:ttool[objview.portal_type];
-                           ticon tobj/content_icon">
-                <img border="0" tal:attributes="src string:${portal_url}/${ticon}" alt="" />&nbsp;<tal:replace tal:content="objview/Title" /></a>
+            <a tal:attributes = "href objview/absolute_url" tal:define="ttool objview/portal_types;
+                                                        tobj python:ttool[objview.portal_type];
+                                                        ticon tobj/content_icon
+                                                        ">
+                <img border="0" tal:attributes="src string:${portal_url}/${ticon}">&nbsp;<tal:replace tal:content="objview/Title" /></a>
             <ul tal:replace="structure python:view.getChildrenViews(objview)"></ul>
         </li>
     </ul>

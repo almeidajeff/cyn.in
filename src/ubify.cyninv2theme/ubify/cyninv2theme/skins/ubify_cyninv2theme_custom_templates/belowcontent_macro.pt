@@ -57,7 +57,7 @@
                                                   title string:${item_wf_state_desc}" i18n:attributes="title"><tal:block tal:replace="item_wf_state_title" i18n:translate=""/></span>
                     </div>
                     <div class="avatarlistholder listitemcommondetailrow" tal:condition="item_creator">
-                        <label i18n:translate="label_creatorby">Created by: </label>
+                        <label i18n:translate="label_creator">Created by: </label>
                         <a class="avatarlink avatarlist" tal:attributes="rel string:${portal_url}/userinfo?userid=${item_creator};
                                         href string:${portal_url}/Members/${item_creator}/app_all;">
                             <tal:block tal:replace="item_creator" />
@@ -81,13 +81,13 @@
                             <tal:categories tal:repeat="category categories"
                                        tal:define="parentURL python:context.getParentNode().absolute_url();
                                                     URLsuffix python:modules['ubify.cyninv2theme'].getListingTemplateForContextParent(context);"
-                                        tal:condition="categories">
-                            <a class="detaildescriptiontag"
+                                        tal:condition="categories"
+                            ><a class="detaildescriptiontag"
                                 title="Click to add this tag as filter"
                                    tal:content="category"
                                    tal:attributes="href string:${parentURL}/${URLsuffix}?Subject%3Alist=${category};rel category"
                                     i18n:attributes="title tip_add_tag_to_filter">
-                                  <tal:comment replace="nothing">Category</tal:comment>
+                                  Category
                                   </a><tal:separator condition="not: repeat/category/end">,</tal:separator></tal:categories>
                         </div>
                     </tal:categoriesblock>
@@ -102,7 +102,7 @@
                         tal:condition="python: context.portal_type not in ('Topic','SmartviewFolder','RecycleBin')"
                         class="listitemcommondetailrow"
                         >
-                            <label i18n:translate="label_location">Location</label>:
+                            <label i18n:translate="label_location">Location:</label>
                             <a tal:attributes="href pathlink"><tal:block tal:replace="prettypathtitle" /></a>
                     </div>
                     <div class="avatarlistholder listitemcommondetailrow" tal:define="modifiers context/modifiers|nothing" tal:condition="modifiers">
@@ -254,7 +254,8 @@
 
 
 <tal:definemacro metal:define-macro="subscription_RSS_space" i18n:domain="cynin"
-                tal:define="rss_base_url python:hasattr(site_properties,'rss_url') and site_properties.rss_url != '' and site_properties.rss_url + '/'.join(('',) + context.getPhysicalPath()[2:]) or here_url;">
+                tal:define="here_url context/@@plone_context_state/object_url;
+                            rss_base_url python:hasattr(site_properties,'rss_url') and site_properties.rss_url != '' and site_properties.rss_url + '/'.join(('',) + context.getPhysicalPath()[2:]) or here_url;">
         <a class="simplefloatedlink navtipVertical"
            title="Subscribe to feed updates of the current filtered view in RSS format. You will need to use a RSS feed reader that supports 'HTTP BASIC Authentication'."
            tal:define="qsparams request/QUERY_STRING|nothing;
@@ -290,7 +291,8 @@
 </tal:definemacro>
 
 <tal:definemacro metal:define-macro="subscription_RSS_item" i18n:domain="cynin"
-                 tal:define="rss_base_url python:hasattr(site_properties,'rss_url') and site_properties.rss_url != '' and site_properties.rss_url + '/'.join(('',) + context.getPhysicalPath()[2:]) or here_url;">
+                 tal:define="here_url context/@@plone_context_state/object_url;
+                             rss_base_url python:hasattr(site_properties,'rss_url') and site_properties.rss_url != '' and site_properties.rss_url + '/'.join(('',) + context.getPhysicalPath()[2:]) or here_url;">
         <a class="simplefloatedlink navtipVertical"
            title="Subscribe to the Comments feed of the current item in RSS format. You will need to use a RSS feed reader that supports 'HTTP BASIC Authentication'."
            tal:define="qsparams request/QUERY_STRING|nothing;

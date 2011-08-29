@@ -39,8 +39,9 @@ Mumbai-400064, India
 -->
 <object name="LinkBase" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="cynin">
  <property name="product">ubify.coretypes</property>
- <property name="title" i18n:translate="">Link Base</property>
- <property name="description" i18n:translate="">A link base contains WebLinks.</property>
+ <property name="title" >Link Base</property>
+ <property name="description"
+     >A link base contains WebLinks.</property>
  <property name="content_icon">link_directory.png</property>
  <property name="factory">addLinkBase</property>
  <property name="filter_content_types">True</property>

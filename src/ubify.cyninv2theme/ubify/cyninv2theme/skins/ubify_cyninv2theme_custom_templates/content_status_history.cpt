@@ -35,6 +35,7 @@
 
     <div class="mainformcontainer" metal:fill-slot="contentwithnopadding"
          tal:define="errors options/state/getErrors;
+                     wf_state context/@@plone_context_state/workflow_state;         
                      review_state wf_state;
                      paths python:request.get('paths', ['/'.join(here.getPhysicalPath())]);
                      batch python:here.getObjectsFromPathList(paths,batch=True);
@@ -62,7 +63,7 @@
 	      name="edit_form"
 	      method="post"
 	      action="content_status_modify"
-	      tal:attributes="action string:$here_url/$template_id"
+	      tal:attributes="action string:${context/@@plone_context_state/object_url}/${context/@@plone/getViewTemplateId}"
 	      tal:condition="not:python:paths and not batch">
 
 	    <div class="field" tal:condition="batch">
@@ -102,7 +103,7 @@
 		item will be published immediately.
 	      </div>
 
-	      <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+	      <div tal:content="error" class="fielderror">Validation error output</div>
 
 	      <div tal:define="inputname  string:effective_date;
 			       formname   string:edit_form;
@@ -127,7 +128,7 @@
 		If no date is chosen, it will never expire.
 	      </div>
 
-	      <div tal:content="error" class="fielderror"><tal:comment replace="nothing">Validation error output</tal:comment></div>
+	      <div tal:content="error" class="fielderror">Validation error output</div>
 
 	      <div class="field">
 		<div tal:define="inputname  string:expiration_date;
@@ -174,7 +175,7 @@
 		   tal:attributes="class python:test(error_workflow_action, 'field error', 'field')">
 
 		<div tal:condition="error_workflow_action">
-		  <tal:block content="error_workflow_action"><tal:comment replace="nothing">Error</tal:comment></tal:block>
+		  <tal:block content="error_workflow_action">Error</tal:block>
 		  <br />
 		</div>
 
@@ -198,7 +199,8 @@
 		       i18n:translate="label_no_change">No change</label>
 		<br />
 
-		<tal:block define="transitions python:wtool.getTransitionsFor(target, here)"
+		<tal:block define="wtool context/portal_workflow;
+		                   transitions python:wtool.getTransitionsFor(target, here)"
 			   repeat="transition transitions">
 		    <input class="noborder"
 			   id=""

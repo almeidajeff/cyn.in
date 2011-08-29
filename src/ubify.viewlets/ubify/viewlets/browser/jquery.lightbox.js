@@ -466,14 +466,15 @@
 		},
 
 		text: {
-			image:		lightbox_image_msg,
-			of:			lightbox_of_msg,
-			close:		lightbox_closeX_msg,
-			closeInfo:	lightbox_close_info_msg,
-			download:	lightbox_download_image_msg,
+			// For translating
+			image:		'Image',
+			of:			'of',
+			close:		'Close X',
+			closeInfo:	'You can also click anywhere outside the image to close.',
+			download:	'Direct link to download the image.',
 			help: {
-				close:		lightbox_help_close_msg,
-				interact:	lightbox_help_hover_msg
+				close:		'Click to close',
+				interact:	'Hover to interact'
 			},
 			about: {
 				text: 	'',

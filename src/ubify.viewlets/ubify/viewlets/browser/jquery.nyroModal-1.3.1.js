@@ -241,18 +241,13 @@ jQuery(function($) {
 			form: '<div class="wrapper"></div>',
 			formData: '<div class="wrapper"></div>',
 			image: '<div class="wrapperImg"></div>',
-			lblnyroModalPrev: label_nyromodal_prev, // Use .nyroModalPrev as a label of the navigation link
-                        lblnyroModalNext: label_nyromodal_next, // Use .nyroModalNext as a label of the navigation link
-			gallery: '<div class="wrapperImg"><a href="#" class="nyroModalPrev">'+lblnyroModalPrev+'</a><a href="#" class="nyroModalNext">'+lblnyroModalNext+'</a></div>', // Use .nyroModalPrev and .nyroModalNext to set the navigation link
+			gallery: '<div class="wrapperImg"><a href="#" class="nyroModalPrev">Prev</a><a href="#"  class="nyroModalNext">Next</a></div>', // Use .nyroModalPrev and .nyroModalNext to set the navigation link
 			swf: '<div class="wrapperSwf"></div>',
 			iframe: '<div class="wrapperIframe"></div>',
 			manual: '<div class="wrapper"></div>'
 		},
 
-		lblnyroModalClose: label_nyromodal_close, // Use .nyroModalClose as a label of the Close link
-		lblnyroModalCancel: label_nyromodal_cancel, // Use .nyroModalClose as a label of the Cancel link
-
-		closeButton: '<a href="#" class="nyroModalClose" id="closeBut" title="close">'+lblnyroModalClose+'</a>', // Adding automaticly as the first child of #nyroModalWrapper
+		closeButton: '<a href="#" class="nyroModalClose" id="closeBut" title="close">Close</a>', // Adding automaticly as the first child of #nyroModalWrapper
 
 		title: null, // Modal title
 		titleFromIframe: true, // When using iframe in the same domain, try to get the title from it
@@ -260,10 +255,10 @@ jQuery(function($) {
 		openSelector: '.nyroModal', // selector for open a new modal. will be used to parse automaticly at page loading
 		closeSelector: '.nyroModalClose', // selector to close the modal
 
-		contentLoading: '<a href="#" class="nyroModalClose">'+lblnyroModalCancel+'</a>', // Loading div content
+		contentLoading: '<a href="#" class="nyroModalClose">Cancel</a>', // Loading div content
 
 		errorClass: 'error', // CSS Error class added to the loading div in case of error
-		contentError: contentloaded_error_msg + '<a href="#" class="nyroModalClose">'+lblnyroModalClose+'</a>', // Content placed in the loading div in case of error
+		contentError: 'The requested content cannot be loaded.<br />Please try again later.<br /><a href="#" class="nyroModalClose">Close</a>', // Content placed in the loading div in case of error
 
 		handleError: null, // Callback in case of error
 

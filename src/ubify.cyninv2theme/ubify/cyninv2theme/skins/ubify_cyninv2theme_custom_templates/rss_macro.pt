@@ -44,15 +44,17 @@ Mumbai-400064, India
       i18n:domain="cynin">
 <body>
     <tal:definemacro metal:define-macro="rss_macro"
-                     tal:define="rss_base_url python:hasattr(site_properties,'rss_url') and site_properties.rss_url != '' and site_properties.rss_url + '/'.join(('',) + context.getPhysicalPath()[2:]) or here_url;">
+                     tal:define="here_url context/@@plone_context_state/object_url;
+                                 rss_base_url python:hasattr(site_properties,'rss_url') and site_properties.rss_url != '' and site_properties.rss_url + '/'.join(('',) + context.getPhysicalPath()[2:]) or here_url;">
         <link rel="alternate" title="RSS 2.0" type="application/rss+xml"
-              tal:attributes="href string:$rss_base_url/rss.xml" i18n:attributes="title" />
+              tal:attributes="href string:$rss_base_url/rss.xml"/>
         <link rel="alternate" title="Atom" type="application/atom+xml"
-              tal:attributes="href string:$rss_base_url/atom.xml" i18n:attributes="title" />
+              tal:attributes="href string:$rss_base_url/atom.xml"/>
     </tal:definemacro>
     
     <tal:definemacro metal:define-macro="rss_list_macro"
-                     tal:define="rss_base_url python:hasattr(site_properties,'rss_url') and site_properties.rss_url != '' and site_properties.rss_url + '/'.join(('',) + context.getPhysicalPath()[2:]) or here_url;
+                     tal:define="here_url context/@@plone_context_state/object_url;
+                                 rss_base_url python:hasattr(site_properties,'rss_url') and site_properties.rss_url != '' and site_properties.rss_url + '/'.join(('',) + context.getPhysicalPath()[2:]) or here_url;
                                 qsparams request/QUERY_STRING|nothing;
                                 qpt qpt|python:'';
                                 qptpart python:test(qpt is not '','?' + qpt, '');

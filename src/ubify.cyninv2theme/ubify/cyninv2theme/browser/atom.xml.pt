@@ -1,6 +1,6 @@
 <tal:block tal:define="dummy python:context.REQUEST.RESPONSE.setHeader('Content-Type', 'application/atom+xml')"/><?xml version="1.0" ?>
 <?xml-stylesheet href="atom.css" type="text/css"?>
-<tal:comment replace="nothing">
+<tal:comment tal:replace="nothing">
   Perhaps "context" should be replaced with "view"? [Reinout]
 </tal:comment>
 <feed xmlns="http://www.w3.org/2005/Atom"
@@ -43,7 +43,7 @@
 
   <title type="html"
          tal:content="feed/getTitle">
-    <tal:comment replace="nothing">Title of feed</tal:comment>
+    Title of feed
   </title>
   <subtitle tal:content="feed/getDescription"
             tal:condition="feed/getDescription">
@@ -51,7 +51,7 @@
   </subtitle>
 
   <updated tal:content="python:feed.getModifiedDate().ISO8601()">
-    <tal:comment replace="nothing">2002-10-02T10:00:00-05:00</tal:comment>
+    2002-10-02T10:00:00-05:00
   </updated>
 
   <link href=""
@@ -70,7 +70,7 @@
   </tal:comment>
 
   <id tal:content="string:urn:syndication:${feed/getUID}">
-    <tal:comment replace="nothing">Really unique id</tal:comment>
+    Really unique id
   </id>
 
   <generator uri="http://plone.org/products/fatsyndication/"
@@ -81,7 +81,7 @@
     <entry>
 
       <title tal:content="feedentry/getTitle">
-        <tal:comment replace="nothing">The Netherlands wins the world cup</tal:comment>
+        The Netherlands wins the world cup
       </title>
 
       <link rel="alternate"
@@ -98,7 +98,7 @@
                           type enclosure/getType;" />
 
       <id tal:content="string:urn:syndication:${feedentry/getUID}">
-        <tal:comment replace="nothing">urn:syndication:12345678</tal:comment>
+        urn:syndication:12345678
       </id>
       <tal:comment replace="nothing">
         Display either summary or content, not both.  See:
@@ -130,7 +130,7 @@
 
       <author>
         <name tal:content="feedentry/getAuthor">
-          <tal:comment replace="nothing">Marco van Basten</tal:comment>
+          Marco van Basten
         </name>
       </author>
 

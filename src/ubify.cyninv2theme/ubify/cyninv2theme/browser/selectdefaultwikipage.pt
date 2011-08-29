@@ -131,11 +131,11 @@ Mumbai-400064, India
                                tal:attributes="href python:here.evalURL(item_type,use_view_action,item_url);
                                                class string:${item_wf_state_class} url"
                                tal:content="item_title_or_id">
-                                <tal:comment replace="nothing">Item Title</tal:comment>
+                                Item Title
                             </a>
                         </div>
                         <div class="setwikipageholder">
-                            <a class="link_selectitemfordefaultwikipage" tal:attributes="href python: context.absolute_url() + '/app_wiki/?setdefaultUID=' + item.UID" i18n:translate="">Select</a>
+                            <a class="link_selectitemfordefaultwikipage" tal:attributes="href python: context.absolute_url() + '/app_wiki/?setdefaultUID=' + item.UID">Select</a>
                         </div>
                         <div class="documentByLine">
 

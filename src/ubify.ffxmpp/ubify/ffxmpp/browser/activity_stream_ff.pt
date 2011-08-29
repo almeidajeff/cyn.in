@@ -41,14 +41,14 @@ Mumbai-400064, India
         ">
 <html i18n:domain="cynin">
     <head>
-        <link rel="StyleSheet" tal:attributes="href string:${context/portal_url}/ffxmpp.css" type="text/css" />
+        <LINK REL="StyleSheet" tal:attributes="HREF string:${context/portal_url}/ffxmpp.css" TYPE="text/css">
         <script type="text/javascript" tal:attributes="src string:${context/portal_url}/jquery.js"></script>
         <script type="text/javascript" tal:attributes="src string:${context/portal_url}/activitystream.js"></script>
     </head>
     <body class="activitystream">
         <div id="activitystreamlabelholder">
             <div id="activitystreamlabelinnherholder">
-                <label id="activitystreamlabel" i18n:translate="">Activity Stream:</label>
+                <label id="activitystreamlabel">Activity Stream:</label>
             </div>
         </div>
         <!--<input type="text" value="Some text">-->
@@ -68,7 +68,7 @@ Mumbai-400064, India
                         <span class="astilelastchange">
                             <tal:lastaction tal:define="mapped_action python:modules['ubify.coretypes'].get_action_mapped(item.lastchangeaction);"
                                         tal:content="mapped_action" />
-                            <span i18n:translate="">by</span>
+                            by
                             <tal:lastchanger tal:content="item/lastchangeperformer" />
                         </span>
                     </a>

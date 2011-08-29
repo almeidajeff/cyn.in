@@ -70,7 +70,7 @@ Mumbai-400064, India
         </form>
         <div id="commentscontainer">
             <form tal:condition="python:isAnon and not userHasReplyPermission and isDiscussionAllowed"
-                  tal:attributes="action view/login_action">
+                  tal:attributes="action view/login_url">
                 <input class="standalone"
                        style="margin-bottom: 1.25em;"
                        type="submit"

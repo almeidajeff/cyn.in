@@ -42,44 +42,50 @@ Mumbai-400064, India
             <td tal:repeat="item view/applications">
                     <table cellpadding="0" cellspacing="0" class="applicationtab"
                     tal:define="itemselected item/selected; visible item/visible"
-                    tal:condition="python: not itemselected and visible">
+                    tal:condition="python: not itemselected and visible"
+                    >
                         <tr>
-                            <td><img tal:attributes="src string:${portal_url}/spacer.gif" width="6" height="30" alt="" /></td>
-                            <td><img class="apptabicon" tal:attributes="src string:${portal_url}/tab-norm-l.png" alt="" /></td>
+                            <td><img tal:attributes="src string:${portal_url}/spacer.gif" width="6" height="30"></td>
+                            <td><img class="apptabicon" tal:attributes="src string:${portal_url}/tab-norm-l.png"></td>
                             <td class="applicationtabtext"
-                                tal:attributes="background string:${portal_url}/tab-norm-t.png"
-                                nowrap="nowrap">
+                            tal:attributes="background string:${portal_url}/tab-norm-t.png"
+                            nowrap="nowrap"
+                            >
                                 <a class="apptablink"
-                                   tal:attributes="href item/url">
-                                    <span><img tal:attributes="src python:portal_url + '/' + item['icon']" class="apptabicon" alt="" />
+                                tal:attributes="href item/url"
+                                >
+                                    <span><img tal:attributes="src python:portal_url + '/' + item['icon']" class="apptabicon">
                                     <tal:text replace="item/title" /></span>
                                 </a>
                             </td>
-                            <td><img tal:attributes="src string:${portal_url}/tab-norm-r.png" alt="" /></td>
+                            <td><img tal:attributes="src string:${portal_url}/tab-norm-r.png"></td>
                         </tr>
                     </table>
                     <table cellpadding="0" cellspacing="0" class="applicationtab selected"
                     tal:define="itemselected item/selected; visible item/visible"
-                    tal:condition="python: itemselected and visible">
+                    tal:condition="python: itemselected and visible"
+                    >
                         <tr>
-                            <td class="bottom29border"><img tal:attributes="src string:${portal_url}/spacer.gif" width="6" height="30" alt="" /></td>
-                            <td class="bottom42border"><img class="apptabicon" tal:attributes="src string:${portal_url}/tab-sel-l.png" alt="" /></td>
+                            <td class="bottom29border"><img tal:attributes="src string:${portal_url}/spacer.gif" width="6" height="30"></td>
+                            <td class="bottom42border"><img class="apptabicon" tal:attributes="src string:${portal_url}/tab-sel-l.png"></td>
                             <td class="applicationtabtext selected"
-                                nowrap="nowrap">
+                            nowrap="nowrap"
+                            >
                                 <a class="apptablink selected"
-                                   tal:attributes="href item/url">
-                                    <span><img tal:attributes="src python:portal_url + '/' + item['icon']"  class="apptabicon" alt="" />
+                                tal:attributes="href item/url"
+                                >
+                                    <span><img tal:attributes="src python:portal_url + '/' + item['icon']"  class="apptabicon">
                                     <tal:text replace="item/title" /></span>
                                 </a>
                             </td>
-                            <td class="bottom42border"><img tal:attributes="src string:${portal_url}/tab-sel-r.png" alt="" /></td>
+                            <td class="bottom42border"><img tal:attributes="src string:${portal_url}/tab-sel-r.png"></td>
                         </tr>
                     </table>
             </td>
             <td width="100%">
                 <table cellpadding="0" cellspacing="0" class="applicationnottab" width="100%">
                     <tr>
-                        <td width="100%"><img tal:attributes="src string:${portal_url}/spacer.gif" height="30" width="1" alt="" /></td>
+                        <td width="100%"><img tal:attributes="src string:${portal_url}/spacer.gif" height="30" width="1"></td>
                     </tr>
                 </table>
             </td>

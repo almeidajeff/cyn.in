@@ -54,7 +54,7 @@ Mumbai-400064, India
 <div id="mindmapcontainer" i18n:domain="cynin">
 <div id="mindmapdiv" STYLE="z-index: -1;" >
         <a href="http://www.adobe.com/go/getflashplayer">
-                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" i18n:attributes="alt" />
+                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player">
         </a>
 </div>
 </div>

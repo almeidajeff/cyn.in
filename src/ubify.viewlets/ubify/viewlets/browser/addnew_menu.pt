@@ -98,7 +98,7 @@ Mumbai-400064, India
                                                                 ">
                         <img border="0"
                              tal:attributes="src string:${portal_url}/${ticon}"
-                             class="addnewtypeicon" />
+                             class="addnewtypeicon">
                         <span tal:content="vmenu/Title" class="addnewtypetitle"/>
                         <div tal:content="vmenu/description" class="addnewtypedescription discreet" />
                     </a>

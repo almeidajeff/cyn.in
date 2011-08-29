@@ -63,7 +63,8 @@ Mumbai-400064, India
                 <div metal:define-slot="inside" tal:replace="structure text">The body</div>
             </div>
             <metal:listingmacro define-macro="listing">
-                <tal:foldercontents define="contentFilter contentFilter|request/contentFilter|nothing;
+                <tal:foldercontents define="isAnon context/@@plone_portal_state/anonymous;
+                                    contentFilter contentFilter|request/contentFilter|nothing;
                                     limit_display limit_display|request/limit_display|nothing;
                                     more_url more_url|request/more_url|string:folder_contents;
                                     is_a_topic python:here.portal_type=='Topic';

@@ -5303,7 +5303,7 @@ msgstr "Nombre de usuario"
 
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:130
 msgid "login"
-msgstr "inicio de sesión"
+msgstr "inicie sesión"
 
 #. Default: "While cookie authentication is disabled, cookie-based login is not available."
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/login_form.cpt:74
@@ -5607,7 +5607,7 @@ msgstr "Lista de eventos pasados"
 #. Default: "Please"
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:130
 msgid "please"
-msgstr "Por favor,"
+msgstr "Por favor, "
 
 #. Default: "pm"
 msgid "pm"
@@ -6245,7 +6245,7 @@ msgstr "a"
 #. Default: "to participate."
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/main_template.pt:135
 msgid "to_participate"
-msgstr "a participar."
+msgstr " para participar."
 
 #. Default: "to refine your search."
 #: ../../../../ubify.cyninv2theme/ubify/cyninv2theme/skins/ubify_cyninv2theme_custom_templates/search.pt:142

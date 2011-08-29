@@ -58,7 +58,6 @@ Mumbai-400064, India
               i18n:attributes="value" />
           </td>
         </tr>
-      </table>
     </form>
 
     <h1 i18n:translate="">Import iCalendar URL</h1>
@@ -80,7 +79,6 @@ Mumbai-400064, India
               i18n:attributes="value" />
           </td>
         </tr>
-      </table>
     </form>
 
   </body>

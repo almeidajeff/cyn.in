@@ -56,7 +56,7 @@ Mumbai-400064, India
                 <tal:defaultitem tal:condition="python:not isInBlogView">
                     <h2 tal:attributes="id string:listitemtitle${item_index}" class="listitemtitleheader"><a href="#" tal:attributes="href python:here.evalURL(item_type,use_view_action,item_url);"
                                        class="url"
-                       tal:content="item_title_or_id"><tal:comment replace="nothing">Item Title</tal:comment></a></h2>
+                       tal:content="item_title_or_id">Item Title</a></h2>
                     <div class="documentByLine" tal:attributes="id string:documentByLine${item_index}" tal:condition="item_description"
                     tal:define="item_description python:modules['ubify.cyninv2theme'].getWebIntelligentTextToHTML(item_description) or None">
                         <tal:byline condition="show_about">

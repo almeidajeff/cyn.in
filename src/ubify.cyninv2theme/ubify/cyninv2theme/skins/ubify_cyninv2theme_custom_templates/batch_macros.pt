@@ -115,8 +115,8 @@ Mumbai-400064, India
 
     <!-- Current page -->
     <span tal:condition="batch/navlist"
-          class="paging_bar_currentpage">
-          <span tal:content="batch/pagenumber"><tal:comment replace="nothing">Current page number</tal:comment></span></span>
+          class="paging_bar_currentpage"
+          ><span tal:content="batch/pagenumber">Current page number</span></span>
 
     <!-- Pagelist with links to next pages for quick navigation -->
     <span tal:repeat="linklist python:batch.nexturls(request.form)"

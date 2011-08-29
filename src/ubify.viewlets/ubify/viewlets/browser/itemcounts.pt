@@ -42,8 +42,9 @@ Mumbai-400064, India
         <a class="itemauthor avatarlink" tal:attributes="rel string:${context/portal_url}/userinfo?userid=${view/modifiedby} " tal:content="view/modifiedby" />
     </span>
     <a id="discussionnamedlink" class="commentcount" href="#discussion"
-       tal:condition="python: view.commentcount <> None">    
+    tal:condition="python: view.commentcount <> None"
+    >
         <span >&darr;Discussion: <span tal:content="view/commentcount" id="itemcountcommentcount"/></span>
-        <img tal:attributes="src string: ${portal_url}/comment.png" alt="Comment" i18n:attributes="alt" />
+        <img tal:attributes="src string: ${portal_url}/comment.png" />
     </a>
 </tal:block>
