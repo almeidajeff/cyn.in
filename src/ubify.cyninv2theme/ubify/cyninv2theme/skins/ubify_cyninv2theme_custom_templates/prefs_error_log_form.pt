@@ -70,7 +70,8 @@
                         </tr>
                     </thead>
 
-                    <tbody tal:define="updatetime python:member.getProperty('error_log_update', 0.0);
+                    <tbody tal:define="member context/@@plone_portal_state/member;
+				       updatetime python:member.getProperty('error_log_update', 0.0);
                                        updatetime python:updatetime and updatetime or 0.0;
                                        updatetime python:float(updatetime)">
 
